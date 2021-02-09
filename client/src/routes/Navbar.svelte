@@ -52,6 +52,7 @@
     height: 45px;
   }
 
+
   .inner {
     max-width: 980px;
     padding-left: 20px;
@@ -162,6 +163,9 @@
     align-items: center;
     padding: 0 10px;
     font-size: 13px;
+  }
+  .navbar-list a:hover{
+    font-weight: bold;   
   }
 
   @media only screen and (min-width: 767px) {
