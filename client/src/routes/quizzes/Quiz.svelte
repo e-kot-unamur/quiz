@@ -6,7 +6,6 @@
 
 <div class="quiz">
     <div>
-        bonjour<br>
         {key}<br>
         {JSON.stringify(quiz)}<br><br>
     </div>
