@@ -5,3 +5,10 @@
 * Interface admin
   - Pouvoir créer des questionnaires
   - Afficher des stats
+
+Doc
+
+npm i //Install basics dependance
+
+npm i svelte-routing	//install routing url
+

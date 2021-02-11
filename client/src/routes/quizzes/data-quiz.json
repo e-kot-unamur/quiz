@@ -1,0 +1,39 @@
+{
+    "qu0": {
+        "type" : "QCM",
+        "question": "Exemple de question avec une réponse?",
+        "options": [
+            {
+                "opt0": "option1FAUX",
+                "opt1": "option2Vrai",
+                "opt2": "option3Faux"
+            }
+        ],
+        "answer": 1,
+        "justificationTrue":"v",
+        "justificationFalse":"f"
+    },
+    "qu1": {
+        "type" : "VF",
+        "question": "Exemple de vrai ou faux?",
+        "answer": "true",
+        "justificationTrue":"v",
+        "justificationFalse":"f"
+    },
+    "qu2":{
+        "type" : "Color",
+        "question": "Exemple de question couleur",
+        "options": [
+            {
+                "opt0": "option1FAUX",
+                "opt1": "option2Vrai",
+                "opt2": "option3Faux"
+            }
+        ],
+        "answerGreen": 1,
+        "answerOrange":2,
+        "justificationGreen":"G",
+        "justificationOrange":"O",
+        "justificationRed":"R"
+    }
+}
