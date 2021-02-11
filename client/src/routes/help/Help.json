@@ -1,0 +1,11 @@
+{
+    "globalhelp":"Dans ce quizz, différents types de questions vous seront posées. Si vous vous trompez, pas d'inquiétude, une explication de la réponse vous sera proposée après chaque question validée ainsi que dans le résumé de vos réponses à la fin du quiz",
+    "MCQtitle":"Les questions à choix multiple",
+    "MCQhelp":"Lorsqu'une question vous sera posée, vous aurez droit à plusieurs choix de réponse dont une seule sera correcte. Choisissez bien !",
+    "ToFtitle":"Les questions vrai ou faux",
+    "ToFhelp":"Une affirmation vous sera proposée, à vous de définir si cette dernière est vraie ou fausse !",
+    "Coloredtitle":"Les questions à degré de justesse",
+    "Coloredhelp":"Comme pour les questions à choix multiple, vous aurez droit à plusieurs choix de réponse dont une seule sera correcte. Toutefois, une des réponses pourrait être en partie correcte, au quel cas, cette réponse s'affichera sur fond orange. La réponses complète et correcte s'affichera, quand à elle, en vert",
+    "Timedtitle":"Les questions à durée déterminée",
+    "Timedhelp":"Pour ce type de questions, vous devrez répondre dans le temps qui vous est impartit. Faite attention à la barre d'écoulement !"
+}

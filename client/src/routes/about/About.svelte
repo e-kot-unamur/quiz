@@ -1,5 +1,5 @@
 <script>
-    import * as myjson from './About.json'
+    import * as about from './About.json'
 </script>
 <style>
     h1,h2,p{
@@ -7,17 +7,14 @@
         margin-left: 15%;
         margin-right: 15%;
     }
-    body{
-        margin:0;
-    }
 </style>
-<h1>{myjson.abouttitle1}</h1>
+<h1>{about.title1}</h1>
 
-<h2>{myjson.abouttitle2}</h2>
-<p>{myjson.abouttext1}</p>
+<h2>{about.title2}</h2>
+<p>{about.text1}</p>
 
-<h2>{myjson.abouttitle3}</h2>
-<p>{myjson.abouttext1}</p>
+<h2>{about.title3}</h2>
+<p>{about.text1}</p>
 
-<h2>{myjson.abouttitle4}</h2>
-<p>{myjson.abouttext3}</p>
+<h2>{about.title4}</h2>
+<p>{about.text3}</p>
