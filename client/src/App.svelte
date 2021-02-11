@@ -1,6 +1,7 @@
 <script>
 	import {Router, Route, Link} from "svelte-routing";
 	import Navbar from "./routes/Navbar.svelte";
+	import Main from "./routes/main/Main.svelte";
 	import About from "./routes/about/About.svelte";
 	import Quizzes from "./routes/quizzes/Quizzes.svelte";
 
@@ -12,7 +13,8 @@
 		<Router {url}>
 			<Navbar />
 			<div>
-				<Route path="/" component={Quizzes} />
+				<Route component={Main} />
+				<Route path="IST-MST" component={Quizzes} />
 				<Route path="about" component={About} />
 				<Route path="contact" component={contact} />
 			</div>

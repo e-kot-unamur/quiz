@@ -2,7 +2,6 @@
 <script>
     //Uses each individual user
     import Quiz from './Quiz.svelte'
-    import { quizzes } from './data-quiz.js'
     import * as quizz1 from './data-quiz.json'
     let test = [quizz1];
 </script>
