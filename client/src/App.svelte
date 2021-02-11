@@ -8,7 +8,6 @@
 
 	const contact = "https://www.messenger.com/t/ekotnamur";
 	export let url = "";
-	export let location;
 </script>
 
 <main>
