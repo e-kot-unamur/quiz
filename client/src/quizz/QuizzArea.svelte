@@ -1,7 +1,7 @@
 <script>
-    import Question from './Question.svelte';
-    import Answer from './Answer.svelte';
-    import Justification from './Justification.svelte';
+    import Question from './quizz/Question.svelte';
+    import Answer from './quizz/Answer.svelte';
+    import Justification from './quizz/Justification.svelte';
 
 
     let quizzIndex = 0;

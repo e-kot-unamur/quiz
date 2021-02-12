@@ -5,7 +5,7 @@
 	import About from "./routes/about/About.svelte";
 	import Quizzes from "./routes/quizzes/Quizzes.svelte";
 	import Help from "./routes/help/Help.svelte";
-
+	import QuizzArea from "./QuizzArea.svelte"
 	const contact = "https://www.messenger.com/t/ekotnamur";
 	export let url = "";
 </script>
@@ -21,4 +21,5 @@
 				<Route path="contact" component={contact} />
 			</div>
 		</Router>
+		<QuizzArea />
 </main>
