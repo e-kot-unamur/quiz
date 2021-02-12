@@ -3,7 +3,7 @@
 	import Question from './Question.svelte';
     import Answer from './Answer.svelte';
     import Justification from './Justification.svelte';
-	
+	import AnswerColor from './AnswerClolor.svelte';
 
     let quizzIndex = 0;
 	let endQuizz = false;
@@ -35,7 +35,16 @@
 		"correctAnswer": 3,
         "justificationTrue":"Bonne réponse ! T'es vraiment un pro de la baise !",
         "justificationFalse":"Faux ! Faut vraiment que tu te renseignes mon bougre !"	
+		},
+		{
+		"type" : "color",
+        "question": "Exemple de question 4 ?",
+        "answers": ['Vert', 'Orange', 'Rouge'],
+		"correctAnswer": 0,
+        "justificationTrue":"Bonne réponse ! T'es vraiment un pro de la baise !",
+        "justificationFalse":"Faux ! Faut vraiment que tu te renseignes mon bougre !"
 		}
+
 	]
 	
 	function checkAnswerHandler(answerText){
@@ -87,8 +96,10 @@
 			<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} />
 			<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
 		
-			<!--{:else if quizz[quizzIndex].type == "color" && !endQuizz} -->
-
+			{:else if quizz[quizzIndex].type == "color" && !endQuizz}
+			<AnswerColor color = "VERT"  />
+			<AnswerColor color = "ORANGE" />
+			<AnswerColor color = "ROUGE" />
 		{/if}
 	</div>
 	<Justification justification = {justification}/>
