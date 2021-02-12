@@ -6,6 +6,7 @@
 	
 
     let quizzIndex = 0;
+	let endQuizz = false;
 	let selected = false;
 	let justification = "";
 	let textNavButton = "Question suivante";
@@ -55,16 +56,18 @@
 	}
 
 	function navButton(){
-		justification = "";
-		if(quizz.length == quizzIndex + 1) 
-			textNavButton = "Accéder aux résultats";
-		else{
-			setTimeout(() => quizzIndex += 1 , 1000 );
-			selected = false;	
+		if(selected != false){
+			justification = "";
+			if(quizz.length == quizzIndex + 1){
+				textNavButton = "Accéder aux résultats";
+				endQuizz = true;
+			}
+				
+			else{
+				quizzIndex += 1;
+				selected = false;	
+			}
 		}
-			
-
-			
 	}
 	
 
@@ -75,11 +78,17 @@
 	<Question questionText = {quizz[quizzIndex].question} />
 	
 	<div class="answers">
+		{#if quizz[quizzIndex].type == "VF" && !endQuizz}
 		<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
 		<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />
-		{#if quizz[quizzIndex].answers.length === 4 }
+		{:else if quizz[quizzIndex].type == "QCM" && !endQuizz}
+			<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
+			<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />	
 			<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} />
 			<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
+		
+			<!--{:else if quizz[quizzIndex].type == "color" && !endQuizz} -->
+
 		{/if}
 	</div>
 	<Justification justification = {justification}/>
