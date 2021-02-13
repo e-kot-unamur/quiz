@@ -85,12 +85,11 @@
 <style>
 	.quizzArea {
 		/* Verticial align */
-		margin-top: 50vh; 
-  		transform: translateY(-50%); 
-
-		border : 1px solid black;
-		padding : 15px;
-		width : 100%;
+		margin: 50vh auto 0 auto; 
+		transform: translateY(-50%);
+		
+		padding : 30px 45px;
+		width : 90%;
 	}
 
 	@media (min-width: 768px) { 
@@ -101,9 +100,9 @@
 </style>
 
 
-<div class="quizzArea container-fluid">
+<div class="quizzArea container-fluid rounded-3 shadow-lg ">
 		<!-- Question -->
-		<div class="row align-items-center text-center">
+		<div class="row align-items-center text-center mb-3">
 			<Question questionText = {quizz[quizzIndex].question} />
 		</div>
 
