@@ -1,13 +1,13 @@
 <script>
-	import {Router, Route, Link} from "svelte-routing";
-	import Navbar from "./routes/Navbar.svelte";
-	import Main from "./routes/main/Main.svelte";
-	import About from "./routes/about/About.svelte";
-	import Quizzes from "./routes/quizzes/Quizzes.svelte";
-	import Help from "./routes/help/Help.svelte";
+	//import {Router, Route, Link} from "svelte-routing";
+	//import Navbar from "./routes/Navbar.svelte";
+	//import Main from "./routes/main/Main.svelte";
+	//import About from "./routes/about/About.svelte";
+	//import Quizzes from "./routes/quizzes/Quizzes.svelte";
+	//import Help from "./routes/help/Help.svelte";
 	import QuizzArea from "./quizz/QuizzArea.svelte"
-	const contact = "https://www.messenger.com/t/ekotnamur";
-	export let url = "";
+	//const contact = "https://www.messenger.com/t/ekotnamur";
+	//export let url = "";
 </script>
 
 <svelte:head>
@@ -16,8 +16,9 @@
 </svelte:head>
 
 <style>
-	:global(main) {
-		background-color: chartreuse;
+	body {
+		height: 100%;
+		border : 1px solid red;
 	}
 </style>
 
