@@ -82,30 +82,52 @@
 
 </script>
 
-<div class="QuizzArea">
-
-	<Question questionText = {quizz[quizzIndex].question} />
-	
-	<div class="answers">
-		{#if quizz[quizzIndex].type == "VF" && !endQuizz}
-		<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
-		<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />
-		{:else if quizz[quizzIndex].type == "QCM" && !endQuizz}
-			<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
-			<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />	
-			<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} />
-			<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
-		
-			{:else if quizz[quizzIndex].type == "color" && !endQuizz}
-			<AnswerColor color = "VERT"  />
-			<AnswerColor color = "ORANGE" />
-			<AnswerColor color = "ROUGE" />
-		{/if}
-	</div>
-	<Justification justification = {justification}/>
-	<button on:click={() => navButton()}> {textNavButton} </button>
-</div>
-
 <style>
+	.quizzArea {
+		/* Verticial align */
+		margin-top: 50vh; 
+  		transform: translateY(-50%); 
 
+		border : 1px solid black;
+		padding : 15px;
+		width : 100%;
+	}
+
+	@media (min-width: 768px) { 
+		.quizzArea {
+			width : 50%;
+		}	
+	}
 </style>
+
+
+<div class="quizzArea container-fluid">
+		<!-- Question -->
+		<div class="row align-items-center text-center">
+			<Question questionText = {quizz[quizzIndex].question} />
+		</div>
+
+		<!-- Answers -->
+		<div class="row align-items-center answers">
+			{#if quizz[quizzIndex].type == "VF" && !endQuizz}
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />
+			{:else if quizz[quizzIndex].type == "QCM" && !endQuizz}
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />	
+				<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} />
+				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
+			
+				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
+				<AnswerColor color = "VERT"  />
+				<AnswerColor color = "ORANGE" />
+				<AnswerColor color = "ROUGE" />
+			{/if}
+		</div>
+
+		<!-- Justification -->
+		<div class="row align-items-center text-center">
+			<Justification justification = {justification}/>
+			<button on:click={() => navButton()}> {textNavButton} </button>
+		</div>
+</div>
