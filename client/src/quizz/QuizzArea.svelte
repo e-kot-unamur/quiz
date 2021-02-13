@@ -8,6 +8,7 @@
     let quizzIndex = 0;
 	let endQuizz = false;
 	let selected = false;
+	let goodAnswer = false;
 	let justification = "";
 	let textNavButton = "Question suivante";
     
@@ -53,11 +54,13 @@
 		if(currentQuestion.answers.indexOf(answerText) === currentQuestion.correctAnswer && selected == false){
 			
 			selected = true;
+			goodAnswer = true;
 			justification = "";
 			justification += quizz[quizzIndex].justificationTrue;
 		}
 		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false) {
 			selected = true;
+			goodAnswer = false;
 			justification = "";
 			justification += quizz[quizzIndex].justificationFalse;
 
@@ -78,8 +81,6 @@
 			}
 		}
 	}
-	
-
 </script>
 
 <style>
@@ -92,15 +93,27 @@
 		width : 90%;
 	}
 
+	.nextQuestion {
+		margin: 10px auto;
+		display: block;
+		background-color: white;
+		border : 1px solid blue;
+		border-radius: 5px;
+		text-align: center;
+	}
+
 	@media (min-width: 768px) { 
 		.quizzArea {
 			width : 50%;
 		}	
+
+		.nextQuestion {
+			width: 25%;
+		}
 	}
 </style>
 
-
-<div class="quizzArea container-fluid rounded-3 shadow-lg ">
+	<div class="quizzArea container-fluid rounded-3 shadow-lg ">
 		<!-- Question -->
 		<div class="row align-items-center text-center mb-3">
 			<Question questionText = {quizz[quizzIndex].question} />
@@ -109,8 +122,8 @@
 		<!-- Answers -->
 		<div class="row align-items-center answers">
 			{#if quizz[quizzIndex].type == "VF" && !endQuizz}
-				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
-				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#69BF2C' />
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#F25556' />
 			{:else if quizz[quizzIndex].type == "QCM" && !endQuizz}
 				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
 				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />	
@@ -122,11 +135,19 @@
 				<AnswerColor color = "ORANGE" />
 				<AnswerColor color = "ROUGE" />
 			{/if}
-		</div>
+		</div>	
 
 		<!-- Justification -->
 		<div class="row align-items-center text-center">
-			<Justification justification = {justification}/>
-			<button on:click={() => navButton()}> {textNavButton} </button>
+			<Justification justification = {justification} {goodAnswer}/>
 		</div>
+
+		<!-- Next question -->
+		{#if selected}
+			<div class="row next">
+				<div class="col">
+					<button on:click={() => navButton()} class="nextQuestion"> {textNavButton} </button>
+				</div>
+			</div>
+		{/if}
 </div>

@@ -1,14 +1,18 @@
 <script>
-
     export let justification;
-
+    export let goodAnswer;
 </script>
 
 
-
-<h1 class = "Justification">
-    {justification}
-</h1>
+{#if justification != "" && goodAnswer} 
+    <div class="alert alert-success mt-3" role="alert">
+        {justification}
+    </div>
+{:else if justification != ""} 
+    <div class="alert alert-danger mt-3" role="alert">
+        {justification}
+    </div>
+{/if}
 
 
 
