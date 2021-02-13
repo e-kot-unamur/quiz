@@ -14,11 +14,11 @@
 	const quizz = [
 		{
         "type" : "VF",
-        "question": "Exemple de question 1 ?",
+        "question": "Lors d’un match d’improvisation un jouteur peut être exclu du match.",
         "answers": ['Vrai', 'Faux'],
 		"correctAnswer": 0,
-        "justificationTrue":"Bonne réponse ! T'es vraiment un pro de la baise !",
-        "justificationFalse":"Faux ! Faut vraiment que tu te renseignes mon bougre !"
+        "justificationTrue":"Bonne réponse ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.",
+        "justificationFalse":"Faux ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.!"
     	},
 		{
 		"type" : "VF",
@@ -30,11 +30,11 @@
 		},
 		{
 		"type" : "QCM",
-        "question": "Exemple de question 3 ?",
-        "answers": ['Vrai', 'Faux', 'Peut etre', 'Je ne sais pas'],
-		"correctAnswer": 3,
-        "justificationTrue":"Bonne réponse ! T'es vraiment un pro de la baise !",
-        "justificationFalse":"Faux ! Faut vraiment que tu te renseignes mon bougre !"	
+        "question": "La part du numérique des émissions de gaz à effet de serre est de ",
+        "answers": ['2%', '6%', '8%', '18%'],
+		"correctAnswer": 1,
+        "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+        "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
 		},
 		{
 		"type" : "color",
