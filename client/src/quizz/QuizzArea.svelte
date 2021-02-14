@@ -10,7 +10,7 @@
 	let selected = false;
 	let goodAnswer = false;
 	let justification = "";
-	let textNavButton = "Question suivante";
+	
     
 	const quizz = [
 		{
@@ -68,36 +68,16 @@
 
 		}	
 	}
-	// todo : Finish his function 
-	function checkAnswerColorHandler(color){
-		let currentQuestion = quizz[quizzIndex];
-		
-		if(currentQuestion.answers.indexOf(color) === currentQuestion.correctAnswer && selected == false){
-			selected = true;
-			goodAnswer = true;
-			justification = "";
-			justification += quizz[quizzIndex].justificationTrue;
-		}
-		else if(currentQuestion.answers.indexOf(color) != currentQuestion.correctAnswer && selected == false) {
-			selected = true;
-			goodAnswer = false;
-			justification = "";
-			if(currentQuestion.answers)
-			justification += quizz[quizzIndex].justificationFalse;
-		}	
-	}
-
+	
 	function navButton(){
 		if(selected != false){
 			justification = "";
-			if(quizz.length == quizzIndex + 1){
-				textNavButton = "Accéder aux résultats";
-				endQuizz = true;
-			}
-			else{
+			selected = false;
+			if( quizzIndex <= quizz.length - 2 ){
 				quizzIndex += 1;
-				selected = false;	
-			}
+				testText = quizzIndex;
+			} 
+			else endQuizz = true;
 		}
 	}
 </script>
@@ -152,9 +132,9 @@
 				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
 			
 				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
-				<AnswerColor color = "green" checkAnswerColorHandler = {checkAnswerColorHandler} />
-				<AnswerColor color = "orange" checkAnswerColorHandler = {checkAnswerColorHandler} />
-				<AnswerColor color = "red" checkAnswerColorHandler = {checkAnswerColorHandler} />
+				<AnswerColor color = "green" checkAnswerHandler = {checkAnswerHandler} />
+				<AnswerColor color = "orange" checkAnswerHandler = {checkAnswerHandler} />
+				<AnswerColor color = "red" checkAnswerHandler = {checkAnswerHandler} />
 			{/if}
 		</div>	
 
@@ -167,9 +147,17 @@
 		{#if selected}
 			<div class="row next">
 				<div class="col">
-					<button on:click={() => navButton()} class="nextQuestion"> {textNavButton} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+					{#if quizzIndex === quizz.length - 1}
+						<button class="results"> Allez au résultats <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+						</svg> 
+						</button>
+					{:else }
+						<button on:click={() => navButton()} class="nextQuestion"> Question suivante <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
 						<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-					  </svg> </button>
+						</svg> 
+						</button>
+					{/if}
 				</div>
 			</div>
 		{/if}

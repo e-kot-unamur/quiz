@@ -1,11 +1,11 @@
 <script>
 
     export let color;
-    export let checkAnswerColorHandler;
+    export let checkAnswerHandler;
 
 </script>
 
-    <button on:click={() => checkAnswerColorHandler(color)} class="answerColor" style="background-color:{color}">
+    <button on:click={() => checkAnswerHandler(color)} class="answerColor" style="background-color:{color}">
         <!--{color}-->
     </button>
 
