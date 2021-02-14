@@ -17,10 +17,9 @@
 
 <style>
 	body {
-		height: 750px;
+		height: 100vh;
 		background-color: #609d9f;
 		border : 1px solid #609d9f;
-		overflow:hidden; 
 	}
 
 	.cercle {
@@ -68,12 +67,6 @@
 		width : 8%;
 		top : 10px;
 		left : 90%;
-	}
-
-	@media (min-height : 750px) {
-		body {
-			height: 1080px;
-		}
 	}
 	
 	@media (max-width : 768px) {
