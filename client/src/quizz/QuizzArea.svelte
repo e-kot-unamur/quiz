@@ -10,8 +10,8 @@
 	let selected = false;
 	let goodAnswer = false;
 	let justification = "";
+	let points = 0;
 	
-    
 	const quizz = [
 		{
         "type" : "VF",
@@ -58,6 +58,7 @@
 			goodAnswer = true;
 			justification = "";
 			justification += quizz[quizzIndex].justificationTrue;
+			points += 1;
 		}
 		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false) {
 			selected = true;
@@ -72,12 +73,9 @@
 	function navButton(){
 		if(selected != false){
 			justification = "";
-			selected = false;
-			if( quizzIndex <= quizz.length - 2 ){
-				quizzIndex += 1;
-				testText = quizzIndex;
-			} 
-			else endQuizz = true;
+			selected = false;			
+			quizzIndex += 1;
+			if(quizzIndex === quizz.length - 1) endQuizz = false;
 		}
 	}
 </script>
@@ -149,7 +147,7 @@
 			<div class="row next">
 				<div class="col">
 					{#if quizzIndex === quizz.length - 1}
-						<button class="results"> Allez au résultats <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+						<button class="results"> Voir mes résultats <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
 							<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
 						</svg> 
 						</button>
