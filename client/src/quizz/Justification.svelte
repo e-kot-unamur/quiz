@@ -3,6 +3,10 @@
     export let goodAnswer;
 </script>
 
+<style>
+
+</style>
+
 
 {#if justification != "" && goodAnswer} 
     <div class="alert alert-success mt-3" role="alert">
@@ -17,7 +21,4 @@
 
 
 
-<style>
-
-</style>
 

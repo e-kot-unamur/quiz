@@ -41,10 +41,10 @@
 		"type" : "color",
         "question": "Exemple de question 4 ?",
         "answers": ['green', 'orange', 'red'],
-		"correctAnswer": 0,
-        "justificationGreen":"Bonne réponse ! T'es vraiment un pro de la baise !",
-        "justificationOrange":"Faux ! Faut vraiment que tu te renseignes mon bougre, mais ca va, tu y étais presque !",
-		"justificationRed" : "Faux ! Il est impensable de penser comme ça !"
+		"correctAnswer": 2,
+        "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+        "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"
+
 		}
 
 	]
@@ -73,7 +73,6 @@
 		let currentQuestion = quizz[quizzIndex];
 		
 		if(currentQuestion.answers.indexOf(color) === currentQuestion.correctAnswer && selected == false){
-			
 			selected = true;
 			goodAnswer = true;
 			justification = "";
@@ -83,8 +82,8 @@
 			selected = true;
 			goodAnswer = false;
 			justification = "";
+			if(currentQuestion.answers)
 			justification += quizz[quizzIndex].justificationFalse;
-
 		}	
 	}
 
@@ -95,7 +94,6 @@
 				textNavButton = "Accéder aux résultats";
 				endQuizz = true;
 			}
-				
 			else{
 				quizzIndex += 1;
 				selected = false;	
@@ -136,10 +134,11 @@
 
 	<div class="quizzArea container-fluid rounded-3 shadow-lg ">
 		<!-- Question -->
-		<div class="row align-items-center text-center mb-3">
-			<Question questionText = {quizz[quizzIndex].question} />
-		</div>
-
+		{#if !endQuizz}
+			<div class="row align-items-center text-center mb-3">
+				<Question questionText = {quizz[quizzIndex].question} />
+			</div>
+		{/if}
 		<!-- Answers -->
 		<div class="row align-items-center answers">
 			{#if quizz[quizzIndex].type == "VF" && !endQuizz}
@@ -152,9 +151,9 @@
 				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
 			
 				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
-				<AnswerColor color = "green"  />
-				<AnswerColor color = "orange" />
-				<AnswerColor color = "red" />
+				<AnswerColor color = "green" checkAnswerColorHandler = {checkAnswerColorHandler} />
+				<AnswerColor color = "orange" checkAnswerColorHandler = {checkAnswerColorHandler} />
+				<AnswerColor color = "red" checkAnswerColorHandler = {checkAnswerColorHandler} />
 			{/if}
 		</div>	
 
