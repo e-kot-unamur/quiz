@@ -4,12 +4,14 @@
 </script>
 
 <style>
-
+    .success {
+        background-color: #6AD47D;
+    }
 </style>
 
 
 {#if justification != "" && goodAnswer} 
-    <div class="alert alert-success mt-3" role="alert">
+    <div class="alert success mt-3" role="alert">
         {justification}
     </div>
 {:else if justification != ""} 
