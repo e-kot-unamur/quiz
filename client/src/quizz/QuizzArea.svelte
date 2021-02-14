@@ -11,7 +11,6 @@
 	let goodAnswer = false;
 	let justification = "";
 	
-    
 	const quizz = [
 		{
         "type" : "VF",
@@ -124,18 +123,18 @@
 		<!-- Answers -->
 		<div class="row align-items-center answers">
 			{#if quizz[quizzIndex].type == "VF" && !endQuizz}
-				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#8D6F9E' />
-				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#579E78' />
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#8D6F9E' {selected} />
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#579E78' {selected} />
 			{:else if quizz[quizzIndex].type == "QCM" && !endQuizz}
-				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#8D6F9E'/>
-				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#579E78'/>	
-				<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#86CAF4' />
-				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#9E824F'/>
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#8D6F9E' {selected}/>
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#579E78' {selected}/>	
+				<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#86CAF4' {selected} />
+				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#9E824F' {selected}/>
 			
 				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
-				<AnswerColor color = "green" checkAnswerHandler = {checkAnswerHandler} />
-				<AnswerColor color = "orange" checkAnswerHandler = {checkAnswerHandler} />
-				<AnswerColor color = "red" checkAnswerHandler = {checkAnswerHandler} />
+				<AnswerColor color = "green" checkAnswerHandler = {checkAnswerHandler} {selected}/>
+				<AnswerColor color = "orange" checkAnswerHandler = {checkAnswerHandler} {selected}/>
+				<AnswerColor color = "red" checkAnswerHandler = {checkAnswerHandler} {selected}/>
 			{/if}
 		</div>	
 
