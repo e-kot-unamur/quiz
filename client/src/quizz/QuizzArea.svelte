@@ -108,7 +108,8 @@
 		margin: 50vh auto 0 auto; 
 		transform: translateY(-50%);
 		
-		background-color: whitesmoke;
+		/*background-color: whitesmoke;*/
+		background-color: #D3EAEB;
 		padding : 30px 45px;
 		width : 90%;
 	}
@@ -133,7 +134,7 @@
 	}
 </style>
 
-	<div class="quizzArea container-fluid rounded-3 shadow-lg ">
+	<div class="quizzArea container-fluid rounded-1 shadow-lg ">
 		<!-- Question -->
 		{#if !endQuizz}
 			<div class="row align-items-center text-center mb-3">
@@ -143,13 +144,13 @@
 		<!-- Answers -->
 		<div class="row align-items-center answers">
 			{#if quizz[quizzIndex].type == "VF" && !endQuizz}
-				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#69BF2C' />
-				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#F25556' />
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#8D6F9E' />
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#579E78' />
 			{:else if quizz[quizzIndex].type == "QCM" && !endQuizz}
-				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} />
-				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} />	
-				<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} />
-				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
+				<Answer answerText = {quizz[quizzIndex].answers[0]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#8D6F9E'/>
+				<Answer answerText = {quizz[quizzIndex].answers[1]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#579E78'/>	
+				<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#86CAF4' />
+				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#9E824F'/>
 			
 				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
 				<AnswerColor color = "green" checkAnswerColorHandler = {checkAnswerColorHandler} />
