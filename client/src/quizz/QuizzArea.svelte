@@ -40,10 +40,11 @@
 		{
 		"type" : "color",
         "question": "Exemple de question 4 ?",
-        "answers": ['Vert', 'Orange', 'Rouge'],
+        "answers": ['green', 'orange', 'red'],
 		"correctAnswer": 0,
-        "justificationTrue":"Bonne réponse ! T'es vraiment un pro de la baise !",
-        "justificationFalse":"Faux ! Faut vraiment que tu te renseignes mon bougre !"
+        "justificationGreen":"Bonne réponse ! T'es vraiment un pro de la baise !",
+        "justificationOrange":"Faux ! Faut vraiment que tu te renseignes mon bougre, mais ca va, tu y étais presque !",
+		"justificationRed" : "Faux ! Il est impensable de penser comme ça !"
 		}
 
 	]
@@ -59,6 +60,26 @@
 			justification += quizz[quizzIndex].justificationTrue;
 		}
 		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false) {
+			selected = true;
+			goodAnswer = false;
+			justification = "";
+			if(currentQuestion.answers)
+			justification += quizz[quizzIndex].justificationFalse;
+
+		}	
+	}
+	// todo : Finish his function 
+	function checkAnswerColorHandler(color){
+		let currentQuestion = quizz[quizzIndex];
+		
+		if(currentQuestion.answers.indexOf(color) === currentQuestion.correctAnswer && selected == false){
+			
+			selected = true;
+			goodAnswer = true;
+			justification = "";
+			justification += quizz[quizzIndex].justificationTrue;
+		}
+		else if(currentQuestion.answers.indexOf(color) != currentQuestion.correctAnswer && selected == false) {
 			selected = true;
 			goodAnswer = false;
 			justification = "";
@@ -131,9 +152,9 @@
 				<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} />
 			
 				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
-				<AnswerColor color = "VERT"  />
-				<AnswerColor color = "ORANGE" />
-				<AnswerColor color = "ROUGE" />
+				<AnswerColor color = "green"  />
+				<AnswerColor color = "orange" />
+				<AnswerColor color = "red" />
 			{/if}
 		</div>	
 
