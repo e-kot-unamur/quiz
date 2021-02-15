@@ -70,7 +70,7 @@
 		left : 90%;
 	}
 	
-	@media (max-width : 768px) {
+	@media (max-width : 850px) {
 		.logoEkot {
 		width : 15%;
 		top : 10px;

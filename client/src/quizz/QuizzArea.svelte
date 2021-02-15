@@ -99,7 +99,17 @@
 		left : 85%
 	}
 
-	@media (min-width: 768px) { 
+	.justification {
+		width : 90%;
+		margin: auto;
+		text-align: center;
+		
+		position: fixed;
+		left: 5%;
+		z-index: 1;
+	}
+
+	@media (min-width: 850px) { 
 		.quizzArea {
 			width : 50%;
 		}	
@@ -107,8 +117,16 @@
 		.nextQuestion {
 			width: 25%;
 		}
+
+		.justification {
+			width: 50%;
+			left : 25%;
+		}
 	}
 </style>
+	<div class="justification">
+		<Justification justification = {justification} {goodAnswer}/>
+	</div>
 
 	<div class="quizzArea container-fluid rounded-1 shadow-lg ">
 		<!-- Question -->
@@ -134,11 +152,6 @@
 				<AnswerColor color = "red" checkAnswerHandler = {checkAnswerHandler} {selected}/>
 			{/if}
 		</div>	
-
-		<!-- Justification -->
-		<div class="row align-items-center text-center">
-			<Justification justification = {justification} {goodAnswer}/>
-		</div>
 
 		<!-- Next question -->
 		{#if selected}
