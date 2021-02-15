@@ -14,6 +14,14 @@
 	
 	const quizz = [
 		{
+		"type" : "QCM",
+        "question": "Les personnes les plus affectées par la Syphilis sont : ",
+        "answers": ['Les femmes de 25 à 40 ans ', 'Les femmes de 20 à 30 ans', 'Les hommes de 25  à 40 ans  ', 'Les hommes de 20 à 30 ans'],
+		"correctAnswer": 3,
+        "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+        "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
+		},
+		{
         "type" : "VF",
         "question": "Lors d’un match d’improvisation un jouteur peut être exclu du match.",
         "answers": ['Vrai', 'Faux'],
