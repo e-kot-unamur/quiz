@@ -31,5 +31,5 @@ function handleClick(){
 <p>{help.Timedhelp}</p>
 
 <button on:click={handleClick}>
-    Suivant
+    Suivaant
 </button>

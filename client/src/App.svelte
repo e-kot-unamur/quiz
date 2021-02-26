@@ -92,6 +92,7 @@ export let url = "";
 			<Route component={Main} />
 			<Route path="IST-MST/help" component={Help} />
 			<Route path="IST-MST" component={ISTQuizz} />
+            <Route path="IST-MST/0" component={ISTQuizz}/>
 			<Route path="about" component={About} />
 		</div>
 	</Router>
