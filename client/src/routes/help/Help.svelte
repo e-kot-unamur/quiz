@@ -2,12 +2,12 @@
     import * as help from "./Help.json"
 
 function handleClick(){
-    location.href = "/IST-MST/1"
+    location.href = "/IST-MST"
 }
 </script>
 
 <style>
-    h1,h2,p{
+    h2,p{
         text-align: left;
         margin-left: 15%;
         margin-right: 15%;
