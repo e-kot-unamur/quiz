@@ -2,21 +2,34 @@
     a {
         font-size: large;
         font-weight: bold;
+        font-family:monospace;
     }
 
-    #box {
-        width: 200px;
-        margin: auto;
-        overflow: auto;
-        border: 1px solid rgb(0, 0, 0);
-        padding: 2px;
-        text-align: center;
-        background-color: white;
+    .wrap{
+        position: relative;
     }
+
+    .wrap a{
+        position: absolute;
+        width:100%;
+        height:100%;
+        top:0px;
+        left:0px;
+    }
+
+    
 
 </style>
+
+
 <h1 style="margin-left: 15%">Nos quizz :</h1>
-<div id="box">
-    <img src="images/IST.jpg" alt="illustration MST" width=80% height=80%>
-    <a href="IST-MST/help">Quiz IST - MST</a>
+<div class="wrap">
+    <a href="IST-MST/help">
+        <div class="card" style="width: 55%; margin: auto; background-color: #D3EAEB;">
+            <img class="card-img-top" src="images/std.png" alt="illustration MST">
+            <div class="card-body">
+            <p class="card-text; ">Quiz IST - MST</p>
+            </div>
+        </div>
+    </a>
 </div>

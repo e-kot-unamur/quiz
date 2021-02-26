@@ -15,35 +15,7 @@
         border : 1px solid #609d9f;
     }
 
-    .cercle {
-        position: absolute;
-        display: block;
 
-        animation-name: changeColorAndPlaceCercle;
-            animation-duration: 8s;
-        animation-iteration-count: infinite;  
-        animation-direction: alternate ;
-        animation-timing-function: ease;
-    }
-
-    @keyframes changeColorAndPlaceCercle {
-        0%   {fill:#8DE7EB; left:5%; top:10%; height: 30%;}
-        25%  {left:5%; top:11%;}
-        50%  {left:6%; top:11%;}
-        75%  {left:6%; top:11%;}
-        100% {fill:#67A9AB; left:6%; top:11%; height: 35%;}
-    }
-
-    .rectangle {
-        position: absolute;
-        display: block;
-
-        animation-name: changeColorAndPlaceRectangle;
-            animation-duration: 10s;
-        animation-iteration-count: infinite;  
-        animation-direction: alternate ;
-        animation-timing-function: ease;
-    }
 
     @keyframes changeColorAndPlaceRectangle {
         0%   {fill:#5EAB82; left:75%; top:70%; height: 95%; transform: rotate(45deg)}
@@ -53,34 +25,8 @@
         100% {fill:#64B5A1; left:70%; top:68%; height: 100%; transform: rotate(40deg)}
     }
 
-    .logoEkot {
-        position: absolute;
-        display: block;
-
-        width : 8%;
-        top : 10px;
-        left : 90%;
-    }
-    
-    @media (max-width : 850px) {
-        .logoEkot {
-        width : 15%;
-        top : 10px;
-        left : 81%;
-    }
-    }
-
 </style>
 
 <body>
-    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
-        <circle cx="50" cy="50" r="50"/>
-        </svg>
-
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="rectangle">
-        <rect width="100%" height="100%" />
-        </svg>
-
-        <img src="./logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot" />
     <QuizzArea/>
 </body>
