@@ -17,7 +17,9 @@
         left:0px;
     }
 
-    
+    .safearea{
+        height: 400px
+    }
 
 </style>
 
@@ -25,11 +27,17 @@
 <h1 style="margin-left: 15%">Nos quizz :</h1>
 <div class="wrap">
     <a href="IST-MST/help">
-        <div class="card" style="width: 55%; margin: auto; background-color: #D3EAEB;">
+        <div class="card border-dark mb-3" style="width: 55%; margin: auto; background-color: #D3EAEB;">
             <img class="card-img-top" src="images/std.png" alt="illustration MST">
             <div class="card-body">
-            <p class="card-text; ">Quiz IST - MST</p>
+            <p class="card-text; ">Quizz IST - MST</p>
             </div>
         </div>
     </a>
 </div>
+
+<div class="safearea">
+    <p> </p>
+</div>
+
+

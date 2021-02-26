@@ -1,5 +1,5 @@
 <script>
-import {Router, Route} from "svelte-routing";
+import {Router, Route,Link} from "svelte-routing";
 import Navbar from "./routes/Navbar.svelte";
 import Main from "./routes/main/Main.svelte";
 import About from "./routes/about/About.svelte";
@@ -67,7 +67,7 @@ export let url = "";
         display: block;
 
         width : 8%;
-        top : 10px;
+        top : 60px;
         left : 90%;
     }
     
@@ -104,7 +104,7 @@ export let url = "";
 			<rect width="100%" height="100%" />
 			</svg>
 	
-			<img src="./logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot" />
+			<img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
 	</body>
 	
 
