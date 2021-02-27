@@ -21,25 +21,6 @@ export let url = "";
     main {
         height: 100vh;
         background-color: #609d9f;
-        border : 1px solid #609d9f;
-    }
-
-    
-    .logoEkot {
-        position: absolute;
-        display: block;
-
-        width : 8%;
-        top : 60px;
-        left : 90%;
-    }
-    
-    @media (max-width : 850px) {
-        .logoEkot {
-        width : 15%;
-        top : 10px;
-        left : 81%;
-    }
     }
 </style>
 

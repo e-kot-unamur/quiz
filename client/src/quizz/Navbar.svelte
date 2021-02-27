@@ -1,18 +1,43 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">A propos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.messenger.com/t/ekotnamur">Nous contacter</a>
-      </li>
-    </ul>
-  </div>
+<style>
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #8DE7EB;
+    align-items: center;
+  }
+
+  .logoEkot {
+    width: 60px;
+  }
+
+  .logoInfo {
+    position: absolute;
+    left: 92%;
+    width: 30px;
+  }
+
+  .logoContact {
+    position: absolute;
+    left: 95%;
+    width: 30px;
+  }
+
+  @media (max-width : 780px) {
+    .logoInfo {
+      left : 80%;
+    }
+
+    .logoContact {
+      left: 90%;
+    }
+  }
+</style>
+
+<nav>
+  <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
+  <img src="/info.svg" alt="En savoir plus" class="logoInfo"/>
+  <img src="/contact.svg" alt="Nous contacter" class="logoContact"/>
 </nav>

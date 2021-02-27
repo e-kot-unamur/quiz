@@ -1,48 +1,26 @@
 <script>
     import Navbar from "../../quizz/Navbar.svelte";
+    import Tuille from "../../quizz/Tuille.svelte";
 </script>
 
 <style>
-    a {
-        font-size: large;
-        font-weight: bold;
-        font-family:monospace;
-    }
-
-    .wrap{
-        position: relative;
-    }
-
-    .wrap a{
-        position: absolute;
-        width:100%;
-        height:100%;
-        top:0px;
-        left:0px;
-    }
-
-    .safearea{
-        height: 400px
-    }
 
 </style>
 
 <Navbar />
 
-<h1 style="margin-left: 15%">Nos quizz :</h1>
-<div class="wrap">
-    <a href="IST-MST/help">
-        <div class="card border-dark mb-3" style="width: 55%; margin: auto; background-color: #D3EAEB;">
-            <img class="card-img-top" src="images/std.png" alt="illustration MST">
-            <div class="card-body">
-            <p class="card-text; ">Quizz IST - MST</p>
-            </div>
-        </div>
-    </a>
-</div>
+<Tuille src="images/STD.png">
+    <span slot="title">
+        Quizz IST
+    </span>
 
-<div class="safearea">
-    <p> </p>
-</div>
+    <span slot="proposeBy">
+        Prorposé par AKàP & Maison inter
+    </span>
+</Tuille>
+
+<Tuille />
+
+<Tuille />
 
 

@@ -9,6 +9,10 @@
 </svelte:head>
 
 <style>
+    html, body {
+        overflow:hidden;
+    }
+    
     body {
         height: 100vh;
         background-color: #609d9f;
