@@ -1,3 +1,7 @@
+<script>
+    import Navbar from "../../quizz/Navbar.svelte";
+</script>
+
 <style>
     a {
         font-size: large;
@@ -23,6 +27,7 @@
 
 </style>
 
+<Navbar />
 
 <h1 style="margin-left: 15%">Nos quizz :</h1>
 <div class="wrap">

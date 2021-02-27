@@ -16,6 +16,7 @@ function handleClick(){
         margin-left: 85%;
     }
 </style>
+
 <p style="font-size:20px">{help.globalhelp}</p>
 <h2>{help.MCQtitle}</h2>
 <p>{help.MCQhelp}</p>
