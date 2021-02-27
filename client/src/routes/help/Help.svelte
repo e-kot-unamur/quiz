@@ -9,27 +9,34 @@ function handleClick(){
 <style>
     h2,p{
         text-align: left;
-        margin-left: 15%;
-        margin-right: 15%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    button{
-        margin-left: 85%;
+    h2{
+       font-weight: bold; 
     }
+
 </style>
-<p style="font-size:20px">{help.globalhelp}</p>
+<div class="card" style="width: 58%; margin: auto; background-color: #D3EAEB;margin-top:7%">
+    <div class="card-body">
+        <h2>A propos</h2>
+        <h5 class="card-text; ">{help.globalhelp}</h5>
 
-<h2>{help.MCQtitle}</h2>
-<p>{help.MCQhelp}</p>
+        <h2>{help.MCQtitle}</h2>
+        <p class="card-text; ">{help.MCQhelp}</p>
 
-<h2>{help.ToFtitle}</h2>
-<p>{help.ToFhelp}</p>
+        <h2>{help.ToFtitle}</h2>
+        <p class="card-text; ">{help.ToFhelp}</p>
 
-<h2>{help.Coloredtitle}</h2>
-<p>{help.Coloredhelp}</p>
+        <h2>{help.Coloredtitle}</h2>
+        <p class="card-text; ">{help.Coloredhelp}</p>
 
-<h2>{help.Timedtitle}</h2>
-<p>{help.Timedhelp}</p>
-
-<button on:click={handleClick}>
-    Suivaant
-</button>
+        <h2>{help.Timedtitle}</h2>
+        <p class="card-text; ">{help.Timedhelp}</p>
+    </div>
+    <form style="margin-left: 75%; margin-top 100%;" action="/IST-MST">
+        <label>Adresse e-mail :</label>
+        <input type="text"/>
+        <input type="submit" value="suivant">
+    </form>
+    
+</div>
