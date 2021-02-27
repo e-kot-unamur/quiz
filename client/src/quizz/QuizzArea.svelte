@@ -197,6 +197,31 @@
 			if(quizzIndex === quizz.length - 1) endQuizz = false;
 		}
 	}
+
+	// Timer
+	import { onDestroy } from 'svelte';
+
+	let elapsed = 0;
+	let duration = 30000;
+
+	let last_time = window.performance.now();
+	let frame;
+
+	(function update() {
+		frame = requestAnimationFrame(update);
+
+		const time = window.performance.now();
+		elapsed += Math.min(
+			time - last_time,
+			duration - elapsed
+		);
+
+		last_time = time;
+	}());
+
+	onDestroy(() => {
+		cancelAnimationFrame(frame);
+	});
 </script>
 
 <style>
@@ -304,7 +329,7 @@
 							Reste : {quizz.length - quizzIndex - 1} question{quizz.length - quizzIndex - 1 === 1 ? '' : 's'}
 						</div>
 						<svg on:click={() => navButton()} class="nextQuestion" xmlns="http://www.w3.org/2000/svg"  height="40" viewBox="0 0 16 16">
-							<path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+							<path style="cursor:pointer" d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
 						 </svg>
 					{/if}
 				</div>
