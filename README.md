@@ -4,7 +4,7 @@
 pip install requirements.txt #install depedencies
 $env:FLASK_APP = "run.py" #execute this from quizz folder
 flask run
-
+```
 execute this in an other terminal from client folder
 ```bash
 npm i
