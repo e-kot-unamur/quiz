@@ -5,6 +5,7 @@ import Main from "./routes/main/Main.svelte";
 import About from "./routes/about/About.svelte";
 import Help from "./routes/help/Help.svelte";
 import ISTQuizz from "./quizz/IST.svelte";
+import Results from "./quizz/Results.svelte"
 const contact = "https://www.messenger.com/t/ekotnamur";
 export let url = "";
 </script>
@@ -31,6 +32,8 @@ export let url = "";
 			<Route path="IST-MST/help" component={Help} />
 			<Route path="IST-MST" component={ISTQuizz} />
 			<Route path="about" component={About} />
+			<Route path="Results" component={Results} />
+			
 		</div>
 	</Router>
 	

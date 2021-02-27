@@ -4,6 +4,7 @@
     import Answer from './Answer.svelte';
     import Justification from './Justification.svelte';
 	import AnswerColor from './AnswerClolor.svelte';
+import Results from './Results.svelte';
 
 	const timerInSeconds = 10;
     let quizzIndex = 0;
@@ -33,6 +34,7 @@
         "justificationTrue":"Bonne réponse !",
         "justificationFalse":"Faux ! Les personnes les plus affectées par la Syphilis sont les hommes de 25 à 40 ans !"	
 		},
+		/*
 		{
 		"type" : "QCM",
         "question": "En 1 an, ..... personnes dans le monde contractent une MST tels que la chlamydia, gonorrhée ou syphilis.",
@@ -169,6 +171,7 @@
         "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
         "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"
 		}
+		*/
 	]
 	
 	function checkAnswerHandler(answerText){
@@ -180,9 +183,8 @@
 			goodAnswer = true;
 			justification = "";
 			justification += quizz[quizzIndex].justificationTrue;
-			toogleTimer = false;
 			points += 1;
-			stopTimer();
+			
 		}
 		// if it is the wrong answer
 		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false ){
@@ -191,8 +193,7 @@
 			justification = "";
 			if(currentQuestion.answers)
 			justification += quizz[quizzIndex].justificationFalse;
-			toogleTimer = false;
-			stopTimer();
+			
 		}
 		console.log(points)
 	}
@@ -205,13 +206,10 @@
 			// timer
 			time = timerInSeconds;
 			timer = setInterval(updateTimer,1000);
-			if(quizzIndex === quizz.length - 1) endQuizz = false;
-
 		}
 	}
 
 	// Timer
-	
 	
 	let timer = setInterval(updateTimer,1000);
 
@@ -228,11 +226,20 @@
 		if(!selected && time == 0) {
 			clearInterval(timer);
 			selected = true;
+			goodAnswer = false;
 			justification += quizz[quizzIndex].justificationFalse;
 			
 		};
 		
+		
 	}
+
+	//For the test
+	function handleClick(){
+    	location.href = "/Results";
+	}
+
+
 
 </script>
 
@@ -332,7 +339,7 @@
 			<div class="row next">
 				<div class="col">
 					{#if quizzIndex === quizz.length - 1}
-						<button class="results"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+						<button on:click="{handleClick}" class="results"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
 							<path d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
 							<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
 						  </svg>  Voir mes résultats 
@@ -348,4 +355,5 @@
 				</div>
 			</div>
 		{/if}
+		<!--<Results points= {points}/>-->
 	</div>
