@@ -20,7 +20,7 @@ Environnement virtuel
 
 ```bash
 npm i #install depedencies
-node server.js #from client folder
+npm run serve #from client folder
 browse to localhost:3000
 ```
 
