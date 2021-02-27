@@ -169,22 +169,21 @@
 	
 	function checkAnswerHandler(answerText){
 		let currentQuestion = quizz[quizzIndex];
-		
+		// if it is the right answer
 		if(currentQuestion.answers.indexOf(answerText) === currentQuestion.correctAnswer && selected == false){
-			
 			selected = true;
 			goodAnswer = true;
 			justification = "";
 			justification += quizz[quizzIndex].justificationTrue;
 			points += 1;
 		}
-		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false) {
+		// if it is the wrong answer
+		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false ){
 			selected = true;
 			goodAnswer = false;
 			justification = "";
 			if(currentQuestion.answers)
 			justification += quizz[quizzIndex].justificationFalse;
-
 		}
 		console.log(points)
 	}
@@ -194,7 +193,10 @@
 			justification = "";
 			selected = false;			
 			quizzIndex += 1;
+			// timer
+			elapsed = 0;
 			if(quizzIndex === quizz.length - 1) endQuizz = false;
+
 		}
 	}
 
@@ -289,8 +291,9 @@
 	<div class="justification">
 		<Justification justification = {justification} {goodAnswer}/>
 	</div>
-
+	
 	<div class="quizzArea container-fluid rounded-1 shadow-lg ">
+		<div>{(elapsed / 1000).toFixed(1)}s</div>
 		<!-- Question -->
 		{#if !endQuizz}
 			<div class="row align-items-center text-center mb-3">
