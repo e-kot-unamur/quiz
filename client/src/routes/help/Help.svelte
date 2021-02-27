@@ -33,10 +33,9 @@ function handleClick(){
         <h2>{help.Timedtitle}</h2>
         <p class="card-text; ">{help.Timedhelp}</p>
     </div>
-    <form style="margin-left: 75%; margin-top 100%;" action="/IST-MST">
+    <form style="margin-left: 75%; margin-top 100%;" action="/IST-MST" method = "POST">
         <label>Adresse e-mail :</label>
-        <input type="text"/>
+        <input type="text" name="address" id="address" placeholder="address">
         <input type="submit" value="suivant">
     </form>
-    
 </div>
