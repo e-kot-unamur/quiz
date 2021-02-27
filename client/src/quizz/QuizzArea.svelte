@@ -5,12 +5,16 @@
     import Justification from './Justification.svelte';
 	import AnswerColor from './AnswerClolor.svelte';
 
+	const timerInSeconds = 10;
     let quizzIndex = 0;
 	let endQuizz = false;
 	let selected = false;
 	let goodAnswer = false;
 	let justification = "";
 	let points = 0;
+	let time = timerInSeconds;
+	
+	
 	
 	const quizz = [
 		{
@@ -168,6 +172,7 @@
 	]
 	
 	function checkAnswerHandler(answerText){
+		
 		let currentQuestion = quizz[quizzIndex];
 		// if it is the right answer
 		if(currentQuestion.answers.indexOf(answerText) === currentQuestion.correctAnswer && selected == false){
@@ -175,7 +180,9 @@
 			goodAnswer = true;
 			justification = "";
 			justification += quizz[quizzIndex].justificationTrue;
+			toogleTimer = false;
 			points += 1;
+			stopTimer();
 		}
 		// if it is the wrong answer
 		else if(currentQuestion.answers.indexOf(answerText) != currentQuestion.correctAnswer && selected == false ){
@@ -184,6 +191,8 @@
 			justification = "";
 			if(currentQuestion.answers)
 			justification += quizz[quizzIndex].justificationFalse;
+			toogleTimer = false;
+			stopTimer();
 		}
 		console.log(points)
 	}
@@ -194,36 +203,37 @@
 			selected = false;			
 			quizzIndex += 1;
 			// timer
-			elapsed = 0;
+			time = timerInSeconds;
+			timer = setInterval(updateTimer,1000);
 			if(quizzIndex === quizz.length - 1) endQuizz = false;
 
 		}
 	}
 
 	// Timer
-	import { onDestroy } from 'svelte';
+	
+	
+	let timer = setInterval(updateTimer,1000);
 
-	let elapsed = 0;
-	let duration = 30000;
+	function updateTimer(){
 
-	let last_time = window.performance.now();
-	let frame;
+		if(time > 0)
+			time--;
 
-	(function update() {
-		frame = requestAnimationFrame(update);
+		if(selected){
+			clearInterval(timer);
+			
+		}
+		
+		if(!selected && time == 0) {
+			clearInterval(timer);
+			selected = true;
+			justification += quizz[quizzIndex].justificationFalse;
+			
+		};
+		
+	}
 
-		const time = window.performance.now();
-		elapsed += Math.min(
-			time - last_time,
-			duration - elapsed
-		);
-
-		last_time = time;
-	}());
-
-	onDestroy(() => {
-		cancelAnimationFrame(frame);
-	});
 </script>
 
 <style>
@@ -293,7 +303,7 @@
 	</div>
 	
 	<div class="quizzArea container-fluid rounded-1 shadow-lg ">
-		<div>{(elapsed / 1000).toFixed(1)}s</div>
+		<div>{time}s</div>
 		<!-- Question -->
 		{#if !endQuizz}
 			<div class="row align-items-center text-center mb-3">
@@ -331,7 +341,7 @@
 						<div class="progressBar">
 							Reste : {quizz.length - quizzIndex - 1} question{quizz.length - quizzIndex - 1 === 1 ? '' : 's'}
 						</div>
-						<svg on:click={() => navButton()} class="nextQuestion" xmlns="http://www.w3.org/2000/svg"  height="40" viewBox="0 0 16 16">
+						<svg on:click={() => {navButton();}} class="nextQuestion" xmlns="http://www.w3.org/2000/svg"  height="40" viewBox="0 0 16 16">
 							<path style="cursor:pointer" d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
 						 </svg>
 					{/if}
