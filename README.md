@@ -19,18 +19,9 @@ npm i svelte-routing	//install routing url
 Environnement virtuel
 
 ```bash
-py -m venv env #Créé l'environnement virtuel
-env\scripts\activate #Active l'environnement
-
-pip install fastapi
-pip install uvicorn
-#Il faut ensuite créer un fichier main.py
-
-uvicorn main:app --reload	#Lance se serveur
-pip install aiofiles
+npm i #install depedencies
+node server.js #from client folder
+browse to localhost:3000
 ```
 
-```bash
-npm run build #Ajoute les modifications du front
-```
 
