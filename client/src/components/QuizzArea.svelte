@@ -103,10 +103,13 @@
 
 <style>
 	.presentationArea {
-		margin-top: 20px;
+		margin: 20px auto;
 		background-color: #D3EAEB;
 		padding : 30px 45px;
 		width : 90%;
+		position: relative;
+		max-height: 90vh;
+		overflow-y: auto;
 	}
 
 	.quizzArea {
