@@ -1,11 +1,11 @@
 <script>
 import {Router, Route,Link} from "svelte-routing";
-import Navbar from "./quizz/Navbar.svelte";
+import Navbar from "./components/Navbar.svelte";
 import Main from "./routes/main/Main.svelte";
 import About from "./routes/about/About.svelte";
 import Help from "./routes/help/Help.svelte";
-import ISTQuizz from "./quizz/IST.svelte";
-import Results from "./quizz/Results.svelte"
+import ISTQuizz from "./components/IST.svelte";
+import Results from "./components/Results.svelte"
 const contact = "https://www.messenger.com/t/ekotnamur";
 export let url = "";
 import * as mainQuizz from "./quizz/mainQuizz.json";
