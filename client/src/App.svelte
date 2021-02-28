@@ -31,8 +31,8 @@ import * as mainQuizz from "./components/mainQuizz.json";
 			<Route path="about" component={About} />
 			<Route path="Results" component={Results} />
 
-			{#each mainQuizz.allQuizz as quizz}
-				<Route path="{quizz.route}" component={ISTQuizz} />
+			{#each mainQuizz.allQuizz as quizz,i}
+				<Route path="{quizz.route}"><ISTQuizz index={i} /></Route>
 			{/each}			
 		</div>
 	</Router>

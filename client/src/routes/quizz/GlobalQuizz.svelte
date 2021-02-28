@@ -93,7 +93,7 @@
 
         <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
 
-        <QuizzArea index = 1/>
+        <QuizzArea index = {index}/>
     </div>
 
 </body>
