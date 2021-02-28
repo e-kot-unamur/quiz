@@ -1,8 +1,6 @@
 
 <script>
-import { each } from "svelte/internal";
-
-    import Navbar from "./Navbar.svelte"
+   
     
     export let score = 0;
     export let totalScore = 0;
@@ -45,11 +43,11 @@ import { each } from "svelte/internal";
         
     <h1>Facts </h1>
     <p>Voici quelques facts sur le thème de quizz qui pourraient vous intéressez !</p>
-    <ul>
-        {#each facts as fact}
-        <li>{fact}</li>
+    
+    {#each facts as fact}
+        <p>{fact}</p>
     {/each}
-    </ul>
+    
     
 
 </div>

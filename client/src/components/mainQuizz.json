@@ -174,8 +174,7 @@
                             "answers": ["2%", "6%", "8%", "18%"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
-                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"		
                             },
                             {
                             "type" : "color",
@@ -183,21 +182,17 @@
                             "answers": ["green", "orange", "red"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
-                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
                             }
                     ],
                     "creator" : "",
                     "title" : "",
                     "date" : "2",
-<<<<<<< HEAD
                     "route" : "quizz2",
                     "facts" : [
                         "Fact1", "Fact2", "Fact3","Fact4"
                     ],
                     "image" : ""
-=======
-                    "route" : "quizz2"
                 },
                 {
                     "quizz" : [
@@ -207,8 +202,7 @@
                             "answers": ["2%", "6%", "8%", "18%"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
-                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
                             },
                             {
                             "type" : "color",
@@ -216,15 +210,17 @@
                             "answers": ["green", "orange", "red"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
-                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"
                             }
                     ],
                     "creator" : "",
                     "title" : "",
                     "date" : "2",
-                    "route" : "quizz2"
->>>>>>> d50d7ac88c1b776d9939d526b26b88e710c46e8a
+                    "route" : "quizz2",
+                    "facts" : [
+                        "Fact1", "Fact2", "Fact3","Fact4"
+                    ],
+                    "image" : ""
                 }
 
     ]

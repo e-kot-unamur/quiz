@@ -19,7 +19,7 @@
 	let justification = "";
 	let points = 0;
 	let time = timerInSeconds;
-	let wrongAnswers = [];
+	
 	
 	// Test Baetslé Routing 
 	let quizzStart = false;
@@ -57,7 +57,7 @@
 			justification = "";
 			if(currentQuestion.answers)
 			justification += quizz[quizzIndex].justificationFalse;
-			wrongAnswers.push(quizz[quizzIndex].justificationFalse);	
+			
 		}
 		console.log(points)
 	}
@@ -179,7 +179,7 @@
 		</div>
 	{:else if quizzResult} 
 		<div class="quizzArea container-fluid rounded-1 shadow-lg ">
-			<Results points = {points} wrongAnswers = {wrongAnswers}/>
+			<Results score = {points} totalScore = {quizz.length} totalTime = 12  facts = {mainQuizz.allQuizz[index].facts} />
 		</div>
 	{:else}
 		<!-- Justification -->
