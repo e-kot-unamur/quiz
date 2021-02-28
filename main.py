@@ -1,11 +1,13 @@
-from flask import Flask, send_from_directory, request
+from flask import Flask, send_from_directory, request, flash
 from flask_sqlalchemy import SQLAlchemy
+from tools import adresseChecker
 #from models import *
 from datetime import time
 import random
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///results.sqlite3'
+app.secret_key = '_5#y2L"F4Q8z\n\xec]/'
 db = SQLAlchemy( app )
 
 class Results(db.Model):
@@ -42,8 +44,8 @@ class Quiz(db.Model):
 # Path for our main Svelte page
 @app.route("/")
 @app.route("/about")
-@app.route("/IST-MST/help", methods=["POST", "GET"])
-@app.route("/IST-MST", methods=["POST", "GET"])
+@app.route("/IST-MST/help")
+@app.route("/IST-MST")
 def base():      
     return send_from_directory('client/public', 'index.html')
 
@@ -51,22 +53,28 @@ def base():
 def main():
     if request.method == "POST":
         address = request.form["address"]
+        if not(adresseChecker(address)):
+            flash('Veuillez entrer un bon format d\'adresse email', 'info') #TODO
+            return send_from_directory('client/public', 'index.html')
+        point = 0
+        quizname = "test2"
+        timequizz = 1.2
         result = Results.query.filter_by(addressMail=address).first()
         if result is None:
             result = Results(addressMail=address)
-            quiz = Quiz(point=0, quizName="jsp", timeQuizz=1.2, address=result)
+            quiz = Quiz(point=point, quizName="jsp", timeQuizz=timequizz, address=result)
             db.session.add(result)
             db.session.add(quiz)
         else:
-            quizzez = result.quizz  #Get all quizzez
+            quizzez = result.quizz  #Get all quizzez of the addresse mail
             for quiz in quizzez:
-                if quiz.quizName == "test2":
-                    quizUser = Quiz.query.filter_by(quizName="test2").first() #Get the quiz table for a quizz of the user
+                if quiz.quizName == quizname:
+                    quizUser = Quiz.query.filter_by(id=quiz.id).first() #Get the quiz table for a quizz for a user
                     quizUser.point=1
                     quizUser.timeQuizz=11
                     db.session.commit()
                     return send_from_directory('client/public', 'index.html')
-            quiz = Quiz(point=2, quizName="test2", timeQuizz=8, address=result)
+            quiz = Quiz(point=2, quizName=quizname, timeQuizz=8, address=result)
         db.session.commit()
     return send_from_directory('client/public', 'index.html')
 
