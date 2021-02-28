@@ -12,18 +12,33 @@ class Results(db.Model):
     __tablename__ = "results"
 
     id = db.Column(db.Integer, nullable=False, primary_key=True, autoincrement=True)
-    point = db.Column(db.String(10), unique=False, nullable=False)
     addressMail = db.Column(db.String(128), unique=True, nullable=False)
+
+    def __init__(self, addressMail):
+        self.addressMail = addressMail
+
+    def __repr__(self):
+        return "<Result id: %d, addressMail:%s>" % (self.id,self.addressMail)
+
+class Quiz(db.Model):
+    __tablename__ = "quiz"
+
+    id = db.Column(db.Integer, nullable=False, primary_key=True, autoincrement=True)
+    point = db.Column(db.Integer, unique=False, nullable=False)
     quizName= db.Column(db.String(128), unique=False, nullable=False)
     timeQuizz= db.Column(db.Float)
+    address_id = db.Column(db.Integer, db.ForeignKey('results.id'), nullable=False)
+    address = db.relationship('Results', backref=db.backref('quizz', lazy=True))
 
-    def __init__(self, point, addressMail, quizName, timeQuizz):
+    def __init__(self, point, quizName, timeQuizz, address):
         self.point = point
-        self.addressMail = addressMail
         self.quizName = quizName
         self.timeQuizz = timeQuizz
+        self.address = address
+
     def __repr__(self):
-        return "<Result id: %d, point: %s, addressMail:%s, quizName:%s>" % (self.id, self.point, self.addressMail, self.quizName)
+        return "<Result id: %d, point: %d, quizName:%s, timeQuizz:%f>" % (self.id, self.point, self.quizName, self.timeQuizz)
+
 # Path for our main Svelte page
 @app.route("/")
 @app.route("/about")
@@ -38,12 +53,20 @@ def main():
         address = request.form["address"]
         result = Results.query.filter_by(addressMail=address).first()
         if result is None:
-            result = Results(point=0, addressMail=address, quizName="jsp", timeQuizz=10.5)
+            result = Results(addressMail=address)
+            quiz = Quiz(point=0, quizName="jsp", timeQuizz=1.2, address=result)
             db.session.add(result)
+            db.session.add(quiz)
         else:
-            result.point=0
-            result.quizName="jsp"
-            result.timeQuizz=10.5
+            quizzez = result.quizz  #Get all quizzez
+            for quiz in quizzez:
+                if quiz.quizName == "test2":
+                    quizUser = Quiz.query.filter_by(quizName="test2").first() #Get the quiz table for a quizz of the user
+                    quizUser.point=1
+                    quizUser.timeQuizz=11
+                    db.session.commit()
+                    return send_from_directory('client/public', 'index.html')
+            quiz = Quiz(point=2, quizName="test2", timeQuizz=8, address=result)
         db.session.commit()
     return send_from_directory('client/public', 'index.html')
 
