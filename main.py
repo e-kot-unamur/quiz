@@ -4,7 +4,10 @@ from models import *
 import random
 
 app = Flask(__name__)
-db = SQLAlchemy( app ) 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///results.sqlite3'
+db = SQLAlchemy( app )
+
+
 # Path for our main Svelte page
 @app.route("/")
 @app.route("/about")
@@ -16,11 +19,9 @@ def base():
         print(address)
         result = Results.query.filter_by(addressMail=address).first()
         if result is None:
-            result = Results(point=0, addressMail="point", quizName="jsp")
+            result = Results(point=0, addressMail=address, quizName="jsp")
             db.session.add(result)
             db.session.commit()
-            
-        return send_from_directory('client/public', 'index.html',addresse=address)
     return send_from_directory('client/public', 'index.html')
 
 # Path for all the static files (compiled JS/CSS, etc.)
@@ -39,4 +40,5 @@ def main():
     return render_template('index.html', tasks=current_user.tasks, admin = current_user.isAdmin()) """
 
 if __name__ == "__main__":
+    db.create_all()
     app.run(debug=True)

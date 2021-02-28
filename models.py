@@ -1,5 +1,4 @@
 from main import db
-
 class Results(db.Model):
     __tablename__ = "results"
 
@@ -8,6 +7,10 @@ class Results(db.Model):
     addressMail = db.Column(db.String(128), unique=True, nullable=False)
     quizName= db.Column(db.String(128), unique=False, nullable=False)
 
+    def __init__(self, point, addressMail, quizName):
+        self.point = point
+        self.addressMail = addressMail
+        self.quizName = quizName
+
     def __repr__(self):
         return "<Result id: %d, point: %s, addressMail:%s, quizName:%s>" % (self.id, self.point, self.addressMail, self.quizName)
-    db.create_all()
