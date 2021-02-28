@@ -12,9 +12,6 @@ function handleClick(){
         margin-left: 15%;
         margin-right: 15%;
     }
-    button{
-        margin-left: 85%;
-    }
 </style>
 
 <p style="font-size:20px">{help.globalhelp}</p>
@@ -29,7 +26,3 @@ function handleClick(){
 
 <h2>{help.Timedtitle}</h2>
 <p>{help.Timedhelp}</p>
-
-<button on:click={handleClick}>
-    Suivant
-</button>

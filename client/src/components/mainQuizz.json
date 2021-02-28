@@ -183,7 +183,24 @@
                 },
                 {
                     "quizz" : [
-
+                        {
+                            "type" : "QCM",
+                            "question": "La part du numérique des émissions de gaz à effet de serre est de ",
+                            "answers": ["2%", "6%", "8%", "18%"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
+                            "fact" : ""		
+                            },
+                            {
+                            "type" : "color",
+                            "question": "Exemple de question 4 ?",
+                            "answers": ["green", "orange", "red"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
+                            "fact" : ""	
+                            }
                     ],
                     "creator" : "",
                     "title" : "",
