@@ -22,6 +22,9 @@
     <span>Vos points : {points} </span>
     
     <p>Veuillez entrez votre adresse e-mail afin que nous puissions vous recontacter si vous gagnez le concours : </p>
-    <input type="text" value={email}/>
+    <form style="margin-left: 75%; margin-top 100%;" action="/Results" method = "POST">
+    <input type="text" name="address" id="address" placeholder="addresse mail" value={email}>
+    <input type="submit" value="suivant">
+    </form>
     <span>{email}</span>
 </div>

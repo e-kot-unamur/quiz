@@ -33,7 +33,6 @@ export let url = "";
 			<Route path="IST-MST" component={ISTQuizz} />
 			<Route path="about" component={About} />
 			<Route path="Results" component={Results} />
-			
 		</div>
 	</Router>
 	
