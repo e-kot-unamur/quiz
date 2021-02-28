@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Quizz E-kot
 ### Lancer le server
 
