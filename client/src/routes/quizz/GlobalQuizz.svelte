@@ -1,5 +1,5 @@
 <script>
-    import QuizzArea from "./QuizzArea.svelte";
+    import QuizzArea from "../../components/QuizzArea.svelte";
 
     export let index;
 </script>
@@ -79,8 +79,6 @@
 </style>
 
 <body>
-
-
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
         <circle cx="50" cy="50" r="50"/>
     </svg>
@@ -91,5 +89,5 @@
 
     <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
 
-        <QuizzArea index = 0/>
+    <QuizzArea index = 0/>
 </body>

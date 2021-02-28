@@ -4,11 +4,12 @@ import Navbar from "./components/Navbar.svelte";
 import Main from "./routes/main/Main.svelte";
 import About from "./routes/about/About.svelte";
 import Help from "./routes/help/Help.svelte";
-import ISTQuizz from "./components/IST.svelte";
+import ISTQuizz from "./routes/quizz/GlobalQuizz.svelte";
 import Results from "./components/Results.svelte"
 const contact = "https://www.messenger.com/t/ekotnamur";
 export let url = "";
-import * as mainQuizz from "./quizz/mainQuizz.json";
+import * as mainQuizz from "./components/mainQuizz.json";
+import QuizzArea from "./components/QuizzArea.svelte";
 </script>
 
 
@@ -31,13 +32,13 @@ import * as mainQuizz from "./quizz/mainQuizz.json";
 		<div>
 			
 			<Route path="/" component={Main} />
-			<Route path="IST-MST/help" component={Help} />
-			<Route path="IST-MST" component={ISTQuizz} />
 			<Route path="about" component={About} />
 			<Route path="Results" component={Results} />
-			
+			<Route path="instruction" component={Help} />
+
+			{#each mainQuizz.allQuizz as quizz}
+				<Route path="{quizz.route}" component={ISTQuizz} />
+			{/each}			
 		</div>
 	</Router>
-	
-
 </main>
