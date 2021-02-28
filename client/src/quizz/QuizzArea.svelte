@@ -5,7 +5,8 @@
     import Justification from './Justification.svelte';
 	import AnswerColor from './AnswerClolor.svelte';
 	import Results from './Results.svelte';
-	import * as mainQuizz from "./quizz/mainQuizz.json";
+	
+	import * as mainQuizz from "./mainQuizz.json";
 	
 	export let index;
 
@@ -21,7 +22,7 @@
 	
 	
 	
-	const quizz = mainQuizz[index].quizz; 
+	const quizz = mainQuizz.allQuizz[index].quizz; 
 	
 	
 	function checkAnswerHandler(answerText){
