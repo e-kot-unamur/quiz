@@ -1,2 +1,5 @@
 __pycache__
 env
+.idea
+/server/data
+/server/__pycache__
