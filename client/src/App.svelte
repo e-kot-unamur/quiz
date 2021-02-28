@@ -8,6 +8,7 @@ import ISTQuizz from "./quizz/IST.svelte";
 import Results from "./quizz/Results.svelte"
 const contact = "https://www.messenger.com/t/ekotnamur";
 export let url = "";
+import * as mainQuizz from "./quizz/mainQuizz.json";
 </script>
 
 

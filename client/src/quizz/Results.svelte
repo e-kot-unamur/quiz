@@ -1,8 +1,11 @@
 
 <script>
+import { each } from "svelte/internal";
+
     import Navbar from "./Navbar.svelte"
     
     export let points = 0;
+    export let wrongAnswers = [];
     let email = "";
 </script>
 
@@ -10,9 +13,7 @@
     h1{
         text-align: center;
     }
-    input{
-        padding-left:10px;
-    }
+
 </style>
 
 
@@ -23,5 +24,9 @@
     
     <p>Veuillez entrez votre adresse e-mail afin que nous puissions vous recontacter si vous gagnez le concours : </p>
     <input type="text" value={email}/>
-    <span>{email}</span>
+    <h1>Justifications </h1>
+    {#each wrongAnswers as wrongAnswer}
+        <p>{wrongAnswer}</p>
+    {/each}
+
 </div>

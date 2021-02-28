@@ -89,5 +89,5 @@
 
     <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
 
-        <QuizzArea/>
+        <QuizzArea index = 0/>
 </body>
