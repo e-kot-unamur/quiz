@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quizz E-kot
 ### Lancer le server
 
@@ -13,9 +14,3 @@ npm i
 npm run build
 ```
 Browse to http://127.0.0.1:5000/
-
-
-
-
-
-
