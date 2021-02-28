@@ -7,22 +7,60 @@ function handleClick(){
 </script>
 
 <style>
-    h2,p{
-        text-align: left;
-        margin-left: 15%;
-        margin-right: 15%;
+    p, h2 {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .section {
+        margin-left: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        color : #8d6f9e;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width : 720px) {
+        .section {
+            margin-left: 0;
+        }
+        .logo {
+            visibility: hidden;
+        }
     }
 </style>
 
-<p style="font-size:20px">{help.globalhelp}</p>
-<h2>{help.MCQtitle}</h2>
-<p>{help.MCQhelp}</p>
+<h1>Quizz.e-kot : présentation du Quizz</h1>
 
-<h2>{help.ToFtitle}</h2>
-<p>{help.ToFhelp}</p>
+<p style="font-size:20px; text-align:center;">{help.globalhelp}</p>
 
-<h2>{help.Coloredtitle}</h2>
-<p>{help.Coloredhelp}</p>
+<hr />
+<div class="section">
+    <img src="/help/multipleChoice.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <h2>{help.MCQtitle}</h2>
+    <p>{help.MCQhelp}</p>
+</div>
 
-<h2>{help.Timedtitle}</h2>
-<p>{help.Timedhelp}</p>
+<hr />
+<div class="section">
+    <img src="/help/trueOrFalse.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <h2>{help.ToFtitle}</h2>
+    <p>{help.ToFhelp}</p>
+</div>
+
+<hr />
+<div class="section">
+    <img src="/help/degre.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <h2>{help.Coloredtitle}</h2>
+    <p>{help.Coloredhelp}</p>
+</div>
+
+<hr />
+<div class="section">
+    <img src="/help/timer.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <h2>{help.Timedtitle}</h2>
+    <p>{help.Timedhelp}</p>
+</div>

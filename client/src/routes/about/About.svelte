@@ -28,6 +28,11 @@
     }
     
 </style>
+
+<svelte:head>
+    <link rel="stylesheet" href="hack.css">
+</svelte:head>
+
 <Navbar/>
 <div class="about">
     
