@@ -18,6 +18,7 @@
 	let goodAnswer = false;
 	let justification = "";
 	let points = 0;
+	let totalTime = 0;
 	let time = timerInSeconds;
 	
 	
@@ -27,6 +28,7 @@
 
 	function startQuizz() {
 		quizzStart = true;
+		timer = setInterval(updateTimer,1000);
 	}
 
 	function viewResult() {
@@ -68,6 +70,7 @@
 			selected = false;			
 			quizzIndex += 1;
 			// timer
+			
 			time = timerInSeconds;
 			timer = setInterval(updateTimer,1000);
 			if(quizzIndex === quizz.length ) endQuizz = true;
@@ -75,8 +78,8 @@
 	}
 
 	// Timer
-	let timer = setInterval(updateTimer,1000);
-
+	//let timer = setInterval(updateTimer,1000);
+	let timer;
 	function updateTimer(){
 
 		if(time > 0)
@@ -84,7 +87,7 @@
 
 		if(selected){
 			clearInterval(timer);
-			
+			totalTime += timerInSeconds - time;
 		}
 		
 		if(!selected && time == 0) {
@@ -92,6 +95,7 @@
 			selected = true;
 			goodAnswer = false;
 			justification += quizz[quizzIndex].justificationFalse;
+			totalTime += timerInSeconds - time;
 			
 		};		
 	}
@@ -179,7 +183,7 @@
 		</div>
 	{:else if quizzResult} 
 		<div class="quizzArea container-fluid rounded-1 shadow-lg ">
-			<Results score = {points} totalScore = {quizz.length} totalTime = 12  facts = {mainQuizz.allQuizz[index].facts} />
+			<Results score = {points} totalScore = {quizz.length} totalTime = {totalTime}  facts = {mainQuizz.allQuizz[index].facts} />
 		</div>
 	{:else}
 		<!-- Justification -->
