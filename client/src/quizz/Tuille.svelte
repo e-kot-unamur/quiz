@@ -1,6 +1,6 @@
 <script>
     export let src;
-    import { Router, Link, Route } from "svelte-routing";
+    export let route;
 </script>
 
 <style>
@@ -55,7 +55,7 @@
 
 
 <div class="tuille" >
-    <a href="IST-MST/help" use:link>
+    <a href="{route}">
      <!-- Titre -->
      <div class="">
         <h1 class="nomDuQuizz">
@@ -67,7 +67,7 @@
 
     <!-- Image -->
     <div class="">
-        <img {src} alt="Image du quizz" class="image"/>
+        <img {src} alt="Illustration quizz" class="image"/>
     </div>
 
    

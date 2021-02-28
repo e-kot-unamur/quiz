@@ -11,22 +11,17 @@
 
 <Navbar />
 
-{#each mainQuizz.allQuizz as quizz }
-    <h1>Test</h1>
+{#each mainQuizz.allQuizz as quizz}
+    <Tuille src="images/STD.png" route="IST-MST/help">
+        <span slot="title">
+            {quizz.title}
+        </span>
 
-
-{/each}
-
-<Tuille src="images/STD.png">
-    <span slot="title">
-        {mainQuizz.allQuizz[0].title}
-    </span>
-
-    <span slot="proposeBy">
-        {mainQuizz.allQuizz[0].creator}
-    </span>
+        <span slot="proposeBy">
+            {quizz.creator}
+        </span>
 </Tuille>
 
-
+{/each}
 
 
