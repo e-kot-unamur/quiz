@@ -99,10 +99,8 @@
 </script>
 
 <style>
-	.infoArrea {
-		margin: 20vh auto;
-
-		/*background-color: whitesmoke;*/
+	.presentationArea {
+		margin-top: 20px;
 		background-color: #D3EAEB;
 		padding : 30px 45px;
 		width : 90%;
@@ -138,6 +136,7 @@
 		text-align: center;
 		
 		position: fixed;
+		top : 2px;
 		left: 5%;
 		z-index: 1;
 	}
@@ -147,6 +146,9 @@
 	}
 
 	@media (min-width: 850px) { 
+		.presentationArea {
+			width: 70%;
+		}
 		.quizzArea {
 			width : 50%;
 		}	
@@ -169,9 +171,9 @@
 </style>
 
 
-	<!-- Introduction au Quizz --
+	<!-- Introduction au Quizz -->
 	{#if !quizzStart}
-		<div class="infoArrea container-fluid rounded-1 shadow-lg">
+		<div class="presentationArea container-fluid rounded-1 shadow-lg">
 			<Help />
 			<button on:click={() => {startQuizz()}} >Next</button>
 		</div>
@@ -179,7 +181,7 @@
 		<div class="quizzArea container-fluid rounded-1 shadow-lg ">
 			<Results points = {points} wrongAnswers = {wrongAnswers}/>
 		</div>
-	{:else}-->
+	{:else}
 		<!-- Justification -->
 		<div class="justification">
 			<Justification justification = {justification} {goodAnswer}/>
@@ -233,4 +235,4 @@
 			{/if}
 			<!--<Results points= {points}/>-->
 		</div>
-	<!--{/if}-->
+	{/if}

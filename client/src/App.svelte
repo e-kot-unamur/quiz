@@ -19,7 +19,6 @@ import * as mainQuizz from "./components/mainQuizz.json";
 
 <style>
     main {
-		min-height: 100hv;
         background-color: #609d9f;
 		padding-bottom: 70px;
     }
@@ -28,7 +27,6 @@ import * as mainQuizz from "./components/mainQuizz.json";
 <main>
 	<Router {url}>
 		<div>
-			
 			<Route path="/" component={Main} />
 			<Route path="about" component={About} />
 			<Route path="Results" component={Results} />

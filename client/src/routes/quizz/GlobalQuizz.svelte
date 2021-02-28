@@ -12,15 +12,13 @@
 
 <style>    
     .quizzArea {
-        height: 100hv;
-        overflow: hidden;
+        min-height: 100vh;
     }
 
     body {
         background-color: #609d9f;
         border : 1px solid #609d9f;
-        height: 100hv;
-        overflow: hidden;
+        
     }
 
     .cercle {
@@ -81,6 +79,7 @@
 </style>
 
 <body>
+
 
     <!-- Zone du Quizz -->
     <div class="quizzArea">

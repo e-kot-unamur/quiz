@@ -5,8 +5,8 @@
 
 <style>
     .justification {
-        height: 50px;
-        overflow-y: scroll;
+        max-height: 80px;
+        overflow-y: auto;
     }
 
     .success {
