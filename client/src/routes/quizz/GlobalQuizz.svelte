@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="https://use.typekit.net/bqg3mtv.css">
 </svelte:head>
 
-<style>
-    html, body {
-        overflow:hidden;
+<style>    
+    .quizzArea {
+        height: 100hv;
+        overflow: hidden;
     }
-    
+
     body {
-        height: 100vh;
         background-color: #609d9f;
         border : 1px solid #609d9f;
+        height: 100hv;
+        overflow: hidden;
     }
 
     .cercle {
@@ -73,21 +75,26 @@
         width : 15%;
         top : 10px;
         left : 81%;
-    }
+        }
     }
 
 </style>
 
 <body>
-    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
-        <circle cx="50" cy="50" r="50"/>
-    </svg>
 
-    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="rectangle">
-        <rect width="100%" height="100%" />
-    </svg>
+    <!-- Zone du Quizz -->
+    <div class="quizzArea">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
+            <circle cx="50" cy="50" r="50"/>
+        </svg>
 
-    <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="rectangle">
+            <rect width="100%" height="100%" />
+        </svg>
 
-    <QuizzArea index = 1/>
+        <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
+
+        <QuizzArea index = 1/>
+    </div>
+
 </body>

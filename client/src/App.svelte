@@ -19,8 +19,9 @@ import * as mainQuizz from "./components/mainQuizz.json";
 
 <style>
     main {
-        height: 100vh;
+		min-height: 100hv;
         background-color: #609d9f;
+		padding-bottom: 70px;
     }
 </style>
 
