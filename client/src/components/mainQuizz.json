@@ -9,8 +9,7 @@
                             "answers": ["1 million", "2 millions", "4 millions", "8 millions"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! 2 millions de personnes on contracté une MST aux USA en 2018 !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! 2 millions de personnes on contracté une MST aux USA en 2018 !"	
                             },
                             {
                             "type" : "QCM",
@@ -18,8 +17,7 @@
                             "answers": ["Les femmes de 25 à 40 ans", "Les femmes de 20 à 30 ans", "Les hommes de 25 à 40 ans", "Les hommes de 20 à 30 ans"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! Les personnes les plus affectées par la Syphilis sont les hommes de 25 à 40 ans !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! Les personnes les plus affectées par la Syphilis sont les hommes de 25 à 40 ans !"	
                             },
                             {
                             "type" : "QCM",
@@ -27,8 +25,7 @@
                             "answers": ["268 millions", "357 millions", "374 millions", "412 millions"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! La réponse est 357 millions !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! La réponse est 357 millions !"	
                             },
                             {
                             "type" : "QCM",
@@ -36,8 +33,7 @@
                             "answers": ["La chlamydia ", "La gonorrhée", "La syphilis", "La trichomonase"],
                             "correctAnswer": 0,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! L'IST la plus fréquente en Belgique la chlamydia !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! L'IST la plus fréquente en Belgique la chlamydia !"	
                             },
                             {
                             "type" : "QCM",
@@ -45,8 +41,7 @@
                             "answers": ["Plus de 800 000", "Plus d’1 million ", "Plus de 1.5 million", "Plus de 2 millions"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! Plus d'1 million de personnes contractent une IST par jour dans le monde !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! Plus d'1 million de personnes contractent une IST par jour dans le monde !"		
                             },
                             {
                             "type" : "QCM",
@@ -54,8 +49,7 @@
                             "answers": ["L’afrique subsaharienne", "L’europe centrale", "L’amérique latine ", "L’Asie centrale"],
                             "correctAnswer": 0,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! La région la plus touchée par le VIH est l'afrique subsaharienne !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! La région la plus touchée par le VIH est l'afrique subsaharienne !"	
                             },
                             {
                             "type" : "QCM",
@@ -63,8 +57,7 @@
                             "answers": ["Le granulome inguinal", "Le chancre mou", "L’herpès génital", "La gonorrhée"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! L’IST la plus fréquente en Inde est l'herpès génital !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! L’IST la plus fréquente en Inde est l'herpès génital !"
                             },
                             {
                             "type" : "QCM",
@@ -72,8 +65,7 @@
                             "answers": ["1 personne sur 10", "1 personne sur 25", "1 personne sur 50", "1 personne sur 200"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! 1 personne sur 25 est touché par une MST dans le monde !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! 1 personne sur 25 est touché par une MST dans le monde !"	
                             },
                             {
                             "type" : "QCM",
@@ -81,8 +73,7 @@
                             "answers": ["Augmente ", "Diminue", "Reste stable", "Se rapproche de 0"],
                             "correctAnswer": 0,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! Le nombre de personnes infectées par une MST augmente !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! Le nombre de personnes infectées par une MST augmente !"
                             },
                             {
                             "type" : "QCM",
@@ -90,8 +81,7 @@
                             "answers": ["La Chine", "Le pérou", "Les Etats-Unis", "L’Inde"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! C'est le Pérou !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! C'est le Pérou !"
                             },
                             {
                             "type" : "QCM",
@@ -99,8 +89,7 @@
                             "answers": ["Le VIH, la mycose, la syphilis et la chlamydia", "La chlamydiose, la gonorrhée, la syphilis et la trichomonase", "Les poux", "D’autres MST tel que l’infection par le VIH"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! C'est la chlamydiose, la gonorrhée, la syphilis et la trichomonase",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! C'est la chlamydiose, la gonorrhée, la syphilis et la trichomonase"
                             },
                             {
                             "type" : "QCM",
@@ -108,8 +97,7 @@
                             "answers": ["1 jours", "2 semaines", "6 semaines", "3 mois"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux !"
                             },
                             {
                             "type" : "VF",
@@ -117,8 +105,7 @@
                             "answers": ["Vrai", "Faux"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse ! Un simple contact cutané avec des lésions peut suffire à transmettre certaines IST !",
-                            "justificationFalse":"C’est faux, un simple contact cutané avec des lésions peut suffire à transmettre certaines IST !",
-                            "fact" : ""	
+                            "justificationFalse":"C’est faux, un simple contact cutané avec des lésions peut suffire à transmettre certaines IST !"
                             },
                             {
                             "type" : "QCM",
@@ -126,8 +113,7 @@
                             "answers": ["12 millions", "25 millions", "38 millions", "44 millions"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! 38 millions de personnes vivaient avec le VIH dans le monde en 2019 !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! 38 millions de personnes vivaient avec le VIH dans le monde en 2019 !"	
                             },
                             {
                             "type" : "QCM",
@@ -135,8 +121,7 @@
                             "answers": ["- de 5 ans", "+ de 5 ans", "+ de 10 ans", "+ de 20 ans"],
                             "correctAnswer": 3,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans !"	
                             },
                             {
                             "type" : "QCM",
@@ -144,8 +129,7 @@
                             "answers": ["le préservatif masculin", "Le préservatif féminin", "La pilule contraceptive", "Digue dentaire (carré latex)"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux !"	
                             },
                             {
                             "type" : "VF",
@@ -153,8 +137,7 @@
                             "answers": ["Vrai", "Faux"],
                             "correctAnswer": 0,
                             "justificationTrue":"Bonne réponse ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.",
-                            "justificationFalse":"Faux ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.!",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.!"
                             },
                             {
                             "type" : "QCM",
@@ -162,8 +145,7 @@
                             "answers": ["2%", "6%", "8%", "18%"],
                             "correctAnswer": 1,
                             "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
-                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
-                            "fact" : ""		
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
                             },
                             {
                             "type" : "color",
@@ -171,15 +153,18 @@
                             "answers": ["green", "orange", "red"],
                             "correctAnswer": 2,
                             "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
-                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !",
-                            "fact" : ""	
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
                             }
                         ],
                         
                     "creator" : "Maison inter",
                     "title" : "Quizz IST - MST",
                     "date" : "2 mars 2021",
-                    "route" : "quizzMaisonInter" 
+                    "route" : "quizzMaisonInter",
+                    "facts" : [
+                        "Fact1", "Fact2", "Fact3","Fact4"
+                    ],
+                    "image" : ""
                 },
                 {
                     "quizz" : [
@@ -205,7 +190,11 @@
                     "creator" : "",
                     "title" : "",
                     "date" : "2",
-                    "route" : "quizz2"
+                    "route" : "quizz2",
+                    "facts" : [
+                        "Fact1", "Fact2", "Fact3","Fact4"
+                    ],
+                    "image" : ""
                 }
 
     ]
