@@ -3,25 +3,25 @@
     import * as about from './About.json'
 </script>
 <style>
-    h1,h2,p{
+    h2,p{
         text-align: left;
         margin-left: 15px;
         margin-right: 15px;
     }
     h1{
-        padding: 10px 0 10px;
+        padding: 10px 0 20px;
         text-decoration: underline;
+        text-align: center;
+
     }
     h2{
         padding: 10px 0 10px;
-        text-decoration: underline dotted;
+        text-decoration: underline;
+        font-style: italic;
     }   
     .about{
         /* Verticial align */
 		margin: 50px auto auto auto; 
-		
-		
-		/*background-color: whitesmoke;*/
 		background-color: #D3EAEB;
 		padding : 20px 45px ;
 		width : 90%;
