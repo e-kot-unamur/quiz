@@ -4,7 +4,7 @@
 Execute this from server folder :
 ```bash
 pip install requirements.txt #install depedencies
-$env:FLASK_APP = "run.py" #execute this from quizz folder
+$env:FLASK_APP = "run.py"
 flask run
 ```
 execute this in an other terminal from client folder:
