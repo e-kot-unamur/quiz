@@ -67,12 +67,24 @@
         top : 20px;
         left : 90%;
     }
+
+    .logoHome {
+        width: 50px;
+        position: fixed;
+        top : 20px;
+        left: 20px;
+    }
     
     @media (max-width : 850px) {
         .logoEkot {
         width : 15%;
         top : 10px;
         left : 81%;
+        }
+
+        .logoHome {
+            top : 15px;
+            left: 10px;
         }
     }
 
@@ -83,6 +95,8 @@
 
     <!-- Zone du Quizz -->
     <div class="quizzArea">
+        <a href="/"><img src="/logo/close.svg" alt="Logo E-kot" class="logoHome" /></a>
+
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
             <circle cx="50" cy="50" r="50"/>
         </svg>

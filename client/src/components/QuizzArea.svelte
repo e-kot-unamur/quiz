@@ -103,7 +103,7 @@
 
 <style>
 	.presentationArea {
-		margin: 20px auto;
+		margin: 100px auto 50px auto;
 		background-color: #D3EAEB;
 		padding : 30px 20px;
 		width : 90%;
@@ -183,6 +183,7 @@
 	@media (min-width: 850px) { 
 		.presentationArea {
 			width: 70%;
+			margin-top: 50px;
 		}
 		.quizzArea {
 			width : 50%;

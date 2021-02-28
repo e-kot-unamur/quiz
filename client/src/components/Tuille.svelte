@@ -73,7 +73,7 @@
 
    
     <!-- Proposé par -->
-    <div class="proposeBy">
+    <div class="proposeBy"> by &#129;
         <slot name="proposeBy">
             <span>Proposé par "undefined"</span>
         </slot>
