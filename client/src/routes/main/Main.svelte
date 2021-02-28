@@ -1,6 +1,8 @@
 <script>
+    
     import Navbar from "../../quizz/Navbar.svelte";
     import Tuille from "../../quizz/Tuille.svelte";
+    import * as mainQuizz from "../../quizz/mainQuizz.json";
 </script>
 
 <style>
@@ -9,18 +11,22 @@
 
 <Navbar />
 
+{#each mainQuizz.allQuizz as quizz }
+    <h1>Test</h1>
+
+
+{/each}
+
 <Tuille src="images/STD.png">
     <span slot="title">
-        Quizz IST
+        {mainQuizz.allQuizz[0].title}
     </span>
 
     <span slot="proposeBy">
-        Prorposé par AKàP & Maison inter
+        {mainQuizz.allQuizz[0].creator}
     </span>
 </Tuille>
 
-<Tuille />
 
-<Tuille />
 
 

@@ -1,5 +1,7 @@
 <script>
     import QuizzArea from "./QuizzArea.svelte";
+
+    export let index;
 </script>
 
 <svelte:head>

@@ -29,6 +29,7 @@ import * as mainQuizz from "./quizz/mainQuizz.json";
 <main>
 	<Router {url}>
 		<div>
+			
 			<Route path="/" component={Main} />
 			<Route path="IST-MST/help" component={Help} />
 			<Route path="IST-MST" component={ISTQuizz} />
