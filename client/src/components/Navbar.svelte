@@ -16,30 +16,27 @@
   }
 
   .logoInfo {
-    position: absolute;
-    left: 92%;
     width: 30px;
+  }
+
+  .aInfo {
+    position: absolute;
+    right: 60px;
   }
 
   .logoContact {
-    position: absolute;
-    left: 95%;
     width: 30px;
   }
 
-  @media (max-width : 780px) {
-    .logoInfo {
-      left : 80%;
-    }
-
-    .logoContact {
-      left: 90%;
-    }
+  .aContact {
+    position: absolute;
+    right: 20px;
   }
+
 </style>
 
 <nav>
-  <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
-  <img src="/info.svg" alt="En savoir plus" class="logoInfo"/>
-  <img src="/contact.svg" alt="Nous contacter" class="logoContact"/>
+  <a href="/"><img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/></a>
+  <a href="about" class="aInfo"><img src="/info.svg" alt="En savoir plus" class="logoInfo"/></a>
+  <a href="https://www.facebook.com/ekotnamur/" class="aContact" target="_blanck"><img src="/contact.svg" alt="Nous contacter" class="logoContact"/></a>
 </nav>

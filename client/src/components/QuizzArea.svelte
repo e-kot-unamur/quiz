@@ -165,7 +165,9 @@
 			<button on:click={() => {startQuizz()}} >Next</button>
 		</div>
 	{:else if quizzResult} 
-		<Results points = {points} wrongAnswers = {wrongAnswers}/>
+		<div class="quizzArea container-fluid rounded-1 shadow-lg ">
+			<Results points = {points} wrongAnswers = {wrongAnswers}/>
+		</div>
 	{:else}
 		<!-- Justification -->
 		<div class="justification">
