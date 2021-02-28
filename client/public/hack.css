@@ -1,0 +1,7 @@
+html, body {
+    overflow: auto;
+}
+
+main {
+    min-height: 100vh;
+}

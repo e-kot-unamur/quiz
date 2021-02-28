@@ -44,38 +44,39 @@ class Quiz(db.Model):
 # Path for our main Svelte page
 @app.route("/")
 @app.route("/about")
-@app.route("/IST-MST/help")
-@app.route("/IST-MST")
+@app.route("/quizz2")
+@app.route("/quizzMaisonInter")
 def base():      
     return send_from_directory('client/public', 'index.html')
 
 @app.route("/Results", methods=["POST", "GET"])
 def main():
     if request.method == "POST":
-        address = request.form["address"]
-        if not(adresseChecker(address)):
-            flash('Veuillez entrer un bon format d\'adresse email', 'info') #TODO
-            return send_from_directory('client/public', 'index.html')
-        point = 0
-        quizname = "test2"
-        timequizz = 1.2
-        result = Results.query.filter_by(addressMail=address).first()
-        if result is None:
-            result = Results(addressMail=address)
-            quiz = Quiz(point=point, quizName="jsp", timeQuizz=timequizz, address=result)
-            db.session.add(result)
-            db.session.add(quiz)
-        else:
-            quizzez = result.quizz  #Get all quizzez of the addresse mail
-            for quiz in quizzez:
-                if quiz.quizName == quizname:
-                    quizUser = Quiz.query.filter_by(id=quiz.id).first() #Get the quiz table for a quizz for a user
-                    quizUser.point=1
-                    quizUser.timeQuizz=11
-                    db.session.commit()
-                    return send_from_directory('client/public', 'index.html')
-            quiz = Quiz(point=2, quizName=quizname, timeQuizz=8, address=result)
-        db.session.commit()
+        if request.is_json:
+            address=request.json.get('address', None)
+            point=request.json.get('point', None)
+            quizname=request.json.get('quizname', None)
+            timequizz=request.json.get('timequizz', None)
+            if not(adresseChecker(address)):
+                flash('Veuillez entrer un bon format d\'adresse email', 'info') #TODO
+                return send_from_directory('client/public', 'index.html')
+            result = Results.query.filter_by(addressMail=address).first()
+            if result is None:
+                result = Results(addressMail=address)
+                quiz = Quiz(point=point, quizName=quizname, timeQuizz=timequizz, address=result)
+                db.session.add(result)
+                db.session.add(quiz)
+            else:
+                quizzez = result.quizz  #Get all quizzez of the addresse mail
+                for quiz in quizzez:
+                    if quiz.quizName == quizname:
+                        quizUser = Quiz.query.filter_by(id=quiz.id).first() #Get the quiz table for a quizz for a user
+                        quizUser.point=point
+                        quizUser.timeQuizz=timequizz
+                        db.session.commit()
+                        return send_from_directory('client/public', 'index.html')
+                quiz = Quiz(point=point, quizName=quizname, timeQuizz=timequizz, address=result)
+            db.session.commit()
     return send_from_directory('client/public', 'index.html')
 
 # Path for all the static files (compiled JS/CSS, etc.)

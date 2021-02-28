@@ -2,6 +2,7 @@ def adresseChecker(address):
     #Check first if the first char is digit or alphabetic
     #Check the last is alphabetic
     #Check if there is a @ follow by a "."
+    print(address)
     arobase = False
     if not(address[0].isdigit() or address[0].isalpha()):
         return False
@@ -9,10 +10,9 @@ def adresseChecker(address):
         return False
     iteration = 1
     while iteration < len(address)-1:
-        if not arobase or address[iteration:iteration+2] == "@":
+        if (not arobase and address[iteration] == "@"):
             arobase = True
-        elif (address[iteration:iteration+2] == "."):
+        elif (arobase and address[iteration] == "."):
             return True
-        else:
-            iteration+=1
+        iteration+=1
     return False

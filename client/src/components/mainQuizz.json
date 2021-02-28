@@ -1,0 +1,228 @@
+{
+    "allQuizz" : [
+        {
+            "quizz" : 
+                    [
+                        {
+                            "type" : "QCM",
+                            "question": "En 2018, les USA ont atteint un triste record de personnes qui ont contracté une MST. Combien de personnes en ont attrapé ?",
+                            "answers": ["1 million", "2 millions", "4 millions", "8 millions"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! 2 millions de personnes on contracté une MST aux USA en 2018 !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Les personnes les plus affectées par la Syphilis sont :",
+                            "answers": ["Les femmes de 25 à 40 ans", "Les femmes de 20 à 30 ans", "Les hommes de 25 à 40 ans", "Les hommes de 20 à 30 ans"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! Les personnes les plus affectées par la Syphilis sont les hommes de 25 à 40 ans !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "En 1 an, ..... personnes dans le monde contractent une MST tels que la chlamydia, gonorrhée ou syphilis.",
+                            "answers": ["268 millions", "357 millions", "374 millions", "412 millions"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! La réponse est 357 millions !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Quelle est l’IST la plus fréquente en Belgique ?",
+                            "answers": ["La chlamydia ", "La gonorrhée", "La syphilis", "La trichomonase"],
+                            "correctAnswer": 0,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! L'IST la plus fréquente en Belgique la chlamydia !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Par jour, dans le monde, combien de personnes contractent une IST ?",
+                            "answers": ["Plus de 800 000", "Plus d’1 million ", "Plus de 1.5 million", "Plus de 2 millions"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! Plus d'1 million de personnes contractent une IST par jour dans le monde !"		
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Quelle région du monde est celle la plus touchée par le nombre de cas de VIH (virus de l'immunodéficience humaine) ?",
+                            "answers": ["L’afrique subsaharienne", "L’europe centrale", "L’amérique latine ", "L’Asie centrale"],
+                            "correctAnswer": 0,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! La région la plus touchée par le VIH est l'afrique subsaharienne !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Quelle est l’IST la plus fréquente en Inde ?",
+                            "answers": ["Le granulome inguinal", "Le chancre mou", "L’herpès génital", "La gonorrhée"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! L’IST la plus fréquente en Inde est l'herpès génital !"
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Combien de personnes sont touchées par une MST en moyenne dans le monde ?",
+                            "answers": ["1 personne sur 10", "1 personne sur 25", "1 personne sur 50", "1 personne sur 200"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! 1 personne sur 25 est touché par une MST dans le monde !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Avec les années, le nombre de personnes infectées par une MST...",
+                            "answers": ["Augmente ", "Diminue", "Reste stable", "Se rapproche de 0"],
+                            "correctAnswer": 0,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! Le nombre de personnes infectées par une MST augmente !"
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Quel pays a distribué des préservatifs pour combattre le virus Zika (une MST aussi) ?",
+                            "answers": ["La Chine", "Le pérou", "Les Etats-Unis", "L’Inde"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! C'est le Pérou !"
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Quelles sont les quatre infections les plus répandues chez les personnes de 15 à 49 ?",
+                            "answers": ["Le VIH, la mycose, la syphilis et la chlamydia", "La chlamydiose, la gonorrhée, la syphilis et la trichomonase", "Les poux", "D’autres MST tel que l’infection par le VIH"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! C'est la chlamydiose, la gonorrhée, la syphilis et la trichomonase"
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Combien de temps dois-je attendre pour faire un dépistage du VIH par prise de sang après une prise de risque ?",
+                            "answers": ["1 jours", "2 semaines", "6 semaines", "3 mois"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux !"
+                            },
+                            {
+                            "type" : "VF",
+                            "question": "Les IST se transmettent uniquement lors des pénétrations non protégées",
+                            "answers": ["Vrai", "Faux"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse ! Un simple contact cutané avec des lésions peut suffire à transmettre certaines IST !",
+                            "justificationFalse":"C’est faux, un simple contact cutané avec des lésions peut suffire à transmettre certaines IST !"
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "En 2019, combien de personnes vivaient avec le VIH dans le monde ?",
+                            "answers": ["12 millions", "25 millions", "38 millions", "44 millions"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! 38 millions de personnes vivaient avec le VIH dans le monde en 2019 !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Quelle est l’espérance de vie d’une personne atteinte du sida dans le monde ?",
+                            "answers": ["- de 5 ans", "+ de 5 ans", "+ de 10 ans", "+ de 20 ans"],
+                            "correctAnswer": 3,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux ! L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans !"	
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "Laquelle de ces propositions ne protège PAS des MST?",
+                            "answers": ["le préservatif masculin", "Le préservatif féminin", "La pilule contraceptive", "Digue dentaire (carré latex)"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse !",
+                            "justificationFalse":"Faux !"	
+                            },
+                            {
+                            "type" : "VF",
+                            "question": "Lors d’un match d’improvisation un jouteur peut être exclu du match.",
+                            "answers": ["Vrai", "Faux"],
+                            "correctAnswer": 0,
+                            "justificationTrue":"Bonne réponse ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.",
+                            "justificationFalse":"Faux ! Lors d’un match d'improvisation, il arrive qu’un jouteur puisse se faire sortir de scène dans le cas où il a accumulé deux fautes personnelles.!"
+                            },
+                            {
+                            "type" : "QCM",
+                            "question": "La part du numérique des émissions de gaz à effet de serre est de ",
+                            "answers": ["2%", "6%", "8%", "18%"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
+                            },
+                            {
+                            "type" : "color",
+                            "question": "Exemple de question 4 ?",
+                            "answers": ["green", "orange", "red"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
+                            }
+                        ],
+                        
+                    "creator" : "Maison inter",
+                    "title" : "Quizz IST - MST",
+                    "date" : "2 mars 2021",
+                    "route" : "quizzMaisonInter",
+                    "facts" : [
+                        "Fact1", "Fact2", "Fact3","Fact4"
+                    ],
+                    "image" : ""
+                },
+                {
+                    "quizz" : [
+                        {
+                            "type" : "QCM",
+                            "question": "La part du numérique des émissions de gaz à effet de serre est de ",
+                            "answers": ["2%", "6%", "8%", "18%"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"		
+                            },
+                            {
+                            "type" : "color",
+                            "question": "Exemple de question 4 ?",
+                            "answers": ["green", "orange", "red"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
+                            }
+                    ],
+                    "creator" : "",
+                    "title" : "",
+                    "date" : "2",
+                    "route" : "quizz2",
+                    "facts" : [
+                        "Fact1", "Fact2", "Fact3","Fact4"
+                    ],
+                    "image" : ""
+                },
+                {
+                    "quizz" : [
+                        {
+                            "type" : "QCM",
+                            "question": "La part du numérique des émissions de gaz à effet de serre est de ",
+                            "answers": ["2%", "6%", "8%", "18%"],
+                            "correctAnswer": 1,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"	
+                            },
+                            {
+                            "type" : "color",
+                            "question": "Exemple de question 4 ?",
+                            "answers": ["green", "orange", "red"],
+                            "correctAnswer": 2,
+                            "justificationTrue":"Bonne réponse ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet. ",
+                            "justificationFalse":"Faux ! Le numérique produit 6% des émissions de gaz à effet de serre et 4% de la consommation électrique mondiale. Ces chiffres concernent la production d’appareils, leur utilisation et l’utilisation d’internet.  !"
+                            }
+                    ],
+                    "creator" : "",
+                    "title" : "",
+                    "date" : "2",
+                    "route" : "quizz2",
+                    "facts" : [
+                        "Fact1", "Fact2", "Fact3","Fact4"
+                    ],
+                    "image" : ""
+                }
+
+    ]
+}
+    

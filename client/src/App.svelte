@@ -1,13 +1,12 @@
 <script>
 import {Router, Route,Link} from "svelte-routing";
-import Navbar from "./quizz/Navbar.svelte";
+import Navbar from "./components/Navbar.svelte";
 import Main from "./routes/main/Main.svelte";
 import About from "./routes/about/About.svelte";
-import Help from "./routes/help/Help.svelte";
-import ISTQuizz from "./quizz/IST.svelte";
-import Results from "./quizz/Results.svelte"
-const contact = "https://www.messenger.com/t/ekotnamur";
+import ISTQuizz from "./routes/quizz/GlobalQuizz.svelte";
+import Results from "./components/Results.svelte"
 export let url = "";
+import * as mainQuizz from "./components/mainQuizz.json";
 </script>
 
 
@@ -20,8 +19,8 @@ export let url = "";
 
 <style>
     main {
-        height: 100vh;
         background-color: #609d9f;
+		padding-bottom: 70px;
     }
 </style>
 
@@ -29,12 +28,12 @@ export let url = "";
 	<Router {url}>
 		<div>
 			<Route path="/" component={Main} />
-			<Route path="IST-MST/help" component={Help} />
-			<Route path="IST-MST" component={ISTQuizz} />
 			<Route path="about" component={About} />
 			<Route path="Results" component={Results} />
+
+			{#each mainQuizz.allQuizz as quizz,i}
+				<Route path="{quizz.route}"><ISTQuizz index={i} /></Route>
+			{/each}			
 		</div>
 	</Router>
-	
-
 </main>
