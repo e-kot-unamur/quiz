@@ -70,7 +70,6 @@
 			selected = false;			
 			quizzIndex += 1;
 			// timer
-			
 			time = timerInSeconds;
 			timer = setInterval(updateTimer,1000);
 			if(quizzIndex === quizz.length ) endQuizz = true;
