@@ -5,7 +5,7 @@
 
 <style>  
     .quizzArea {
-        min-height: 60vh;
+        min-height: 100vh;
     }
     body {
         background-color: #609d9f;
