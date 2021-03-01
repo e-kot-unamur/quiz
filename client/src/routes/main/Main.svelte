@@ -16,7 +16,7 @@
 <Navbar />
 
 {#each mainQuizz.allQuizz as quizz}
-    <Tuille src="images/STD.png" route="{quizz.route}">
+    <Tuille src="{quizz.image}" route="{quizz.route}">
         <span slot="title">
             {quizz.title}
         </span>
