@@ -5,7 +5,7 @@
 	import AnswerColor from './AnswerClolor.svelte';
 	import Results from './Results.svelte';
 	import Help from './Help.svelte';
-	import * as mainQuizz from "./mainQuizz.json";
+	import * as mainQuizz from "./../../json/mainQuizz.json";
 	
 	export let index;
 

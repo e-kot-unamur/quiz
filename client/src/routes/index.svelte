@@ -1,7 +1,7 @@
 <script>
-    import Navbar from "../components/Navbar.svelte";
-    import Tuille from "../components/Tuille.svelte";
-    import * as mainQuizz from "../../components/mainQuizz.json";
+    import Navbar from "../components/appComponent/Navbar.svelte";
+    import Tuille from "../components/appComponent/Tuille.svelte";
+    import * as mainQuizz from "./../json/mainQuizz.json";
 </script>
 
 <svelte:head>

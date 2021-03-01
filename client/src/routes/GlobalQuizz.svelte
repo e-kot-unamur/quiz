@@ -1,5 +1,5 @@
 <script>
-    import QuizzArea from "../components/QuizzArea.svelte";
+    import QuizzArea from "../components/quizzComponents/QuizzArea.svelte";
     export let index;
 </script>
 

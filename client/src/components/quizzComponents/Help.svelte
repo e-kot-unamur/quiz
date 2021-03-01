@@ -1,5 +1,5 @@
 <script>
-    import * as help from "./Help.json"
+    import * as help from "./../../json/Help.json"
 </script>
 
 <style>

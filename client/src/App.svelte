@@ -4,7 +4,7 @@
 	import About from "./routes/About.svelte";
 	import QlobalQuizz from "./routes/GlobalQuizz.svelte";
 	export let url = "";
-	import * as mainQuizz from "./components/mainQuizz.json";
+	import * as mainQuizz from "./json/mainQuizz.json";
 </script>
 
 <svelte:head>

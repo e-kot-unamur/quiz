@@ -1,6 +1,6 @@
 <script>
-    import Navbar from '../components/Navbar.svelte';
-    import * as about from './About.json'
+    import Navbar from '../components/appComponent/Navbar.svelte';
+    import * as about from '../json/About.json'
 </script>
 
 <style>
