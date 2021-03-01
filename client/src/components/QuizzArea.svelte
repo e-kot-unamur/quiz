@@ -71,6 +71,7 @@
 			quizzIndex += 1;
 			// timer
 			time = timerInSeconds;
+			clearInterval(timer);
 			timer = setInterval(updateTimer,1000);
 			if(quizzIndex === quizz.length ) endQuizz = true;
 		}
@@ -85,11 +86,13 @@
 			time--;
 
 		if(selected){
+			//setTimeout(() => clearInterval(timer), 500)
 			clearInterval(timer);
 			totalTime += timerInSeconds - time;
 		}
 		
 		if(!selected && time == 0) {
+			//setTimeout(() => clearInterval(timer), 500)
 			clearInterval(timer);
 			selected = true;
 			goodAnswer = false;
