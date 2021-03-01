@@ -4,6 +4,9 @@
 </script>
 
 <style>  
+    .quizzArea {
+        min-height: 60vh;
+    }
     body {
         background-color: #609d9f;
         border : 1px solid #609d9f;
