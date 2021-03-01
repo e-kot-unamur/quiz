@@ -54,29 +54,27 @@
     
 </style>
 
-
 <div class="tuille" >
     <a href="{route}">
-     <!-- Titre -->
-     <div class="">
-        <h1 class="nomDuQuizz">
-            <slot name="title">
-                <span>Oups... Erreur titre</span>
+        <!-- Titre -->
+        <div class="">
+            <h1 class="nomDuQuizz">
+                <slot name="title">
+                    <span>Oups... Erreur titre</span>
+                </slot>
+            </h1>
+        </div>
+
+        <!-- Image -->
+        <div class="">
+            <img {src} alt="Illustration quizz" class="image"/>
+        </div>
+    
+        <!-- Proposé par -->
+        <div class="proposeBy"> by &#129;
+            <slot name="proposeBy">
+                <span>Proposé par "undefined"</span>
             </slot>
-        </h1>
-    </div>
-
-    <!-- Image -->
-    <div class="">
-        <img {src} alt="Illustration quizz" class="image"/>
-    </div>
-
-   
-    <!-- Proposé par -->
-    <div class="proposeBy"> by &#129;
-        <slot name="proposeBy">
-            <span>Proposé par "undefined"</span>
-        </slot>
-    </div>
+        </div>
     </a>
 </div>

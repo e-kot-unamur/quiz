@@ -2,7 +2,6 @@ def adresseChecker(address):
     #Check first if the first char is digit or alphabetic
     #Check the last is alphabetic
     #Check if there is a @ follow by a "."
-    print(address)
     arobase = False
     if not(address[0].isdigit() or address[0].isalpha()):
         return False

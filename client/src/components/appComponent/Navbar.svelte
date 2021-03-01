@@ -1,5 +1,3 @@
-
-
 <style>
   nav {
     display: flex;
@@ -36,7 +34,7 @@
 </style>
 
 <nav>
-  <a href="/"><img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/></a>
-  <a href="about" class="aInfo"><img src="/info.svg" alt="En savoir plus" class="logoInfo"/></a>
-  <a href="https://www.facebook.com/ekotnamur/" class="aContact" target="_blanck"><img src="/contact.svg" alt="Nous contacter" class="logoContact"/></a>
+  <a href="/"><img src="/svg/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/></a>
+  <a href="about" class="aInfo"><img src="./svg/info.svg" alt="En savoir plus" class="logoInfo"/></a>
+  <a href="https://www.facebook.com/ekotnamur/" class="aContact" target="_blanck"><img src="./svg/contact.svg" alt="Nous contacter" class="logoContact"/></a>
 </nav>

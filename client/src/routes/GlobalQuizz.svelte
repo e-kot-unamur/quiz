@@ -1,26 +1,18 @@
 <script>
-    import QuizzArea from "../../components/QuizzArea.svelte";
-
+    import QuizzArea from "../components/quizzComponents/QuizzArea.svelte";
     export let index;
 </script>
 
-<svelte:head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/bqg3mtv.css">
-</svelte:head>
-
-<style>    
+<style>  
     .quizzArea {
         min-height: 100vh;
     }
-
     body {
         background-color: #609d9f;
         border : 1px solid #609d9f;
-        
     }
 
+    /* Cercle */
     .cercle {
         position: absolute;
         display: block;
@@ -40,6 +32,7 @@
         100% {fill:#67A9AB; left:6%; top:11%; height: 35%;}
     }
 
+    /* Rectangle */
     .rectangle {
         position: absolute;
         display: block;
@@ -59,6 +52,7 @@
         100% {fill:#64B5A1; left:70%; top:68%; height: 100%; transform: rotate(40deg)}
     }
 
+    /* Logos */ 
     .logoEkot {
         position: absolute;
         display: block;
@@ -75,9 +69,10 @@
         left: 20px;
     }
     
+    /* Mobile first */
     @media (max-width : 850px) {
         .logoEkot {
-        width : 15%;
+        width : 12%;
         top : 10px;
         left : 81%;
         }
@@ -87,15 +82,12 @@
             left: 10px;
         }
     }
-
 </style>
 
 <body>
-
-
     <!-- Zone du Quizz -->
     <div class="quizzArea">
-        <a href="/"><img src="/logo/close.svg" alt="Logo E-kot" class="logoHome" /></a>
+        <a href="/"><img src="/svg/close.svg" alt="Logo E-kot" class="logoHome" /></a>
 
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
             <circle cx="50" cy="50" r="50"/>
@@ -105,9 +97,8 @@
             <rect width="100%" height="100%" />
         </svg>
 
-        <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
+        <img src="/svg/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
 
         <QuizzArea index = {index}/>
     </div>
-
 </body>

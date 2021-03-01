@@ -162,9 +162,12 @@
                     "date" : "2 mars 2021",
                     "route" : "quizzMaisonInter",
                     "facts" : [
-                        "Fact1", "Fact2", "Fact3","Fact4"
+                        "2 millions de personnes on contracté une MST aux USA en 2018", 
+                        "L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans", 
+                        "Le nombre de personnes infectées par une MST augmente",
+                        "L'IST la plus fréquente en Belgique la chlamydia"
                     ],
-                    "image" : ""
+                    "image" : "images/STD.png"
                 },
                 {
                     "quizz" : [
@@ -190,9 +193,12 @@
                     "date" : "2",
                     "route" : "quizz2",
                     "facts" : [
-                        "Fact1", "Fact2", "Fact3","Fact4"
+                        "2 millions de personnes on contracté une MST aux USA en 2018", 
+                        "L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans", 
+                        "Le nombre de personnes infectées par une MST augmente",
+                        "L'IST la plus fréquente en Belgique la chlamydia"
                     ],
-                    "image" : ""
+                    "image" : "images/STD.png"
                 },
                 {
                     "quizz" : [
@@ -220,7 +226,7 @@
                     "facts" : [
                         "Fact1", "Fact2", "Fact3","Fact4"
                     ],
-                    "image" : ""
+                    "image" : "images/STD.png"
                 }
 
     ]
