@@ -56,11 +56,3 @@
     <h2>{help.Coloredtitle}</h2>
     <p>{help.Coloredhelp}</p>
 </div>
-
-<!-- Type 4 : Timer  -->
-<hr />
-<div class="section">
-    <img src="/svg/timer.svg" alt="Logo E-kot" class="logo" width="50px"/>
-    <h2>{help.Timedtitle}</h2>
-    <p>{help.Timedhelp}</p>
-</div>

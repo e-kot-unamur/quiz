@@ -231,9 +231,9 @@
 					<Answer answerText = {quizz[quizzIndex].answers[2]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#86CAF4' {selected} />
 					<Answer answerText = {quizz[quizzIndex].answers[3]} checkAnswerHandler = {checkAnswerHandler} bgColor = '#9E824F' {selected}/>
 				{:else if quizz[quizzIndex].type == "color" && !endQuizz}
-					<AnswerColor color = "green" checkAnswerHandler = {checkAnswerHandler} {selected}/>
-					<AnswerColor color = "orange" checkAnswerHandler = {checkAnswerHandler} {selected}/>
-					<AnswerColor color = "red" checkAnswerHandler = {checkAnswerHandler} {selected}/>
+					<AnswerColor label = "Risque nul" color = "green" checkAnswerHandler = {checkAnswerHandler} {selected}/>
+					<AnswerColor label = "Risque limité" color = "orange" checkAnswerHandler = {checkAnswerHandler} {selected}/>
+					<AnswerColor label = "Risque élevé" color = "red" checkAnswerHandler = {checkAnswerHandler} {selected}/>
 				{/if}
 			</div>
 
