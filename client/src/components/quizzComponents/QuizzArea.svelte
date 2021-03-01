@@ -1,17 +1,17 @@
 <script>
-    
 	import Question from './Question.svelte';
     import Answer from './Answer.svelte';
     import Justification from './Justification.svelte';
 	import AnswerColor from './AnswerClolor.svelte';
 	import Results from './Results.svelte';
 	import Help from './Help.svelte';
-	
 	import * as mainQuizz from "./mainQuizz.json";
 	
 	export let index;
 
 	const timerInSeconds = 10;
+	const quizz = mainQuizz.allQuizz[index].quizz; 
+
     let quizzIndex = 0;
 	let endQuizz = false;
 	let selected = false;
@@ -21,8 +21,7 @@
 	let totalTime = 0;
 	let time = timerInSeconds;
 	
-	
-	// Test Baetslé Routing 
+	// Intern routing   
 	let quizzStart = false;
 	let quizzResult = false;
 
@@ -35,11 +34,8 @@
 		quizzResult = true;
 	}
 
-	// End test Baetsle 
-	
-	const quizz = mainQuizz.allQuizz[index].quizz; 
-	
-	
+	// End intern routing 
+		
 	function checkAnswerHandler(answerText){
 		
 		let currentQuestion = quizz[quizzIndex];
@@ -78,7 +74,6 @@
 	}
 
 	// Timer
-	//let timer = setInterval(updateTimer,1000);
 	let timer;
 	function updateTimer(){
 
@@ -101,7 +96,6 @@
 			
 		};		
 	}
-
 </script>
 
 <style>
@@ -139,7 +133,6 @@
 		margin: 50vh auto 0 auto; 
 		transform: translateY(-50%);
 		
-		/*background-color: whitesmoke;*/
 		background-color: #D3EAEB;
 		padding : 30px 45px;
 		width : 90%;
@@ -199,8 +192,6 @@
 		}
 	}
 </style>
-
-
 	<!-- Introduction au Quizz -->
 	{#if !quizzStart}
 		<div class="presentationArea container-fluid rounded-1 shadow-lg">
@@ -209,16 +200,19 @@
 				<button on:click={() => {startQuizz()}} class="btnPresentationArea" >Commencer !</button>
 			</div>
 		</div>
+	<!-- Résultat -->
 	{:else if quizzResult} 
 		<div class="presentationArea container-fluid rounded-1 shadow-lg ">
 			<Results score = {points} totalScore = {quizz.length} totalTime = {totalTime}  facts = {mainQuizz.allQuizz[index].facts} />
 		</div>
+	<!-- Questionnaire -->
 	{:else}
 		<!-- Justification -->
 		<div class="justification">
 			<Justification justification = {justification} {goodAnswer}/>
 		</div>
 		
+		<!-- Main section -->
 		<div class="quizzArea container-fluid rounded-1 shadow-lg ">
 			<div class="timer">{time}s</div>
 			<!-- Question -->
@@ -267,6 +261,5 @@
 					</div>
 				</div>
 			{/if}
-			<!--<Results points= {points}/>-->
 		</div>
 	{/if}

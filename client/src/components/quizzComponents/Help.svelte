@@ -1,9 +1,5 @@
 <script>
     import * as help from "./Help.json"
-
-function handleClick(){
-    location.href = "/IST-MST"
-}
 </script>
 
 <style>
@@ -33,10 +29,11 @@ function handleClick(){
     }
 </style>
 
+<!-- Titre et intro -->
 <h1>Quizz.e-kot : présentation du Quizz</h1>
-
 <p style="font-size:20px; text-align:center;">{help.globalhelp}</p>
 
+<!-- Type 1 : question carrées -->
 <hr />
 <div class="section">
     <img src="/svg/multipleChoice.svg" alt="Logo E-kot" class="logo" width="50px"/>
@@ -44,6 +41,7 @@ function handleClick(){
     <p>{help.MCQhelp}</p>
 </div>
 
+<!-- Type 2 : Vrai ou Faux -->
 <hr />
 <div class="section">
     <img src="/svg/trueOrFalse.svg" alt="Logo E-kot" class="logo" width="50px"/>
@@ -51,6 +49,7 @@ function handleClick(){
     <p>{help.ToFhelp}</p>
 </div>
 
+<!-- Type 3 : Question ° de justesse -->
 <hr />
 <div class="section">
     <img src="/svg/degre.svg" alt="Logo E-kot" class="logo" width="50px"/>
@@ -58,6 +57,7 @@ function handleClick(){
     <p>{help.Coloredhelp}</p>
 </div>
 
+<!-- Type 4 : Timer  -->
 <hr />
 <div class="section">
     <img src="/svg/timer.svg" alt="Logo E-kot" class="logo" width="50px"/>

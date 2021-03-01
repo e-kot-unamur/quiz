@@ -84,12 +84,9 @@
         width: 25px;
         margin-right: 5px;
     }
-
 </style>
 
-
 <div class="results">
-    
     <!-- L'email a été envoyé-->
     {#if emailSend} 
         <p class="confirmSendEmail">Votre participation a bien été enregistrée pour l'adresse email : {email}</p>
@@ -102,6 +99,7 @@
 
         <a href="/"><button class="btnFinish" ><img src="/svg/home.svg" alt="Logo Finish" class="logoFinish"/> Terminer</button></a>
 
+    <!-- Demande de l'adresse email -->
     {:else}
         <img src="/svg/finishLine.svg" alt="Logo ligne d'arrivé" class="logoFinishLine"/>
 
