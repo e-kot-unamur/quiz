@@ -1,29 +1,88 @@
-
 <script>
-   
-    
     export let score = 0;
     export let totalScore = 0;
     export let totalTime = 0;
     export let facts = [];
+
+    let emailSend = false;
     let email = "";
+
+    function emailClick() {
+        emailSend = true ;
+    }
 </script>
 
 <style>
-    h1{
-        text-align: center;
-        padding: 10px 0 10px 10px;
+    .results {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
     }
+
+    h1 {
+        text-align: center;
+        color : #8d6f9e;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        text-align: center;
+        color : #8d6f9e;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
     .input{
         text-align: center;
         padding : 2%;
     }
-    p{
+
+    p {
         text-align: center;
     }
 
-    .results{
-        padding: 30px;
+    .logoFinishLine {
+        margin-top: 10vh;
+        width: 150px;
+    }
+
+    .btnValidEmail {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .principal {
+        margin-top: 10px;
+        min-width: 85%;
+        padding: 20px 15px;
+        font-size: larger;
+        background-color: #64b49f;
+        color: blanchedalmond;
+    }
+
+    .confirmSendEmail {
+        font-style: italic;
+        color: black;
+    }
+
+    .btnFinish {
+		font-family: marine, sans-serif;
+        font-size: 1.1em;
+        font-weight: bold;
+        font-style: normal;
+		background-color: #8d6f9e;
+
+        margin: 15px auto;
+        border-radius: 0px;
+        padding: 15px 20px ;
+	}
+
+    .logoFinish {
+        fill : black;
+        width: 25px;
+        margin-right: 5px;
     }
 
 </style>
@@ -31,23 +90,26 @@
 
 <div class="results">
     
-    <h1>Vos résultats</h1>
-    <p>Vous avez marqué un score de  {score}/{totalScore} </p>
-    <p>Vous avez répondu en un total de {totalTime} secondes </p>
-    
-    <div class="input">
-        <p>Veuillez entrez votre adresse e-mail afin que nous puissions vous recontacter si vous gagnez le concours : </p>
-        <input type="text" value={email}/>
-        <span><button>Valider</button></span>
-    </div>
-        
-    <h1>Facts </h1>
-    <p>Voici quelques facts sur le thème de quizz qui pourraient vous intéressez !</p>
-    
-    {#each facts as fact}
-        <p>{fact}</p>
-    {/each}
-    
-    
+    <!-- L'email a été envoyé-->
+    {#if emailSend} 
+        <p class="confirmSendEmail">Votre participation a bien été enregistrée pour l'adresse email : {email}</p>
+        <p class="principal"> Vous avez marqué un score de {score}/{totalScore} en un temps total de {totalTime} secondes </p>
 
+        <h3>Voici quelques facts sur le thème du quizz :</h3>
+        {#each facts as fact}
+            <p class="fw-light">{fact}</p>
+        {/each}
+
+        <a href="/"><button class="btnFinish" ><img src="/logo/home.svg" alt="Logo ligne d'arrivé" class="logoFinish"/> Terminer</button></a>
+
+    {:else}
+        <img src="/result/finishLine.svg" alt="Logo ligne d'arrivé" class="logoFinishLine"/>
+
+        <div class="input">
+            <h1>Enregistrez votre participation</h1>
+            <p>Veuillez entrez votre adresse e-mail afin que nous puissions vous recontacter si vous gagnez le concours : </p>
+            <input type="text" value={email}/>
+            <span><button class="btnValidEmail" on:click={emailClick}>Valider ma participation</button></span>
+        </div>
+    {/if}
 </div>

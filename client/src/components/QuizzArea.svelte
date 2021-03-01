@@ -103,12 +103,12 @@
 
 <style>
 	.presentationArea {
-		margin: 100px auto 50px auto;
+		margin: 80px auto 50px auto;
 		background-color: #D3EAEB;
-		padding : 30px 20px;
+		padding : 30px 10px;
 		width : 90%;
 		position: relative;
-		max-height: 90vh;
+		max-height: 85vh;
 		overflow-y: auto;
 		scrollbar-width: thin;
 	}
@@ -182,6 +182,7 @@
 
 	@media (min-width: 850px) { 
 		.presentationArea {
+			padding : 30px 20px;
 			width: 70%;
 			margin-top: 50px;
 		}
@@ -206,7 +207,7 @@
 			</div>
 		</div>
 	{:else if quizzResult} 
-		<div class="quizzArea container-fluid rounded-1 shadow-lg ">
+		<div class="presentationArea container-fluid rounded-1 shadow-lg ">
 			<Results score = {points} totalScore = {quizz.length} totalTime = {totalTime}  facts = {mainQuizz.allQuizz[index].facts} />
 		</div>
 	{:else}

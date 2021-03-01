@@ -87,12 +87,9 @@
             left: 10px;
         }
     }
-
 </style>
 
 <body>
-
-
     <!-- Zone du Quizz -->
     <div class="quizzArea">
         <a href="/"><img src="/logo/close.svg" alt="Logo E-kot" class="logoHome" /></a>
@@ -109,5 +106,4 @@
 
         <QuizzArea index = {index}/>
     </div>
-
 </body>
