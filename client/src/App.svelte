@@ -1,8 +1,8 @@
 <script>
 	import {Router, Route,Link} from "svelte-routing";
-	import Main from "./routes/index/index.svelte";
-	import About from "./routes/about/About.svelte";
-	import QlobalQuizz from "./routes/quizz/GlobalQuizz.svelte";
+	import Main from "./routes/index.svelte";
+	import About from "./routes/About.svelte";
+	import QlobalQuizz from "./routes/GlobalQuizz.svelte";
 	export let url = "";
 	import * as mainQuizz from "./components/mainQuizz.json";
 </script>

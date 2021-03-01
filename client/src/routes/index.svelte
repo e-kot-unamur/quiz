@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "../../components/Navbar.svelte";
-    import Tuille from "../../components/Tuille.svelte";
+    import Navbar from "../components/Navbar.svelte";
+    import Tuille from "../components/Tuille.svelte";
     import * as mainQuizz from "../../components/mainQuizz.json";
 </script>
 
