@@ -39,28 +39,28 @@ function handleClick(){
 
 <hr />
 <div class="section">
-    <img src="/help/multipleChoice.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <img src="/svg/multipleChoice.svg" alt="Logo E-kot" class="logo" width="50px"/>
     <h2>{help.MCQtitle}</h2>
     <p>{help.MCQhelp}</p>
 </div>
 
 <hr />
 <div class="section">
-    <img src="/help/trueOrFalse.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <img src="/svg/trueOrFalse.svg" alt="Logo E-kot" class="logo" width="50px"/>
     <h2>{help.ToFtitle}</h2>
     <p>{help.ToFhelp}</p>
 </div>
 
 <hr />
 <div class="section">
-    <img src="/help/degre.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <img src="/svg/degre.svg" alt="Logo E-kot" class="logo" width="50px"/>
     <h2>{help.Coloredtitle}</h2>
     <p>{help.Coloredhelp}</p>
 </div>
 
 <hr />
 <div class="section">
-    <img src="/help/timer.svg" alt="Logo E-kot" class="logo" width="50px"/>
+    <img src="/svg/timer.svg" alt="Logo E-kot" class="logo" width="50px"/>
     <h2>{help.Timedtitle}</h2>
     <p>{help.Timedhelp}</p>
 </div>

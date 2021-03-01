@@ -92,7 +92,7 @@
 <body>
     <!-- Zone du Quizz -->
     <div class="quizzArea">
-        <a href="/"><img src="/logo/close.svg" alt="Logo E-kot" class="logoHome" /></a>
+        <a href="/"><img src="/svg/close.svg" alt="Logo E-kot" class="logoHome" /></a>
 
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="cercle">
             <circle cx="50" cy="50" r="50"/>
@@ -102,7 +102,7 @@
             <rect width="100%" height="100%" />
         </svg>
 
-        <img src="/logo/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
+        <img src="/svg/logo_blanc.svg" alt="Logo E-kot" class="logoEkot"/>
 
         <QuizzArea index = {index}/>
     </div>

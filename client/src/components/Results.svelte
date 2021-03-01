@@ -100,10 +100,10 @@
             <p class="fw-light">{fact}</p>
         {/each}
 
-        <a href="/"><button class="btnFinish" ><img src="/logo/home.svg" alt="Logo ligne d'arrivé" class="logoFinish"/> Terminer</button></a>
+        <a href="/"><button class="btnFinish" ><img src="/svg/home.svg" alt="Logo Finish" class="logoFinish"/> Terminer</button></a>
 
     {:else}
-        <img src="/result/finishLine.svg" alt="Logo ligne d'arrivé" class="logoFinishLine"/>
+        <img src="/svg/finishLine.svg" alt="Logo ligne d'arrivé" class="logoFinishLine"/>
 
         <div class="input">
             <h1>Enregistrez votre participation</h1>
