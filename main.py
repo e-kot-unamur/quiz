@@ -6,7 +6,7 @@ from datetime import time
 import random
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///results.sqlite3'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/results.sqlite3'
 app.secret_key = '_5#y2L"F4Q8z\n\xec]/'
 db = SQLAlchemy( app )
 
