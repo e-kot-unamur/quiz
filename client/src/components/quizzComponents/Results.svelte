@@ -3,7 +3,7 @@
     export let totalScore = 0;
     export let totalTime = 0;
     export let facts = [];
-
+    export let title = "";
     let emailSend = false;
     let email = "";
 
@@ -33,7 +33,7 @@
             body: JSON.stringify({
                 address: email,
                 point: score,
-                quizname: "test",
+                quizname: title,
                 timequizz: totalTime
             }),
         })

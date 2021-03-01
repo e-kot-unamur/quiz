@@ -173,7 +173,7 @@
 		margin: 0;
 		padding: 12px;
 		font-size: large;
-		background-color: aqua;
+		/*background-color: aqua;*/
 	}
 
 	@media (min-width: 850px) { 
@@ -203,7 +203,7 @@
 	<!-- Résultat -->
 	{:else if quizzResult} 
 		<div class="presentationArea container-fluid rounded-1 shadow-lg ">
-			<Results score = {points} totalScore = {quizz.length} totalTime = {totalTime}  facts = {mainQuizz.allQuizz[index].facts} />
+			<Results score = {points} totalScore = {quizz.length} totalTime = {totalTime}  facts = {mainQuizz.allQuizz[index].facts} title = {mainQuizz.allQuizz[index].title} />
 		</div>
 	<!-- Questionnaire -->
 	{:else}
