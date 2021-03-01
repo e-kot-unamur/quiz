@@ -57,7 +57,6 @@
 			justification += quizz[quizzIndex].justificationFalse;
 			
 		}
-		console.log(points)
 	}
 	
 	function navButton(){

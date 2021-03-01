@@ -27,14 +27,16 @@ class Quiz(db.Model):
 
     id = db.Column(db.Integer, nullable=False, primary_key=True, autoincrement=True)
     point = db.Column(db.Integer, unique=False, nullable=False)
+    total = db.Column(db.Integer, unique=False, nullable=False)
     quizName= db.Column(db.String(128), unique=False, nullable=False)
     timeQuizz= db.Column(db.Float)
     address_id = db.Column(db.Integer, db.ForeignKey('results.id'), nullable=False)
     address = db.relationship('Results', backref=db.backref('quizz', lazy=True))
 
-    def __init__(self, point, quizName, timeQuizz, address):
+    def __init__(self, point, total, quizName, timeQuizz, address):
         self.point = point
         self.quizName = quizName
+        self.total = total
         self.timeQuizz = timeQuizz
         self.address = address
 
@@ -55,6 +57,7 @@ def main():
         if request.is_json:
             address=request.json.get('address', None)
             point=request.json.get('point', None)
+            total=request.json.get('total', None)
             quizname=request.json.get('quizname', None)
             timequizz=request.json.get('timequizz', None)
             if not(adresseChecker(address)):
@@ -63,19 +66,19 @@ def main():
             result = Results.query.filter_by(addressMail=address).first()
             if result is None:
                 result = Results(addressMail=address)
-                quiz = Quiz(point=point, quizName=quizname, timeQuizz=timequizz, address=result)
+                quiz = Quiz(point=point, total=total, quizName=quizname, timeQuizz=timequizz, address=result)
                 db.session.add(result)
                 db.session.add(quiz)
             else:
                 quizzez = result.quizz  #Get all quizzez of the addresse mail
                 for quiz in quizzez:
-                    if quiz.quizName == quizname:
-                        quizUser = Quiz.query.filter_by(id=quiz.id).first() #Get the quiz table for a quizz for a user
+                    if quiz.quizName == quizname:   #check that the user already did the quiz
+                        """ quizUser = Quiz.query.filter_by(id=quiz.id).first() #Get the quiz table for a quizz for a user
                         quizUser.point=point
                         quizUser.timeQuizz=timequizz
-                        db.session.commit()
+                        db.session.commit() """
                         return send_from_directory('client/public', 'index.html')
-                quiz = Quiz(point=point, quizName=quizname, timeQuizz=timequizz, address=result)
+                quiz = Quiz(point=point, total=total, quizName=quizname, timeQuizz=timequizz, address=result)
             db.session.commit()
     return send_from_directory('client/public', 'index.html')
 

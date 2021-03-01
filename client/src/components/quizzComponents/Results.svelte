@@ -33,6 +33,7 @@
             body: JSON.stringify({
                 address: email,
                 point: score,
+                total: totalScore,
                 quizname: title,
                 timequizz: totalTime
             }),
