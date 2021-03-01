@@ -3,12 +3,42 @@
     export let totalScore = 0;
     export let totalTime = 0;
     export let facts = [];
-
+    export let title = "";
     let emailSend = false;
     let email = "";
 
-    function emailClick() {
-        emailSend = true ;
+    function ValidateEmail()
+        {
+            var email_format_fn = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            var include_email = email_format_fn.test(email);
+            if(include_email === true)
+            {
+                return true;
+            }
+            else
+            {
+                alert("Veuillez choisir un bon format d'adresse email.");
+                return false;
+            }
+        }
+
+    async function emailClick() {
+        if (ValidateEmail(email)){     
+            emailSend = true ;
+            const response = await fetch('/Results', {
+            method: 'POST',
+            headers: new Headers({
+                'Content-Type': 'application/json',
+            }),
+            body: JSON.stringify({
+                address: email,
+                point: score,
+                total: totalScore,
+                quizname: title,
+                timequizz: totalTime
+            }),
+        })
+        }
     }
 </script>
 
@@ -106,7 +136,7 @@
         <div class="input">
             <h1>Enregistrez votre participation</h1>
             <p>Veuillez entrez votre adresse e-mail afin que nous puissions vous recontacter si vous gagnez le concours : </p>
-            <input type="text" value={email}/>
+            <input type="text" bind:value={email}/>
             <span><button class="btnValidEmail" on:click={emailClick}>Valider ma participation</button></span>
         </div>
     {/if}
