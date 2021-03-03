@@ -1,4 +1,4 @@
-<h1 align="center">Diagramme interactif</h1>
+<h1 align="center">Quizz</h1>
 <p align="center">
     <a>
         <img src="https://img.shields.io/website?down_color=red&down_message=down&up_color=brightgreen&style=flat-square&up_message=online&url=https%3A%2F%2Fquizz.e-kot.be" />
