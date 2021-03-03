@@ -134,16 +134,8 @@
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "En 2019, combien de personnes vivaient avec le VIH dans le monde ?",
-                                "answers" : ["25 millions", "38 millions", "44 millions", "50 millions"],
-                                "correctAnswer" : 1,
-                                "justificationTrue" : "Bonne réponse ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde.",
-                                "justificationFalse" : "Faux ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde."
-                            },
-                            {
-                                "type" : "QCM",
                                 "question" : "Quelle est l'espérance de vie moyenne qu'une personne atteinte du sida gagne en se faisant traiter ? ",
-                                "answers" : ["25 millions", "38 millions", "44 millions", "50 millions"],
+                                "answers" : ["Moins de 5 ans", "Plus de 5 ans", "Plus de 10 ans", "Plus de 20 ans"],
                                 "correctAnswer" : 3,
                                 "justificationTrue" : "Bonne réponse ! A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée.",
                                 "justificationFalse" : "Faux ! A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée. "
