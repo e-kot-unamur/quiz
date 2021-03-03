@@ -25,7 +25,7 @@
                                 "answers": ["268 millions","374 millions","357 millions", "425 millions"],
                                 "correctAnswer": 2,
                                 "justificationTrue":"Bonne réponse ! 357 millions de personnes contractent une MST par an.",
-                                "justificationFalse":"Faux ! Les hommes de 25 à 40 ans sont les personnes les plus affectées par la syphilis dans le monde."	
+                                "justificationFalse":"Faux ! 357 millions de personnes contractent une MST par an"	
                             },
                             {
                                 "type" : "QCM",
