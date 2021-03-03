@@ -55,12 +55,12 @@ def base():
 def main():
     if request.method == "POST":
         if request.is_json:
-            address=request.json.get('address', None)
+            address=request.json.get('address', None).strip()
             point=request.json.get('point', None)
             total=request.json.get('total', None)
             quizname=request.json.get('quizname', None)
             timequizz=request.json.get('timequizz', None)
-            if not(adresseChecker(address.replace(" ", ""))):
+            if not(adresseChecker(address)):
                 flash('Veuillez entrer un bon format d\'adresse email', 'info') #TODO
                 return send_from_directory('client/public', 'index.html')
             result = Results.query.filter_by(addressMail=address).first()
