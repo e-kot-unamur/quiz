@@ -17,7 +17,6 @@
             }
             else
             {
-                console.log(include_email);
                 alert("Veuillez choisir un bon format d'adresse email.");
                 return false;
             }
