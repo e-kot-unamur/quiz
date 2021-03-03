@@ -4,41 +4,161 @@
             "quizz" : 
                     [
                         {
-                            "type" : "QCM",
-                            "question": "Exemple question QCM",
-                            "answers": ["réponse1", "réponse2", "réponse3", "réponse4"],
-                            "correctAnswer": 1,
-                            "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! La bonne réponse est la 1 car [explication] !"	
+                                "type" : "QCM",
+                                "question": "En 2018, les USA ont atteint un triste record de personnes qui ont contracté une MST. Combien de personnes en ont attrapées ?",
+                                "answers": ["1 million", "2 millions", "3 millions", "4 millions"],
+                                "correctAnswer": 1,
+                                "justificationTrue":"Bonne réponse ! En 2018, 2 millions de personnes sur 330 millions d’habitants ont attrapé une MST aux USA",
+                                "justificationFalse":"Faux ! En 2018, 2 millions de personnes sur 330 millions d’habitants ont attrapé une MST aux USA !"	
                             },
                             {
-                            "type" : "VF",
-                            "question": "Exemple question Vrai ou Faux",
-                            "answers": ["vrai","faux"],
-                            "correctAnswer": 2,
-                            "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! [Explication]"	
+                                "type" : "QCM",
+                                "question": "Les personnes les plus affectées par la Syphilis dans le monde sont .....",
+                                "answers": ["Les femmes de 25 à 40 ans","Les femmes de 20 à 30 ans","Les hommes de 25  à 40 ans", "Les hommes de 20 à 30 ans"],
+                                "correctAnswer": 2,
+                                "justificationTrue":"Bonne réponse ! Les hommes de 25 à 40 ans sont les personnes les plus affectées par la syphilis dans le monde.",
+                                "justificationFalse":"Faux ! Les hommes de 25 à 40 ans sont les personnes les plus affectées par la syphilis dans le monde."	
                             },
                             {
-                            "type" : "color",
-                            "question": "Rapport sans protection",
-                            "answers": ["Risque nul", "risque ", "risque élevé"],
-                            "correctAnswer": 1,
-                            "justificationTrue":"Bonne réponse !",
-                            "justificationFalse":"Faux ! [explication] !"	
+                                "type" : "QCM",
+                                "question": "En 1 an, ..... de personnes dans le monde contractent une MST telle que la chlamydia, la gonorrhée ou la syphilis.",
+                                "answers": ["268 millions","374 millions","357 millions", "425 millions"],
+                                "correctAnswer": 2,
+                                "justificationTrue":"Bonne réponse ! 357 millions de personnes contractent une MST par an.",
+                                "justificationFalse":"Faux ! Les hommes de 25 à 40 ans sont les personnes les plus affectées par la syphilis dans le monde."	
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle est la MST la plus fréquente en Belgique ?",
+                                "answers" : ["La chlamydia", "La gonorrhée", "La syphilis ", "Le sida" ],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! La chlamydia est la MST la plus fréquente en Belgique.",
+                                "justificationFalse" : "Faux ! La chlamydia est la MST la plus fréquente en Belgique."
+
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Par jour, dans le monde, combien de personnes contractent une MST ? ",
+                                "answers" : ["Plus de 800 000 personnes", "Plus d’1 million de personnes", "Plus de 1,5 million de personnes", "Plus de 2 millions de personnes"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! Plus d’un million de personnes contractent une MST par jour.",
+                                "justificationFalse" : "Faux ! Plus d’un million de personnes contractent une MST par jour."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle région du monde est celle la plus touchée par le nombre de cas de VIH (virus de l'immunodéficience humaine) ? ",
+                                "answers" : ["L’Afrique subsaharienne", "L'Europe centrale", "L'Amérique latine", "La Chine"],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! C’est en Afrique subsaharienne que le VIH touche le plus de personnes.",
+                                "justificationFalse" : "Faux !C’est en Afrique subsaharienne que le VIH touche le plus de personnes."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle est la MST la plus fréquente en Inde ?",
+                                "answers" : ["Le granulome inguinal", "Le chancre mou", "L'herpès génital", "Le sida"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! L’herpès génital est la MST la plus fréquente en Inde.",
+                                "justificationFalse" : "Faux ! L’herpès génital est la MST la plus fréquente en Inde. "
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Combien de personnes sont touchées par une MST en moyenne dans le monde ? ",
+                                "answers" : ["1 personne sur 50", "1 personne sur 200", "1 personne sur 25", "1 personne sur 1000"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! Environ 1 personne sur 25 est touché par une MST en moyenne dans le monde.",
+                                "justificationFalse" : "Faux ! Environ 1 personne sur 25 est touché par une MST en moyenne dans le monde. "
+                            },
+                            {
+                                "type" : "VF",
+                                "question" : "Avec les années, le nombre de personnes infectées par une MST diminue.",
+                                "answers" : ["Vrai", "Faux"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! Le nombre de personnes infectées continue d’augmenter.",
+                                "justificationFalse" : "Faux ! Le nombre de personnes infectées continue d’augmenter."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quel pays a distribué des préservatifs pour combattre le virus Zika (qui est aussi une MST) ? ",
+                                "answers" : ["La Chine", "Le Pérou", "Les USA", "Le Mexique"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! Dans une campagne contre le virus Zika (MST également), le Pérou a distribué des préservatifs à sa population.",
+                                "justificationFalse" : "Faux ! Dans une campagne contre le virus Zika (MST également), le Pérou a distribué des préservatifs à sa population."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Combien de personnes dans le monde touchent les MST à l’heure actuelle selon l’OMS ? ",
+                                "answers" : ["1 million de personnes par jour ", "1 milliard de personnes par jour", "2,5 million de personnes par jour", "10 million de personnes par jour"],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour.",
+                                "justificationFalse" : "Faux ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Combien de personnes dans le monde touchent les MST à l’heure actuelle selon l’OMS ? ",
+                                "answers" : ["1 million de personnes par jour ", "1 milliard de personnes par jour", "2,5 million de personnes par jour", "10 million de personnes par jour"],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour.",
+                                "justificationFalse" : "Faux ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour."
+                            },
+                            {
+                                "type" : "VF",
+                                "question" : "Les quatre MST les plus répandues chez les personnes de 15 à 49 ans sont la chlamydiose, gonorrhée, la syphilis et la trichomonas.",
+                                "answers" : ["Vrai", "Faux"],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! Ce sont ces quatres MST qui sont les plus répandues dans cette tranche d'âge.",
+                                "justificationFalse" : "Faux ! Ce sont ces quatres MST qui sont les plus répandues dans cette tranche d'âge."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Combien de temps dois-je attendre pour faire un dépistage du VIH par prise de sang après une prise de risque ? ",
+                                "answers" : ["1 jour", "2 semaines", "6 semaines", "3 mois"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! Il faut attendre environ 6 semaines pour faire un dépistage post-risque.",
+                                "justificationFalse" : "Faux ! Il faut attendre environ 6 semaines pour faire un dépistage post-risque."
+                            },
+                            {
+                                "type" : "VF",
+                                "question" : "Les MST se transmettent uniquement lors des pénétrations non protégées.",
+                                "answers" : ["Vrai", "Faux"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! Un simple contact cutané avec des lésions peut suffire à transmettre certaines MST.",
+                                "justificationFalse" : "Faux ! Un simple contact cutané avec des lésions peut suffire à transmettre certaines MST."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "En 2019, combien de personnes vivaient avec le VIH dans le monde ?",
+                                "answers" : ["25 millions", "38 millions", "44 millions", "50 millions"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde.",
+                                "justificationFalse" : "Faux ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "En 2019, combien de personnes vivaient avec le VIH dans le monde ?",
+                                "answers" : ["25 millions", "38 millions", "44 millions", "50 millions"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde.",
+                                "justificationFalse" : "Faux ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle est l'espérance de vie moyenne qu'une personne atteinte du sida gagne en se faisant traiter ? ",
+                                "answers" : ["25 millions", "38 millions", "44 millions", "50 millions"],
+                                "correctAnswer" : 3,
+                                "justificationTrue" : "Bonne réponse ! A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée.",
+                                "justificationFalse" : "Faux ! A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée. "
                             }
-                            
                         ],
                         
-                    "creator" : "E-kot",
-                    "title" : "Quizz test",
-                    "date" : "2 mars 2021",
+                    "creator" : "Maison Internationale",
+                    "title" : "Quizz MST",
+                    "date" : "4 mars 2021",
                     "route" : "quizzMaisonInter",
                     "facts" : [
-                        "test", 
-                        "test", 
-                        "test",
-                        "test"
+                        "357 millions de personnes contractent une MST par an.", 
+                        "A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée.", 
+                        "Le nombre de personnes infectées continue d’augmenter au fil des années.",
+                        "Environ 1 personne sur 25 est touché par une MST en moyenne dans le monde."
                     ],
                     "image" : "images/STD.png"
                 }
