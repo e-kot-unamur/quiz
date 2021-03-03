@@ -1,29 +1,47 @@
-# Quizz E-kot
-## Deadline 1 : Lundi 15 Fevrier
-* Front end disponible
-## Deadline 2 : Lundi 1er Mars
-* Interface admin
-  - Pouvoir créer des questionnaires
-  - Afficher des stats
+<h1 align="center">Diagramme interactif</h1>
+<p align="center">
+    <a>
+        <img src="https://img.shields.io/website?down_color=red&down_message=down&up_color=brightgreen&style=flat-square&up_message=online&url=https%3A%2F%2Fquizz.e-kot.be" />
+    </a>
+    <a>
+        <img src="https://img.shields.io/github/languages/code-size/e-kot-unamur/quizz.ekot?style=flat-square" />
+    </a>
+    <a>
+        <img src="https://img.shields.io/github/v/tag/e-kot-unamur/quizz.ekot?style=flat-square" />
+    </a>
+    <a>
+        <img src="https://img.shields.io/github/last-commit/e-kot-unamur/quizz.ekot?style=flat-square" />
+    </a>
+    <a>
+        <img src="https://img.shields.io/github/contributors/e-kot-unamur/quizz.ekot?style=flat-square" />
+    </a>
+</p>
 
-Doc
+### Démo
 
-npm i //Install basics dependance
+Vous pouvez accéder à la dernière version du projet depuis [quizz.e-kot.be](https://quizz.e-kot.be/).
 
-npm i svelte-routing	//install routing url
+### But 
 
-Pour lancer l'app
+Proposer une plateforme de quizz pour les collectifs de l'UNamur parce que la licence coutait trop cher à l'AGE.
+
+### Ajouter de nouveaux quizz
+
+**TODO : AJOUT DE QUESTIONNAIRE DEPUIS LE SITE**
+
+Rajouter une clé pour votre quizz dans le fichier *mainQuizz.json* (client/src/json)<br />Rajouter les routes dans *main.py* et dans App.svelte (client/src)<br />
+
+-------
+
+### Lancer l'appli en local :
 
 ```bash
-#Dans le dossier quizz
 py -m venv env #créé un environnement virtuel (pas obligatoire)
-env\scripts\activate #entre dans l'environnement
+env/scripts/activate #entre dans l'environnement
 pip install -r requirements.txt	#installe les dépendances
-#Dans client (cd client)
+cd ./client
 npm i #installe les dépendances
 npm run build #permet de build svelte pr le backend
-#revenir dans le dossier quizz
+cd ../
 py main.py #lance le serveur
-
-NB : peut être faire python à la place de py
 ```
