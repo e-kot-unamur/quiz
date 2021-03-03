@@ -10,13 +10,14 @@
     function ValidateEmail()
         {
             var email_format_fn = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            var include_email = email_format_fn.test(email);
+            var include_email = email_format_fn.test(email.trim());
             if(include_email === true)
             {
                 return true;
             }
             else
             {
+                console.log(include_email);
                 alert("Veuillez choisir un bon format d'adresse email.");
                 return false;
             }

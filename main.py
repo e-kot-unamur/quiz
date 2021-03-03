@@ -55,7 +55,8 @@ def base():
 def main():
     if request.method == "POST":
         if request.is_json:
-            address=request.json.get('address', None).strip()
+            address=request.json.get('address', None)
+            address = address.strip()
             point=request.json.get('point', None)
             total=request.json.get('total', None)
             quizname=request.json.get('quizname', None)
