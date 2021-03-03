@@ -86,15 +86,7 @@
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "Combien de personnes dans le monde touchent les MST à l’heure actuelle selon l’OMS ? ",
-                                "answers" : ["1 million de personnes par jour ", "1 milliard de personnes par jour", "2,5 million de personnes par jour", "10 million de personnes par jour"],
-                                "correctAnswer" : 0,
-                                "justificationTrue" : "Bonne réponse ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour.",
-                                "justificationFalse" : "Faux ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour."
-                            },
-                            {
-                                "type" : "QCM",
-                                "question" : "Combien de personnes dans le monde touchent les MST à l’heure actuelle selon l’OMS ? ",
+                                "question" : "Combien de personnes dans le monde sont touchée par une MST à l’heure actuelle selon l’OMS ? ",
                                 "answers" : ["1 million de personnes par jour ", "1 milliard de personnes par jour", "2,5 million de personnes par jour", "10 million de personnes par jour"],
                                 "correctAnswer" : 0,
                                 "justificationTrue" : "Bonne réponse ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour.",
