@@ -9,7 +9,7 @@
 	
 	export let index;
 
-	const timerInSeconds = 10;
+	const timerInSeconds = 20;
 	const quizz = mainQuizz.allQuizz[index].quizz; 
 
     let quizzIndex = 0;
