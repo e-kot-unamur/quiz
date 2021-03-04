@@ -45,3 +45,8 @@ npm run build #permet de build svelte pr le backend
 cd ../
 py main.py #lance le serveur
 ```
+
+-------
+
+### Remerciements
+Merci titi pour le template du readme. Je t'ai pas demandé, mais il est cool. Bisous
