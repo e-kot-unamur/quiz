@@ -5,146 +5,122 @@
                     [
                         {
                                 "type" : "QCM",
-                                "question": "En 2018, les USA ont atteint un triste record de personnes qui ont contracté une MST. Combien de personnes en ont attrapées ?",
-                                "answers": ["1 million", "2 millions", "3 millions", "4 millions"],
+                                "question": "Quelle suite associant une IST et le sexe l’ayant le plus fréquemment est correcte ?",
+                                "answers": ["Gonorrhée : homme / chlamydia : femme / syphilis : homme / herpès : femme", "Gonorrhée : homme / chlamydia : homme / syphilis : homme / herpès : femme", "Gonorrhée : femme / chlamydia : homme / syphilis : femme / herpès : homme", "Gonorrhée : femme / chlamydia : femme / syphilis : femme / herpès : homme"],
+                                "correctAnswer": 0,
+                                "justificationTrue":"Bonne réponse ! Les différences sont parfois énormes ! Voici les détails: Gonorrhée: 80% hommes; Chlamydia: 65% femmes; Syphilis: 95% hommes; Herpès: 71% femmes.",
+                                "justificationFalse":"Faux ! Les différences sont parfois énormes ! Voici les détails: Gonorrhée: 80% hommes; Chlamydia: 65% femmes; Syphilis: 95% hommes; Herpès: 71% femmes."	
+                            },
+                            {
+                                "type" : "QCM",
+                                "question": "Quelles maladies sont asymptomatiques dans 70 à 80% des cas chez les femmes ",
+                                "answers": ["La syphilis et le trichomonas","La chlamydia et la gonorrhée","La chlamydia et la syphilis", "Le trichomonas et la chlamydia"],
                                 "correctAnswer": 1,
-                                "justificationTrue":"Bonne réponse ! En 2018, 2 millions de personnes sur 330 millions d’habitants ont attrapé une MST aux USA",
-                                "justificationFalse":"Faux ! En 2018, 2 millions de personnes sur 330 millions d’habitants ont attrapé une MST aux USA !"	
+                                "justificationTrue":"Bonne réponse ! Trichomonas : 25-50% asymptomatiques les 6 premiers mois (tout sexe confondu); La syphilis peut être asymptomatiques au stade précoce (3-90 jours);La chlamydia est asymptomatique dans 76% des cas chez la femme; La gonorrhée est asymptomatique dans 75% des cas chez la femme.",
+                                "justificationFalse":"Faux ! Trichomonas : 25-50% asymptomatiques les 6 premiers mois (tout sexe confondu); La syphilis peut être asymptomatiques au stade précoce (3-90 jours);La chlamydia est asymptomatique dans 76% des cas chez la femme; La gonorrhée est asymptomatique dans 75% des cas chez la femme."	
                             },
                             {
                                 "type" : "QCM",
-                                "question": "Les personnes les plus affectées par la Syphilis dans le monde sont .....",
-                                "answers": ["Les femmes de 25 à 40 ans","Les femmes de 20 à 30 ans","Les hommes de 25  à 40 ans", "Les hommes de 20 à 30 ans"],
-                                "correctAnswer": 2,
-                                "justificationTrue":"Bonne réponse ! Les hommes de 25 à 40 ans sont les personnes les plus affectées par la syphilis dans le monde.",
-                                "justificationFalse":"Faux ! Les hommes de 25 à 40 ans sont les personnes les plus affectées par la syphilis dans le monde."	
+                                "question": "Lequel de ces facteurs est le plus souvent rapporté comme moyen de contracter une IST ?",
+                                "answers": ["Ne pas utiliser régulièrement de préservatifs","Pratiquer le sexe oral sans protection","Participation à des relations sexuelles en groupe", "Avoir eu au moins 2 partenaires sexuels au cours des 6 derniers mois"],
+                                "correctAnswer": 1,
+                                "justificationTrue":"Bonne réponse ! Le sexe oral sans protection comme cause est rapporté dans 82% des cas, contre 66% pour les personnes ayant eu au moins 2 partenaires au cours des 6 derniers mois, 58% pour la non utilisation régulière de préservatifs, et 30% pour le sexe en groupe.",
+                                "justificationFalse":"Faux ! Le sexe oral sans protection comme cause est rapporté dans 82% des cas, contre 66% pour les personnes ayant 2 partenaires ou moins au cours des 6 derniers mois, 58% pour la non utilisation régulière de préservatifs, et 30% pour le sexe en groupe."	
                             },
                             {
                                 "type" : "QCM",
-                                "question": "En 1 an, ..... de personnes dans le monde contractent une MST telle que la chlamydia, la gonorrhée ou la syphilis.",
-                                "answers": ["268 millions","374 millions","357 millions", "425 millions"],
-                                "correctAnswer": 2,
-                                "justificationTrue":"Bonne réponse ! 357 millions de personnes contractent une MST par an.",
-                                "justificationFalse":"Faux ! 357 millions de personnes contractent une MST par an"	
-                            },
-                            {
-                                "type" : "QCM",
-                                "question" : "Quelle est la MST la plus fréquente en Belgique ?",
-                                "answers" : ["La chlamydia", "La gonorrhée", "La syphilis ", "Le sida" ],
+                                "question" : "Qu’est ce qui compose un dépistage complet pour une femme ne pratiquant pas le sexe anal ?",
+                                "answers" : ["Prise de sang ; frottis buccal ; frottis vaginal ; frottis du col de l’utérus", "Prise d’urine ; prise de sang ; frottis vaginal", "Prise de sang ; frottis vaginal", "Prise de sang ; prise d’urine ; frottis buccal ; frottis vaginal" ],
                                 "correctAnswer" : 0,
-                                "justificationTrue" : "Bonne réponse ! La chlamydia est la MST la plus fréquente en Belgique.",
-                                "justificationFalse" : "Faux ! La chlamydia est la MST la plus fréquente en Belgique."
+                                "justificationTrue" : "Bonne réponse ! La prise de sang détecte le VIH, la syphilis, et l'hépatite; le frottis buccal détecte la gonorrhée et la chlamydia dans la bouche; le frottis vaginal détecte la gonorrhée, la chlamydia et le trichomonas; le frottis du col de l’utérus détecte le HPV (cellules pré-cancéreuses).",
+                                "justificationFalse" : "Faux ! La prise de sang détecte le VIH, la syphilis, et l'hépatite; le frottis buccal détecte la gonorrhée et la chlamydia dans la bouche; le frottis vaginal détecte la gonorrhée, la chlamydia et le trichomonas; le frottis du col de l’utérus détecte le HPV (cellules pré-cancéreuses)."
 
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "Par jour, dans le monde, combien de personnes contractent une MST ? ",
-                                "answers" : ["Plus de 800 000 personnes", "Plus d’1 million de personnes", "Plus de 1,5 million de personnes", "Plus de 2 millions de personnes"],
+                                "question" : "Lequel de ces moyens n'offre pas de protection contre les ISTs ?",
+                                "answers" : ["le préservatif interne", "le stérilet", "la digue dentaire", "Vaccin"],
                                 "correctAnswer" : 1,
-                                "justificationTrue" : "Bonne réponse ! Plus d’un million de personnes contractent une MST par jour.",
-                                "justificationFalse" : "Faux ! Plus d’un million de personnes contractent une MST par jour."
+                                "justificationTrue" : "Bonne réponse ! Attention à ne pas confondre les protections contre les ISTs et les moyens de contraception (afin de ne pas tomber enceinte). Le stérilet est un moyen de contraception.",
+                                "justificationFalse" : "Faux ! Attention à ne pas confondre les protections contre les IST et les moyens de contraception (afin de ne pas tomber enceinte). Le stérilet est un moyen de contraception."
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "Quelle région du monde est celle la plus touchée par le nombre de cas de VIH (virus de l'immunodéficience humaine) ? ",
-                                "answers" : ["L’Afrique subsaharienne", "L'Europe centrale", "L'Amérique latine", "La Chine"],
-                                "correctAnswer" : 0,
-                                "justificationTrue" : "Bonne réponse ! C’est en Afrique subsaharienne que le VIH touche le plus de personnes.",
-                                "justificationFalse" : "Faux !C’est en Afrique subsaharienne que le VIH touche le plus de personnes."
-                            },
-                            {
-                                "type" : "QCM",
-                                "question" : "Quelle est la MST la plus fréquente en Inde ?",
-                                "answers" : ["Le granulome inguinal", "Le chancre mou", "L'herpès génital", "Le sida"],
-                                "correctAnswer" : 2,
-                                "justificationTrue" : "Bonne réponse ! L’herpès génital est la MST la plus fréquente en Inde.",
-                                "justificationFalse" : "Faux ! L’herpès génital est la MST la plus fréquente en Inde. "
-                            },
-                            {
-                                "type" : "QCM",
-                                "question" : "Combien de personnes sont touchées par une MST en moyenne dans le monde ? ",
-                                "answers" : ["1 personne sur 50", "1 personne sur 200", "1 personne sur 25", "1 personne sur 1000"],
-                                "correctAnswer" : 2,
-                                "justificationTrue" : "Bonne réponse ! Environ 1 personne sur 25 est touché par une MST en moyenne dans le monde.",
-                                "justificationFalse" : "Faux ! Environ 1 personne sur 25 est touché par une MST en moyenne dans le monde. "
+                                "question" : "Quel est le temps minimal qu'il faut attendre entre un rapport à risque et un dépistage complet ?",
+                                "answers" : ["2 semaines", "6 semaines", "3 mois", "6 mois"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! La période d'incubation avant que la plupart des IST ne soient détectée par un dépistage est de 6 semaines.",
+                                "justificationFalse" : "Faux ! La période d'incubation avant que la plupart des IST ne soient détectée par un dépistage est de 6 semaines."
                             },
                             {
                                 "type" : "VF",
-                                "question" : "Avec les années, le nombre de personnes infectées par une MST diminue.",
-                                "answers" : ["Vrai", "Faux"],
+                                "question" : "Est-ce que toutes les Chlamydias transmettent une IST ?",
+                                "answers" : ["Oui", "Non"],
                                 "correctAnswer" : 1,
-                                "justificationTrue" : "Bonne réponse ! Le nombre de personnes infectées continue d’augmenter.",
-                                "justificationFalse" : "Faux ! Le nombre de personnes infectées continue d’augmenter."
+                                "justificationTrue" : "Bonne réponse ! La chlamydia -la maladie que l'on connait tous- est transmise par un seul genre de Chlamydia (espèce de bactéries), la Chlamydia trachomatis. Il existe d’autres Chlamydias, comme la Chlamydia pneumoniae, qui ne causent pas d’IST mais peuvent être responsables d’autres maladies.",
+                                "justificationFalse" : "Faux ! La chlamydia -la maladie que l'on connait tous- est transmise par un seul genre de Chlamydia (espèce de bactéries), la Chlamydia trachomatis. Il existe d’autres Chlamydias, comme la Chlamydia pneumoniae, qui ne causent pas d’IST mais peuvent être responsables d’autres maladies."
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "Quel pays a distribué des préservatifs pour combattre le virus Zika (qui est aussi une MST) ? ",
-                                "answers" : ["La Chine", "Le Pérou", "Les USA", "Le Mexique"],
-                                "correctAnswer" : 1,
-                                "justificationTrue" : "Bonne réponse ! Dans une campagne contre le virus Zika (MST également), le Pérou a distribué des préservatifs à sa population.",
-                                "justificationFalse" : "Faux ! Dans une campagne contre le virus Zika (MST également), le Pérou a distribué des préservatifs à sa population."
-                            },
-                            {
-                                "type" : "QCM",
-                                "question" : "Combien de personnes dans le monde sont touchée par une MST à l’heure actuelle selon l’OMS ? ",
-                                "answers" : ["1 million de personnes par jour ", "1 milliard de personnes par jour", "2,5 million de personnes par jour", "10 million de personnes par jour"],
-                                "correctAnswer" : 0,
-                                "justificationTrue" : "Bonne réponse ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour.",
-                                "justificationFalse" : "Faux ! Selon l’OMS, 1 million de personnes sont touchées par les MST chaque jour."
-                            },
-                            {
-                                "type" : "VF",
-                                "question" : "Les quatre MST les plus répandues chez les personnes de 15 à 49 ans sont la chlamydiose, gonorrhée, la syphilis et la trichomonas.",
-                                "answers" : ["Vrai", "Faux"],
-                                "correctAnswer" : 0,
-                                "justificationTrue" : "Bonne réponse ! Ce sont ces quatres MST qui sont les plus répandues dans cette tranche d'âge.",
-                                "justificationFalse" : "Faux ! Ce sont ces quatres MST qui sont les plus répandues dans cette tranche d'âge."
-                            },
-                            {
-                                "type" : "QCM",
-                                "question" : "Combien de temps dois-je attendre pour faire un dépistage du VIH par prise de sang après une prise de risque ? ",
-                                "answers" : ["1 jour", "2 semaines", "6 semaines", "3 mois"],
+                                "question" : "Quelle suite associant des IST à la sexualité la plus touchée (chez les hommes) est correcte ?",
+                                "answers" : ["Chlamydia : hétéros / gonorrhée : homos / hépatite C : hétéros / herpès : hétéros", "Chlamydia : hétéros / gonorrhée : hétéros / hépatite C : hétéros / herpès : hétéros", "Chlamydia : hétéros / gonorrhée : homos / hépatite C : homos / herpès : hétéros", "Chlamydia : hétéros / gonorrhée : homos / hépatite C : homos / herpès : homos "],
                                 "correctAnswer" : 2,
-                                "justificationTrue" : "Bonne réponse ! Il faut attendre environ 6 semaines pour faire un dépistage post-risque.",
-                                "justificationFalse" : "Faux ! Il faut attendre environ 6 semaines pour faire un dépistage post-risque."
-                            },
-                            {
-                                "type" : "VF",
-                                "question" : "Les MST se transmettent uniquement lors des pénétrations non protégées.",
-                                "answers" : ["Vrai", "Faux"],
-                                "correctAnswer" : 1,
-                                "justificationTrue" : "Bonne réponse ! Un simple contact cutané avec des lésions peut suffire à transmettre certaines MST.",
-                                "justificationFalse" : "Faux ! Un simple contact cutané avec des lésions peut suffire à transmettre certaines MST."
+                                "justificationTrue" : "Bonne réponse !",
+                                "justificationFalse" : "Faux !"
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "En 2019, combien de personnes vivaient avec le VIH dans le monde ?",
-                                "answers" : ["25 millions", "38 millions", "44 millions", "50 millions"],
+                                "question" : "De laquelle de ces IST ne peut-on pas guérir ?",
+                                "answers" : ["Syphilis", "Herpès", "Papillomavirus", "Trichomonas"],
                                 "correctAnswer" : 1,
-                                "justificationTrue" : "Bonne réponse ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde.",
-                                "justificationFalse" : "Faux ! En 2019, 38 millions de personnes vivaient avec le VIH dans le monde."
+                                "justificationTrue" : "Bonne réponse ! La syphilis et le trichomonas se traitent très bien. Le papillomavirus se guérira plus ou moins facilement en fonction de la souche mais guérira généralement spontanément grâce au système immunitaire. Par contre, l’herpès génital et buccal sont inccurable.",
+                                "justificationFalse" : "Faux ! La syphilis et le trichomonas se traitent très bien. Le papillomavirus se guérira plus ou moins facilement en fonction de la souche mais guérira généralement spontanément grâce au système immunitaire. Par contre, l’herpès génital et buccal sont inccurable."
                             },
                             {
                                 "type" : "QCM",
-                                "question" : "Quelle est l'espérance de vie moyenne qu'une personne atteinte du sida gagne en se faisant traiter ? ",
-                                "answers" : ["Moins de 5 ans", "Plus de 5 ans", "Plus de 10 ans", "Plus de 20 ans"],
-                                "correctAnswer" : 3,
-                                "justificationTrue" : "Bonne réponse ! A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée.",
-                                "justificationFalse" : "Faux ! A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée. "
+                                "question" : "Que signifie l'acronyme LGV qui est une complication des chlamydias ?",
+                                "answers" : ["Le lymphogranulome vénérien", "La ligne à grande vitesse", "Le lombarogastrique vénérien", "La lymphogonorrhée vaginale"],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! Le LGV est une hypertrophie douloureuse des ganglions lymphatiques dans la zone inguinale/fémorale. En gros, des ganglions gonflent dans le pli entre votre cuisse et votre ventre.",
+                                "justificationFalse" : "Faux ! Le LGV est une hypertrophie douloureuse des ganglions lymphatiques dans la zone inguinale/fémorale. En gros, des ganglions gonflent dans le pli entre votre cuisse et votre ventre."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle maladie peut entraîner des condylomes (communément appelées verrues) au niveau génital et anal ?",
+                                "answers" : ["La syphilis", "La gonorrhée", "Le papillomavirus", "La chlamydia"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! Les verrues plantaires sont également causées par des papillomavirus.",
+                                "justificationFalse" : "Faux ! Les verrues plantaires sont également causées par des papillomavirus."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Lequel de ces traitements n’est pas utilisé pour traiter le VIH ?",
+                                "answers" : ["Traitement post-exposition", "La trithérapie", "Les antibiotiques ", "La PreP"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! La PreP est un traitement pré-exposition. La trithérapie est le traitement de base, composé de 3 antirétroviraux différents. Le traitement post-exposition peut être pris jusqu’à 72h post-exposition. Finalement, le VIH, n’étant pas une bactérie, n’est aucunement affecté par la prise d’antibiotiques.",
+                                "justificationFalse" : "Faux ! La PreP est un traitement pré-exposition. La trithérapie est le traitement de base, composé de 3 antirétroviraux différents. Le traitement post-exposition peut être pris jusqu’à 72h post-exposition. Finalement, le VIH, n’étant pas une bactérie, n’est aucunement affecté par la prise d’antibiotiques."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Laquelle de ces ISTs est causée par une bactérie ?",
+                                "answers" : ["Le VIH", "L’herpès", "La gonorrhée", "Le trichomonas"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! Le VIH et l’herpès sont causés par des virus ; le trichomonas est un parasite.",
+                                "justificationFalse" : "Faux ! Le VIH et l’herpès sont causés par des virus ; le trichomonas est un parasite."
                             }
                         ],
                         
-                    "creator" : "Maison Internationale",
-                    "title" : "Quizz MST",
-                    "date" : "4 mars 2021",
-                    "route" : "quizzMaisonInter",
+                    "creator" : "KapForScience",
+                    "title" : "Quizz IST-MST KFS",
+                    "date" : "11 mars 2021",
+                    "route" : "quizzISTKFS",
                     "facts" : [
-                        "357 millions de personnes contractent une MST par an.", 
-                        "A travers le monde, une personne atteinte du sida a une espérance de vie de plus de 20 ans si la personne est traitée.", 
-                        "Le nombre de personnes infectées continue d’augmenter au fil des années.",
-                        "Environ 1 personne sur 25 est touché par une MST en moyenne dans le monde."
+                        "Attention à ne pas confondre les protections contre les IST et les moyens de contraception (afin de ne pas tomber enceinte). Le stérilet est un moyen de contraception.", 
+                        "La PreP est un traitement pré-exposition. La trithérapie est le traitement de base, composé de 3 antirétroviraux différents. Le traitement post-exposition peut être pris jusqu’à 72h post-exposition. Finalement, le VIH, n’étant pas une bactérie, n’est aucunement affecté par la prise d’antibiotiques.", 
+                        "La syphilis et le trichomonas se traitent très bien. Le papillomavirus se guérira plus ou moins facilement en fonction de la souche mais guérira généralement spontanément grâce au système immunitaire. Par contre, l’herpès génital et buccal reste à vie.",
+                        "La période d'incubation avant que la plupart des IST ne soient détectée par un dépistage est de 6 semaines."
                     ],
-                    "image" : "images/STD.png"
+                    "image" : "images/stdKFS.jpg"
                 }
     ]
 }
