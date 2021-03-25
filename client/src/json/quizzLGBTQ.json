@@ -1,0 +1,126 @@
+{
+    "allQuizz" : [
+        {
+            "quizz" : 
+                    [
+                        {
+                                "type" : "QCM",
+                                "question": "Quelle suite associant une IST et le sexe l’ayant le plus fréquemment est correcte ?",
+                                "answers": ["Gonorrhée : homme / chlamydia : femme / syphilis : homme / herpès : femme", "Gonorrhée : homme / chlamydia : homme / syphilis : homme / herpès : femme", "Gonorrhée : femme / chlamydia : homme / syphilis : femme / herpès : homme", "Gonorrhée : femme / chlamydia : femme / syphilis : femme / herpès : homme"],
+                                "correctAnswer": 0,
+                                "justificationTrue":"Bonne réponse ! Les différences sont parfois énormes ! Voici les détails: Gonorrhée: 80% hommes; Chlamydia: 65% femmes; Syphilis: 95% hommes; Herpès: 71% femmes.",
+                                "justificationFalse":"Faux ! La bonne réponse était: Gonorrhée : homme / chlamydia : femme / syphilis : homme / herpès : femme. Les différences sont parfois énormes ! Voici les détails: Gonorrhée: 80% hommes; Chlamydia: 65% femmes; Syphilis: 95% hommes; Herpès: 71% femmes."	
+                            },
+                            {
+                                "type" : "QCM",
+                                "question": "Quelles maladies sont asymptomatiques dans 70 à 80% des cas chez les femmes ",
+                                "answers": ["La syphilis et le trichomonas","La chlamydia et la gonorrhée","La chlamydia et la syphilis", "Le trichomonas et la chlamydia"],
+                                "correctAnswer": 1,
+                                "justificationTrue":"Bonne réponse ! Trichomonas : 25-50% asymptomatiques les 6 premiers mois (tout sexe confondu); La syphilis peut être asymptomatiques au stade précoce (3-90 jours);La chlamydia est asymptomatique dans 76% des cas chez la femme; La gonorrhée est asymptomatique dans 75% des cas chez la femme.",
+                                "justificationFalse":"Faux ! La bonne réponse était: La chlamydia et la gonorrhée. Trichomonas : 25-50% asymptomatiques les 6 premiers mois (tout sexe confondu); La syphilis peut être asymptomatiques au stade précoce (3-90 jours);La chlamydia est asymptomatique dans 76% des cas chez la femme; La gonorrhée est asymptomatique dans 75% des cas chez la femme."	
+                            },
+                            {
+                                "type" : "QCM",
+                                "question": "Lequel de ces facteurs est le plus souvent rapporté comme moyen de contracter une IST ?",
+                                "answers": ["Ne pas utiliser régulièrement de préservatifs","Pratiquer le sexe oral sans protection","Participation à des relations sexuelles en groupe", "Avoir eu au moins 2 partenaires sexuels au cours des 6 derniers mois"],
+                                "correctAnswer": 1,
+                                "justificationTrue":"Bonne réponse ! Le sexe oral sans protection comme cause est rapporté dans 82% des cas, contre 66% pour les personnes ayant eu au moins 2 partenaires au cours des 6 derniers mois, 58% pour la non utilisation régulière de préservatifs, et 30% pour le sexe en groupe.",
+                                "justificationFalse":"Faux ! La bonne réponse était: Pratiquer le sexe oral sans protection. Le sexe oral sans protection comme cause est rapporté dans 82% des cas, contre 66% pour les personnes ayant 2 partenaires ou moins au cours des 6 derniers mois, 58% pour la non utilisation régulière de préservatifs, et 30% pour le sexe en groupe."	
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Qu’est ce qui compose un dépistage complet pour une femme ne pratiquant pas le sexe anal ?",
+                                "answers" : ["Prise de sang ; frottis buccal ; frottis vaginal ; frottis du col de l’utérus", "Prise d’urine ; prise de sang ; frottis vaginal", "Prise de sang ; frottis vaginal", "Prise de sang ; prise d’urine ; frottis buccal ; frottis vaginal" ],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! La prise de sang détecte le VIH, la syphilis, et l'hépatite; le frottis buccal détecte la gonorrhée et la chlamydia dans la bouche; le frottis vaginal détecte la gonorrhée, la chlamydia et le trichomonas; le frottis du col de l’utérus détecte le HPV (cellules pré-cancéreuses).",
+                                "justificationFalse" : "Faux ! La bonne réponse était: Prise de sang ; frottis buccal ; frottis vaginal ; frottis du col de l’utérus. La prise de sang détecte le VIH, la syphilis, et l'hépatite; le frottis buccal détecte la gonorrhée et la chlamydia dans la bouche; le frottis vaginal détecte la gonorrhée, la chlamydia et le trichomonas; le frottis du col de l’utérus détecte le HPV (cellules pré-cancéreuses)."
+
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Lequel de ces moyens n'offre pas de protection contre les ISTs ?",
+                                "answers" : ["le préservatif interne", "le stérilet", "la digue dentaire", "Le vaccin"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! Attention à ne pas confondre les protections contre les ISTs et les moyens de contraception (afin de ne pas tomber enceinte). Le stérilet est un moyen de contraception.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: le stérilet. Attention à ne pas confondre les protections contre les IST et les moyens de contraception (afin de ne pas tomber enceinte). Le stérilet est un moyen de contraception."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quel est le temps minimal qu'il faut attendre entre un rapport à risque et un dépistage complet ?",
+                                "answers" : ["2 semaines", "6 semaines", "3 mois", "6 mois"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! La période d'incubation avant que la plupart des IST ne soient détectée par un dépistage est de 6 semaines.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: 6 semaines. La période d'incubation avant que la plupart des IST ne soient détectée par un dépistage est de 6 semaines."
+                            },
+                            {
+                                "type" : "VF",
+                                "question" : "Est-ce que toutes les Chlamydias transmettent une IST ?",
+                                "answers" : ["Oui", "Non"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! La chlamydia -la maladie que l'on connait tous- est transmise par un seul genre de Chlamydia (espèce de bactéries), la Chlamydia trachomatis. Il existe d’autres Chlamydias, comme la Chlamydia pneumoniae, qui ne causent pas d’IST mais peuvent être responsables d’autres maladies.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: Non. La chlamydia -la maladie que l'on connait tous- est transmise par un seul genre de Chlamydia (espèce de bactéries), la Chlamydia trachomatis. Il existe d’autres Chlamydias, comme la Chlamydia pneumoniae, qui ne causent pas d’IST mais peuvent être responsables d’autres maladies."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle suite associant des IST à la sexualité la plus touchée (chez les hommes) est correcte ?",
+                                "answers" : ["Chlamydia : hétéros / gonorrhée : homos / hépatite C : hétéros / herpès : hétéros", "Chlamydia : hétéros / gonorrhée : hétéros / hépatite C : hétéros / herpès : hétéros", "Chlamydia : hétéros / gonorrhée : homos / hépatite C : homos / herpès : hétéros", "Chlamydia : hétéros / gonorrhée : homos / hépatite C : homos / herpès : homos "],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse !",
+                                "justificationFalse" : "Faux ! La bonne réponse était: Chlamydia : hétéros / gonorrhée : homos / hépatite C : homos / herpès : hétéros."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "De laquelle de ces IST ne peut-on pas guérir ?",
+                                "answers" : ["La syphilis", "L'herpès", "Le papillomavirus", "Le trichomonas"],
+                                "correctAnswer" : 1,
+                                "justificationTrue" : "Bonne réponse ! La syphilis et le trichomonas se traitent très bien. Le papillomavirus se guérira plus ou moins facilement en fonction de la souche mais guérira généralement spontanément grâce au système immunitaire. Par contre, l’herpès génital et buccal sont inccurable.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: L'herpès. La syphilis et le trichomonas se traitent très bien. Le papillomavirus se guérira plus ou moins facilement en fonction de la souche mais guérira généralement spontanément grâce au système immunitaire. Par contre, l’herpès génital et buccal sont inccurable."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Que signifie l'acronyme LGV qui est une complication des chlamydias ?",
+                                "answers" : ["Le lymphogranulome vénérien", "La ligne à grande vitesse", "Le lombarogastrique vénérien", "La lymphogonorrhée vaginale"],
+                                "correctAnswer" : 0,
+                                "justificationTrue" : "Bonne réponse ! Le LGV est une hypertrophie douloureuse des ganglions lymphatiques dans la zone inguinale/fémorale. En gros, des ganglions gonflent dans le pli entre votre cuisse et votre ventre.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: Le lymphogranulome vénérien. Le LGV est une hypertrophie douloureuse des ganglions lymphatiques dans la zone inguinale/fémorale. En gros, des ganglions gonflent dans le pli entre votre cuisse et votre ventre."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Quelle maladie peut entraîner des condylomes (communément appelées verrues) au niveau génital et anal ?",
+                                "answers" : ["La syphilis", "La gonorrhée", "Le papillomavirus", "La chlamydia"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! Les verrues plantaires sont également causées par des papillomavirus.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: Le papillomavirus. Les verrues plantaires sont également causées par des papillomavirus."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Lequel de ces traitements n’est pas utilisé pour traiter le VIH ?",
+                                "answers" : ["Traitement post-exposition", "La trithérapie", "Les antibiotiques ", "La PreP"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! La PreP est un traitement pré-exposition. La trithérapie est le traitement de base, composé de 3 antirétroviraux différents. Le traitement post-exposition peut être pris jusqu’à 72h post-exposition. Finalement, le VIH, n’étant pas une bactérie, n’est aucunement affecté par la prise d’antibiotiques.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: Les antibiotiques. La PreP est un traitement pré-exposition. La trithérapie est le traitement de base, composé de 3 antirétroviraux différents. Le traitement post-exposition peut être pris jusqu’à 72h post-exposition. Finalement, le VIH, n’étant pas une bactérie, n’est aucunement affecté par la prise d’antibiotiques."
+                            },
+                            {
+                                "type" : "QCM",
+                                "question" : "Laquelle de ces ISTs est causée par une bactérie ?",
+                                "answers" : ["Le VIH", "L’herpès", "La gonorrhée", "Le trichomonas"],
+                                "correctAnswer" : 2,
+                                "justificationTrue" : "Bonne réponse ! Le VIH et l’herpès sont causés par des virus ; le trichomonas est un parasite.",
+                                "justificationFalse" : "Faux ! La bonne réponse était: La gonorrhée. Le VIH et l’herpès sont causés par des virus ; le trichomonas est un parasite."
+                            }
+                        ],
+                        
+                    "creator" : "KapForScience",
+                    "title" : "Quizz IST-MST KFS",
+                    "date" : "11 mars 2021",
+                    "route" : "quizzISTKFS",
+                    "facts" : [
+                        "Attention à ne pas confondre les protections contre les IST et les moyens de contraception (afin de ne pas tomber enceinte). Le stérilet est un moyen de contraception.", 
+                        "La PreP est un traitement pré-exposition. La trithérapie est le traitement de base, composé de 3 antirétroviraux différents. Le traitement post-exposition peut être pris jusqu’à 72h post-exposition. Finalement, le VIH, n’étant pas une bactérie, n’est aucunement affecté par la prise d’antibiotiques.", 
+                        "La syphilis et le trichomonas se traitent très bien. Le papillomavirus se guérira plus ou moins facilement en fonction de la souche mais guérira généralement spontanément grâce au système immunitaire. Par contre, l’herpès génital et buccal reste à vie.",
+                        "La période d'incubation avant que la plupart des IST ne soient détectée par un dépistage est de 6 semaines."
+                    ],
+                    "image" : "images/stdKFS.jpg"
+                }
+    ]
+}

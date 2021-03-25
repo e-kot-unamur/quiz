@@ -47,7 +47,7 @@ class Quiz(db.Model):
 @app.route("/")
 @app.route("/about")
 @app.route("/quizz2")
-@app.route("/quizzISTKFS")
+@app.route("/Quizz_LGBT")
 def base():      
     return send_from_directory('client/public', 'index.html')
 
