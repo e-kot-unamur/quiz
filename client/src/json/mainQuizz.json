@@ -1,175 +1,180 @@
 {
-    "quizz" : [
+    "allQuizz" : [
         {
-            "type" : "VF",
-            "question": "Pour fabriquer une digue dentaire (= un carré de latex pour les rapports bucco-génitaux comme le cunnilingus par exemple ou les rapports vulve contre vulve, les anulingus etc), on peut découper soi-même un préservatif en forme de carré ?",
-            "answers": ["Vrai, DIY plutôt utile car c’est cher les digues dentaires","Faux, à ce train-là, prend un sac lidl quoi"],
-            "correctAnswer": 0,
-            "justificationTrue":"Oui c’est possible, il suffit simplement d’ouvrir l’emballage du préservatif (pas avec les dents), de sortir délicatement le préservatif, puis de le couper avec des ciseaux (couper le réservoir puis ouvrir sur la longueur) par exemple. Attention, il faut faire en sorte que le contact peau à peau ne soit pas direct en maintenant le carré de latex entre les deux muqueuses.",
-            "justificationFalse":"Mauvaise réponse, il suffit simplement d’ouvrir l’emballage du préservatif (pas avec les dents), de sortir délicatement le préservatif, puis de le couper avec des ciseaux (couper le réservoir puis ouvrir sur la longueur) par exemple. Attention, il faut faire en sorte que le contact peau à peau ne soit pas direct en maintenant le carré de latex entre les deux muqueuses."
-            },
-            {
-                "type" : "QCM",
-                "question": "Entre deux personnes ayant une vulve il est impossible d'être contaminé à: ",
-                "answers": ["La Blennorragie gonococcique (gonorrhée) ou « chaude-pisse »","Les Chlamydiæ ou chlamydiose","L’Hépatite A (VHA)","L’Hépatite C (VHC)"],
-                "correctAnswer": 3, 
-                "justificationTrue":"Bonne réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare).",
-                "justificationFalse":"Mauvaise réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare)."
-            },
-            {
-                "type" : "VF",
-                "question": "Le VIH et le SIDA, c’est la même chose",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 1,
-                "justificationTrue":"Bien joué, le SIDA est différent du VIH. En effet, il s’agit du stade le plus évolué de la maladie du VIH. Ainsi une personne porteuse du VIH ne sera pas forcément atteinte du SIDA (Syndrome d'Immuno-Déficience Acquise).",
-                "justificationFalse":"Faux, le SIDA est différent du VIH. En effet, il s’agit du stade le plus évolué de la maladie du VIH. Ainsi une personne porteuse du VIH ne sera pas forcément atteinte du SIDA (Syndrome d'Immuno-Déficience Acquise)."
-            },
-            {
-                "type" : "VF",
-                "question": "Pour un HSH cis (HSH = homme ayant des rapports sexuels avec un homme ; cis = cisgenre = personne en accord avec le genre assigné à sa naissance, opposé de transgenre) il est utile d’être vacciné contre le papillomavirus.",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 0,
-                "justificationTrue":"Oui, car cela protège d’une grande partie des germes nocifs rencontrés à la suite d’une pénétration anale avec une verge et pouvant engendrer un cancer de ano-rectal.",
-                "justificationFalse":"Dommage, c'est vrai, car cela protège d’une grande partie des germes nocifs rencontrés à la suite d’une pénétration anale avec une verge et pouvant engendrer un cancer de ano-rectal."
-            },
-            {
-                "type" : "QCM",
-                "question": "Que signifie l'acronyme PrEP",
-                "answers": ["Petit roux En Puberté", "Prophylaxie pré-exposition", "Poulet rôti en péremption", "Pré-efficience par extension"],
-                "correctAnswer": 1,
-                "justificationTrue":"Bonne réponse ! Prophylaxie = éviter une infection. Pré-exposition = le traitement doit se prendre avant (et après) un éventuel contact avec le VIH. La PrEP s’adresse aux personnes qui n’ont pas le VIH mais qui sont à risque (pratiquant des pratiques à risque ou faisant partie d’un groupe à risque). Elle  consiste à prendre un médicament afin d’éviter de se faire contaminer, le corps est ainsi protégé du virus du VIH.",
-                "justificationFalse":"Mauvaise réponse ! Prophylaxie = éviter une infection. Pré-exposition = le traitement doit se prendre avant (et après) un éventuel contact avec le VIH. La PrEP s’adresse aux personnes qui n’ont pas le VIH mais qui sont à risque (pratiquant des pratiques à risque ou faisant partie d’un groupe à risque). Elle  consiste à prendre un médicament afin d’éviter de se faire contaminer, le corps est ainsi protégé du virus du VIH."	
-            },
-            {
-                "type" : "VF",
-                "question": "Si on n’a aucun préservatif à disposition et que l’on veut pénétrer avec ses doigts, un gant en latex peut faire l’affaire.",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 0,
-                "justificationTrue":"Oui un gant ça fait l’affaire ! Attention tout de même, vérifie qu’il ne soit pas troué et que ni toi ni ton.ta partenair.e n’êtes allergiques au latex ! Dans le commerce, on trouve des gants en latex ou en nitrile (moins allergisant que le latex).",
-                "justificationFalse":"Mauvaise réponse, un gant ça fait l’affaire ! Attention tout de même, vérifie qu’il ne soit pas troué et que ni toi ni ton.ta partenair.e n’êtes allergiques au latex ! Dans le commerce, on trouve des gants en latex ou en nitrile (moins allergisant que le latex)."
-            },
-            {
-                "type" : "QCM",
-                "question": "La Prep permet de se protéger contre toutes les ist et mst.",
-                "answers": ["Non, Juste le VIH", "Oui toutes !", "Non ça ne sert à rien !", "Oui, sauf le VIH"],
-                "correctAnswer": 0,
-                "justificationTrue":"Bien joué ! La PrEP est centrée sur la prophylaxie au VIH et ne protège donc que du VIH et d’aucune autre IST.",
-                "justificationFalse":"Dommage ! La PrEP est centrée sur la prophylaxie au VIH et ne protège donc que du VIH et d’aucune autre IST."	
-            },
-            {
-                "type" : "VF",
-                "question": "Qu'est-ce que le chemsex ?",
-                "answers": ["Le sexe uniquement avec des personnes qui sont chimistes ou étudiant.e.s en chimie !","L’addition des mots “chemical” et “sexe” une pratique généralement rencontrée dans le milieu HSH. Sa pratique consiste à prendre de la drogue de synthèse lors de rapports sexuels pour avoir accès à des sensations singulières."],
-                "correctAnswer": 1,
-                "justificationTrue":"Bonne réponse ! Il s’agit d’une pratique peu connue, qui consiste à prendre des drogues lors de rapports sexuels et qui peut cumuler l’exposition à des risques infectieux. Sous prise de drogue, la vigilance peut baisser : ainsi, le risque de mal se protéger lors de rapports voire d’oublier de se protéger augmente... De plus, en fonction de la manière dont on prend la drogue, par exemple en réutilisant un matériel (seringue, paille, …) déjà utilisé par quelqu’un d’autre, le risque de transmission de IST augmente drastiquement.",
-                "justificationFalse":"Mauvaise réponse ! Il s’agit d’une pratique peu connue, qui consiste à prendre des drogues lors de rapports sexuels et qui peut cumuler l’exposition à des risques infectieux. Sous prise de drogue, la vigilance peut baisser : ainsi, le risque de mal se protéger lors de rapports voire d’oublier de se protéger augmente... De plus, en fonction de la manière dont on prend la drogue, par exemple en réutilisant un matériel (seringue, paille, …) déjà utilisé par quelqu’un d’autre, le risque de transmission de IST augmente drastiquement."
-            },
-            {
-                "type" : "VF",
-                "question": "On ne dit plus MST mais bien IST.",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 0,
-                "justificationTrue":"Bien joué, le terme MST (maladie sexuellement transmissible) n’est plus utilisé car il signifie qu’il y a obligatoirement une présence de symptômes. Or, dans 70%* des cas, une personne atteinte d’une IST n’a aucun symptôme et peut donc la transmettre (d’où l’importance de se faire dépister). Le terme IST est donc utilisé pour éviter une minimisation lors de l’absence de symptômes.",
-                "justificationFalse":"Dommage, le terme MST (maladie sexuellement transmissible) n’est plus utilisé car il signifie qu’il y a obligatoirement une présence de symptômes. Or, dans 70%* des cas, une personne atteinte d’une IST n’a aucun symptôme et peut donc la transmettre (d’où l’importance de se faire dépister). Le terme IST est donc utilisé pour éviter une minimisation lors de l’absence de symptômes."
-            },
-            {
-                "type" : "VF",
-                "question": "Utiliser un lubrifiant fait baisser le risque de contamination par IST",
-                "answers": ["Oui, un peu, car il y a moins de lésions des différentes muqueuses avec l’utilisation de lubrifiant donc, moins de petites plaies donnant contact au sang.","Non, c’est juste fait pour augmenter le plaisir et favoriser la fluidité du rapport."],
-                "correctAnswer": 0,
-                "justificationTrue":"Bien joué ! En effet, le lubrifiant permet d’éviter les petites lésions dues aux frottements mais ATTENTION ça ne protège pas pour autant ! De plus, si le rapport est violent, le risque de lésions est tout de même présent même avec utilisation de lubrifiant, il est donc recommandé d’utiliser un moyen de protection (préservatif interne ou externe, digue dentaire, …)",
-                "justificationFalse":"Dommage ! En effet, le lubrifiant permet d’éviter les petites lésions dues aux frottements mais ATTENTION ça ne protège pas pour autant ! De plus, si le rapport est violent, le risque de lésions est tout de même présent même avec utilisation de lubrifiant, il est donc recommandé d’utiliser un moyen de protection (préservatif interne ou externe, digue dentaire, …)"
-            },
-            {
-                "type" : "VF",
-                "question": "Faire trop de lavements ano-rectaux peut léser les muqueuses anale et peri-anale et ainsi fragiliser sa barrière de résistance aux germes",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 0,
-                "justificationTrue":"Oui, même si ça dépend de la fréquence. Trop de lavement peut donner des petites lésions dues aux frottements répétés de manière trop intense.",
-                "justificationFalse":"LA bonné réponse était vrai ! Même si ça dépend de la fréquence, trop de lavement peut donner des petites lésions dues aux frottements répétés de manière trop intense."
-            },
-            {
-                "type" : "VF",
-                "question": "Simplement laver son plug/sex-toy à l’eau et au savon suffit pour l’utilisation du toy d’une personne à l’autre",
-                "answers": ["Vrai","Faux, on doit utiliser un désinfectant !"],
-                "correctAnswer": 0,
-                "justificationTrue":"Oui un bon lavage au savon suffit ! Evidemment, il faut bien prendre le temps de le faire rigoureusement. Préférer un savon à ph neutre pour ne pas irriter les différentes muqueuses du corps (il est également possible de mettre un préservatif à ton toy si tu l’échanges avec quelqu’un).",
-                "justificationFalse":"Pas besoin de désinfectant, un bon lavage au savon suffit ! Evidemment, il faut bien prendre le temps de le faire rigoureusement. Préférer un savon à ph neutre pour ne pas irriter les différentes muqueuses du corps (il est également possible de mettre un préservatif à ton toy si tu l’échanges avec quelqu’un).  "
-            },
-            {
-                "type" : "VF",
-                "question": "Il est utile de faire des lavements gynéco pour baisser le risque de transmission d’IST",
-                "answers": ["Vrai, surtout si la personne a ses règles, le sang c’est contaminant !","Faux, ça fragilise la muqueuse..."],
-                "correctAnswer": 1,
-                "justificationTrue":"En effet, un lavement du vagin fragilise la muqueuse et augmente donc le risque de transmission. Il est donc recommandé de se laver la partie extérieure de la vulve à l’eau claire mais en aucun cas de faire des douches vaginales. Mais en effet, pendant les règles, le risque de contamination est augmenté (même si cela n’a aucun rapport avec les lavements gynéco) car il y a du sang impliqué dans le rapport.",
-                "justificationFalse":"Dommage, c'était faux ! En effet, un lavement du vagin fragilise la muqueuse et augmente donc le risque de transmission. Il est donc recommandé de se laver la partie extérieure de la vulve à l’eau claire mais en aucun cas de faire des douches vaginales. Mais en effet, pendant les règles, le risque de contamination est augmenté (même si cela n’a aucun rapport avec les lavements gynéco) car il y a du sang impliqué dans le rapport."
-            },
-            {
-                "type" : "QCM",
-                "question": "Tout type de lubrifiant peut être utilisé avec un préservatif ?",
-                "answers": ["Aqueux, huileux, peu importe du moment que y’a le préservatif c’est good !", "Juste aqueux", "Juste huileux", "Ça dépend du préservatif et non du lubrifiant"],
-                "correctAnswer": 1,
-                "justificationTrue":"Bien vu, seuls les lubrifiants aqueux sont officiellement faits pour être utilisés avec des préservatifs. Certains autres lubrifiants peuvent rendre le préservatif poreux (et je sais pas si tu connais le principe du préservatif, mais quand il est poreux, ça craint un peu…).",
-                "justificationFalse":"Dommage, seuls les lubrifiants aqueux sont officiellement faits pour être utilisés avec des préservatifs. Certains autres lubrifiants peuvent rendre le préservatif poreux (et je sais pas si tu connais le principe du préservatif, mais quand il est poreux, ça craint un peu…)."	
-            },
-            {
-                "type" : "QCM",
-                "question": "Qu’est-ce que le TPE",
-                "answers": ["Travaux pratiques encadrés", "Traitements post exposition", "Trou petit étroit", "Traitement préventif effectif"],
-                "correctAnswer": 1,
-                "justificationTrue":"Bien joué, le TPE (Le traitement post-exposition au VIH) est un traitement à prendre après un rapport à risque afin d’empêcher le corps de développer le VIH (uniquement valable pour le VIH, pas pour les autres IST). Le traitement post-exposition au VIH est une urgence. Au plus vite il est pris, au plus il est efficace (à prendre dans les 72h maximum et au mieux, dans les 4h après le rapport à risque).",
-                "justificationFalse":"Raté, le TPE (Le traitement post-exposition au VIH) est un traitement à prendre après un rapport à risque afin d’empêcher le corps de développer le VIH (uniquement valable pour le VIH, pas pour les autres IST). Le traitement post-exposition au VIH est une urgence. Au plus vite il est pris, au plus il est efficace (à prendre dans les 72h maximum et au mieux, dans les 4h après le rapport à risque)."	
-            },
-            {
-                "type" : "QCM",
-                "question": "Quel est le pourcentage de femmes (cisgenres) infectées par la chlamydia mais qui sont asymptomatiques ?",
-                "answers": ["35-50%", "45-60%", "55-70%", "75-90%"],
-                "correctAnswer": 3,
-                "justificationTrue":"Et oui, 75 à 90% des femmes cisgenres infectées par la chlamydia n’ont aucun symptôme. Il est donc toujours important de se faire dépister malgré l’absence de symptôme.",
-                "justificationFalse":"Faux, 75 à 90% des femmes cisgenres infectées par la chlamydia n’ont aucun symptôme. Il est donc toujours important de se faire dépister malgré l’absence de symptôme."	
-            },
-            {
-                "type" : "VF",
-                "question": "Une personne séropositive (atteinte du VIH) la transmet à toute personne avec qui elle a un rapport sexuel non protégé.",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 1,
-                "justificationTrue":"Bien joué ! Si une personne séropositive prend un traitement depuis assez longtemps et de manière régulière, sa charge virale est tellement basse qu’elle ne peut plus transmettre le virus.  Le fameux I=I (ou U=U en anglais) signifie que indétectable=intransmissible. Si la charge virale de la personne séropositive est indétectable en laboratoire, alors elle est intransmissible. Il n’y a donc aucun risque de transmettre le VIH, que ce soit via un rapport sexuel ou encore de la mère à l’enfant.",
-                "justificationFalse":"C'était faux. Si une personne séropositive prend un traitement depuis assez longtemps et de manière régulière, sa charge virale est tellement basse qu’elle ne peut plus transmettre le virus.  Le fameux I=I (ou U=U en anglais) signifie que indétectable=intransmissible. Si la charge virale de la personne séropositive est indétectable en laboratoire, alors elle est intransmissible. Il n’y a donc aucun risque de transmettre le VIH, que ce soit via un rapport sexuel ou encore de la mère à l’enfant."
-            },
-            {
-                "type" : "VF",
-                "question": "Toutes les IST se traitent",
-                "answers": ["Vrai","Faux"],
-                "correctAnswer": 0,
-                "justificationTrue":"Vrai ! Toutes se traitent mais 2 ne guérissent pas. En effet, même si le VIH et l’herpès génital se gardent à vie, il est possible de les traiter et donc de limiter les symptômes et la transmission du virus.",
-                "justificationFalse":"Et non, toutes se traitent mais 2 ne guérissent pas. En effet, même si le VIH et l’herpès génital se gardent à vie, il est possible de les traiter et donc de limiter les symptômes et la transmission du virus."
-            },
-            {
-                "type" : "QCM",
-                "question": "Après une opération de réassignation sexuelle (création d'un vagin ou d'un pénis), une personne trans peut-elle attraper et transmettre des IST?",
-                "answers": ["Seulement en attraper","Seulement en transmettre","Les deux","Rien de prouvé, il n'y a pas assez d'étude à ce sujet"],
-                "correctAnswer": 2,
-                "justificationTrue":"Oui car la testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)",
-                "justificationFalse":"Mauvaise réponse !  La testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)"
-            },
-            {
-                "type" : "VF",
-                "question": "Un homme transgenre qui prend de la testostérone peut tomber enceinte",
-                "answers": ["Vrai, tant qu’il n’a pas subi d’hystérectomie (ablation de l’utérus)","Faux, la testostérone rend infertile"],
-                "correctAnswer": 0,
-                "justificationTrue":"Oui car la testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)",
-                "justificationFalse":"Mauvaise réponse !  La testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)"
-            }
-    ],
-    "creator" : "Chen",
-    "title" : "Quizz_LGBT",
-    "date" : "25/03/2021",
-    "route" : "quizz2",
-    "facts" : [
-        "2 millions de personnes on contracté une MST aux USA en 2018", 
-        "L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans", 
-        "Le nombre de personnes infectées par une MST augmente",
-        "L'IST la plus fréquente en Belgique la chlamydia"
-    ],
-    "image" : "images/STD.png"
+            "quizz" : [
+                {
+                    "type" : "VF",
+                    "question": "Pour fabriquer une digue dentaire (= un carré de latex pour les rapports bucco-génitaux comme le cunnilingus par exemple ou les rapports vulve contre vulve, les anulingus etc), on peut découper soi-même un préservatif en forme de carré ?",
+                    "answers": ["Vrai, DIY plutôt utile car c’est cher les digues dentaires","Faux, à ce train-là, prend un sac lidl quoi"],
+                    "correctAnswer": 0,
+                    "justificationTrue":"Oui c’est possible, il suffit simplement d’ouvrir l’emballage du préservatif (pas avec les dents), de sortir délicatement le préservatif, puis de le couper avec des ciseaux (couper le réservoir puis ouvrir sur la longueur) par exemple. Attention, il faut faire en sorte que le contact peau à peau ne soit pas direct en maintenant le carré de latex entre les deux muqueuses.",
+                    "justificationFalse":"Mauvaise réponse, il suffit simplement d’ouvrir l’emballage du préservatif (pas avec les dents), de sortir délicatement le préservatif, puis de le couper avec des ciseaux (couper le réservoir puis ouvrir sur la longueur) par exemple. Attention, il faut faire en sorte que le contact peau à peau ne soit pas direct en maintenant le carré de latex entre les deux muqueuses."
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "Entre deux personnes ayant une vulve il est impossible d'être contaminé à: ",
+                        "answers": ["La Blennorragie gonococcique (gonorrhée) ou « chaude-pisse »","Les Chlamydiæ ou chlamydiose","L’Hépatite A (VHA)","L’Hépatite C (VHC)"],
+                        "correctAnswer": 3, 
+                        "justificationTrue":"Bonne réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare).",
+                        "justificationFalse":"Mauvaise réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare)."
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Le VIH et le SIDA, c’est la même chose",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 1,
+                        "justificationTrue":"Bien joué, le SIDA est différent du VIH. En effet, il s’agit du stade le plus évolué de la maladie du VIH. Ainsi une personne porteuse du VIH ne sera pas forcément atteinte du SIDA (Syndrome d'Immuno-Déficience Acquise).",
+                        "justificationFalse":"Faux, le SIDA est différent du VIH. En effet, il s’agit du stade le plus évolué de la maladie du VIH. Ainsi une personne porteuse du VIH ne sera pas forcément atteinte du SIDA (Syndrome d'Immuno-Déficience Acquise)."
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Pour un HSH cis (HSH = homme ayant des rapports sexuels avec un homme ; cis = cisgenre = personne en accord avec le genre assigné à sa naissance, opposé de transgenre) il est utile d’être vacciné contre le papillomavirus.",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Oui, car cela protège d’une grande partie des germes nocifs rencontrés à la suite d’une pénétration anale avec une verge et pouvant engendrer un cancer de ano-rectal.",
+                        "justificationFalse":"Dommage, c'est vrai, car cela protège d’une grande partie des germes nocifs rencontrés à la suite d’une pénétration anale avec une verge et pouvant engendrer un cancer de ano-rectal."
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "Que signifie l'acronyme PrEP",
+                        "answers": ["Petit roux En Puberté", "Prophylaxie pré-exposition", "Poulet rôti en péremption", "Pré-efficience par extension"],
+                        "correctAnswer": 1,
+                        "justificationTrue":"Bonne réponse ! Prophylaxie = éviter une infection. Pré-exposition = le traitement doit se prendre avant (et après) un éventuel contact avec le VIH. La PrEP s’adresse aux personnes qui n’ont pas le VIH mais qui sont à risque (pratiquant des pratiques à risque ou faisant partie d’un groupe à risque). Elle  consiste à prendre un médicament afin d’éviter de se faire contaminer, le corps est ainsi protégé du virus du VIH.",
+                        "justificationFalse":"Mauvaise réponse ! Prophylaxie = éviter une infection. Pré-exposition = le traitement doit se prendre avant (et après) un éventuel contact avec le VIH. La PrEP s’adresse aux personnes qui n’ont pas le VIH mais qui sont à risque (pratiquant des pratiques à risque ou faisant partie d’un groupe à risque). Elle  consiste à prendre un médicament afin d’éviter de se faire contaminer, le corps est ainsi protégé du virus du VIH."	
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Si on n’a aucun préservatif à disposition et que l’on veut pénétrer avec ses doigts, un gant en latex peut faire l’affaire.",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Oui un gant ça fait l’affaire ! Attention tout de même, vérifie qu’il ne soit pas troué et que ni toi ni ton.ta partenair.e n’êtes allergiques au latex ! Dans le commerce, on trouve des gants en latex ou en nitrile (moins allergisant que le latex).",
+                        "justificationFalse":"Mauvaise réponse, un gant ça fait l’affaire ! Attention tout de même, vérifie qu’il ne soit pas troué et que ni toi ni ton.ta partenair.e n’êtes allergiques au latex ! Dans le commerce, on trouve des gants en latex ou en nitrile (moins allergisant que le latex)."
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "La Prep permet de se protéger contre toutes les ist et mst.",
+                        "answers": ["Non, Juste le VIH", "Oui toutes !", "Non ça ne sert à rien !", "Oui, sauf le VIH"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Bien joué ! La PrEP est centrée sur la prophylaxie au VIH et ne protège donc que du VIH et d’aucune autre IST.",
+                        "justificationFalse":"Dommage ! La PrEP est centrée sur la prophylaxie au VIH et ne protège donc que du VIH et d’aucune autre IST."	
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Qu'est-ce que le chemsex ?",
+                        "answers": ["Le sexe uniquement avec des personnes qui sont chimistes ou étudiant.e.s en chimie !","L’addition des mots “chemical” et “sexe” une pratique généralement rencontrée dans le milieu HSH. Sa pratique consiste à prendre de la drogue de synthèse lors de rapports sexuels pour avoir accès à des sensations singulières."],
+                        "correctAnswer": 1,
+                        "justificationTrue":"Bonne réponse ! Il s’agit d’une pratique peu connue, qui consiste à prendre des drogues lors de rapports sexuels et qui peut cumuler l’exposition à des risques infectieux. Sous prise de drogue, la vigilance peut baisser : ainsi, le risque de mal se protéger lors de rapports voire d’oublier de se protéger augmente... De plus, en fonction de la manière dont on prend la drogue, par exemple en réutilisant un matériel (seringue, paille, …) déjà utilisé par quelqu’un d’autre, le risque de transmission de IST augmente drastiquement.",
+                        "justificationFalse":"Mauvaise réponse ! Il s’agit d’une pratique peu connue, qui consiste à prendre des drogues lors de rapports sexuels et qui peut cumuler l’exposition à des risques infectieux. Sous prise de drogue, la vigilance peut baisser : ainsi, le risque de mal se protéger lors de rapports voire d’oublier de se protéger augmente... De plus, en fonction de la manière dont on prend la drogue, par exemple en réutilisant un matériel (seringue, paille, …) déjà utilisé par quelqu’un d’autre, le risque de transmission de IST augmente drastiquement."
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "On ne dit plus MST mais bien IST.",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Bien joué, le terme MST (maladie sexuellement transmissible) n’est plus utilisé car il signifie qu’il y a obligatoirement une présence de symptômes. Or, dans 70%* des cas, une personne atteinte d’une IST n’a aucun symptôme et peut donc la transmettre (d’où l’importance de se faire dépister). Le terme IST est donc utilisé pour éviter une minimisation lors de l’absence de symptômes.",
+                        "justificationFalse":"Dommage, le terme MST (maladie sexuellement transmissible) n’est plus utilisé car il signifie qu’il y a obligatoirement une présence de symptômes. Or, dans 70%* des cas, une personne atteinte d’une IST n’a aucun symptôme et peut donc la transmettre (d’où l’importance de se faire dépister). Le terme IST est donc utilisé pour éviter une minimisation lors de l’absence de symptômes."
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Utiliser un lubrifiant fait baisser le risque de contamination par IST",
+                        "answers": ["Oui, un peu, car il y a moins de lésions des différentes muqueuses avec l’utilisation de lubrifiant donc, moins de petites plaies donnant contact au sang.","Non, c’est juste fait pour augmenter le plaisir et favoriser la fluidité du rapport."],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Bien joué ! En effet, le lubrifiant permet d’éviter les petites lésions dues aux frottements mais ATTENTION ça ne protège pas pour autant ! De plus, si le rapport est violent, le risque de lésions est tout de même présent même avec utilisation de lubrifiant, il est donc recommandé d’utiliser un moyen de protection (préservatif interne ou externe, digue dentaire, …)",
+                        "justificationFalse":"Dommage ! En effet, le lubrifiant permet d’éviter les petites lésions dues aux frottements mais ATTENTION ça ne protège pas pour autant ! De plus, si le rapport est violent, le risque de lésions est tout de même présent même avec utilisation de lubrifiant, il est donc recommandé d’utiliser un moyen de protection (préservatif interne ou externe, digue dentaire, …)"
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Faire trop de lavements ano-rectaux peut léser les muqueuses anale et peri-anale et ainsi fragiliser sa barrière de résistance aux germes",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Oui, même si ça dépend de la fréquence. Trop de lavement peut donner des petites lésions dues aux frottements répétés de manière trop intense.",
+                        "justificationFalse":"LA bonné réponse était vrai ! Même si ça dépend de la fréquence, trop de lavement peut donner des petites lésions dues aux frottements répétés de manière trop intense."
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Simplement laver son plug/sex-toy à l’eau et au savon suffit pour l’utilisation du toy d’une personne à l’autre",
+                        "answers": ["Vrai","Faux, on doit utiliser un désinfectant !"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Oui un bon lavage au savon suffit ! Evidemment, il faut bien prendre le temps de le faire rigoureusement. Préférer un savon à ph neutre pour ne pas irriter les différentes muqueuses du corps (il est également possible de mettre un préservatif à ton toy si tu l’échanges avec quelqu’un).",
+                        "justificationFalse":"Pas besoin de désinfectant, un bon lavage au savon suffit ! Evidemment, il faut bien prendre le temps de le faire rigoureusement. Préférer un savon à ph neutre pour ne pas irriter les différentes muqueuses du corps (il est également possible de mettre un préservatif à ton toy si tu l’échanges avec quelqu’un).  "
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Il est utile de faire des lavements gynéco pour baisser le risque de transmission d’IST",
+                        "answers": ["Vrai, surtout si la personne a ses règles, le sang c’est contaminant !","Faux, ça fragilise la muqueuse..."],
+                        "correctAnswer": 1,
+                        "justificationTrue":"En effet, un lavement du vagin fragilise la muqueuse et augmente donc le risque de transmission. Il est donc recommandé de se laver la partie extérieure de la vulve à l’eau claire mais en aucun cas de faire des douches vaginales. Mais en effet, pendant les règles, le risque de contamination est augmenté (même si cela n’a aucun rapport avec les lavements gynéco) car il y a du sang impliqué dans le rapport.",
+                        "justificationFalse":"Dommage, c'était faux ! En effet, un lavement du vagin fragilise la muqueuse et augmente donc le risque de transmission. Il est donc recommandé de se laver la partie extérieure de la vulve à l’eau claire mais en aucun cas de faire des douches vaginales. Mais en effet, pendant les règles, le risque de contamination est augmenté (même si cela n’a aucun rapport avec les lavements gynéco) car il y a du sang impliqué dans le rapport."
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "Tout type de lubrifiant peut être utilisé avec un préservatif ?",
+                        "answers": ["Aqueux, huileux, peu importe du moment que y’a le préservatif c’est good !", "Juste aqueux", "Juste huileux", "Ça dépend du préservatif et non du lubrifiant"],
+                        "correctAnswer": 1,
+                        "justificationTrue":"Bien vu, seuls les lubrifiants aqueux sont officiellement faits pour être utilisés avec des préservatifs. Certains autres lubrifiants peuvent rendre le préservatif poreux (et je sais pas si tu connais le principe du préservatif, mais quand il est poreux, ça craint un peu…).",
+                        "justificationFalse":"Dommage, seuls les lubrifiants aqueux sont officiellement faits pour être utilisés avec des préservatifs. Certains autres lubrifiants peuvent rendre le préservatif poreux (et je sais pas si tu connais le principe du préservatif, mais quand il est poreux, ça craint un peu…)."	
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "Qu’est-ce que le TPE",
+                        "answers": ["Travaux pratiques encadrés", "Traitements post exposition", "Trou petit étroit", "Traitement préventif effectif"],
+                        "correctAnswer": 1,
+                        "justificationTrue":"Bien joué, le TPE (Le traitement post-exposition au VIH) est un traitement à prendre après un rapport à risque afin d’empêcher le corps de développer le VIH (uniquement valable pour le VIH, pas pour les autres IST). Le traitement post-exposition au VIH est une urgence. Au plus vite il est pris, au plus il est efficace (à prendre dans les 72h maximum et au mieux, dans les 4h après le rapport à risque).",
+                        "justificationFalse":"Raté, le TPE (Le traitement post-exposition au VIH) est un traitement à prendre après un rapport à risque afin d’empêcher le corps de développer le VIH (uniquement valable pour le VIH, pas pour les autres IST). Le traitement post-exposition au VIH est une urgence. Au plus vite il est pris, au plus il est efficace (à prendre dans les 72h maximum et au mieux, dans les 4h après le rapport à risque)."	
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "Quel est le pourcentage de femmes (cisgenres) infectées par la chlamydia mais qui sont asymptomatiques ?",
+                        "answers": ["35-50%", "45-60%", "55-70%", "75-90%"],
+                        "correctAnswer": 3,
+                        "justificationTrue":"Et oui, 75 à 90% des femmes cisgenres infectées par la chlamydia n’ont aucun symptôme. Il est donc toujours important de se faire dépister malgré l’absence de symptôme.",
+                        "justificationFalse":"Faux, 75 à 90% des femmes cisgenres infectées par la chlamydia n’ont aucun symptôme. Il est donc toujours important de se faire dépister malgré l’absence de symptôme."	
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Une personne séropositive (atteinte du VIH) la transmet à toute personne avec qui elle a un rapport sexuel non protégé.",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 1,
+                        "justificationTrue":"Bien joué ! Si une personne séropositive prend un traitement depuis assez longtemps et de manière régulière, sa charge virale est tellement basse qu’elle ne peut plus transmettre le virus.  Le fameux I=I (ou U=U en anglais) signifie que indétectable=intransmissible. Si la charge virale de la personne séropositive est indétectable en laboratoire, alors elle est intransmissible. Il n’y a donc aucun risque de transmettre le VIH, que ce soit via un rapport sexuel ou encore de la mère à l’enfant.",
+                        "justificationFalse":"C'était faux. Si une personne séropositive prend un traitement depuis assez longtemps et de manière régulière, sa charge virale est tellement basse qu’elle ne peut plus transmettre le virus.  Le fameux I=I (ou U=U en anglais) signifie que indétectable=intransmissible. Si la charge virale de la personne séropositive est indétectable en laboratoire, alors elle est intransmissible. Il n’y a donc aucun risque de transmettre le VIH, que ce soit via un rapport sexuel ou encore de la mère à l’enfant."
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Toutes les IST se traitent",
+                        "answers": ["Vrai","Faux"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Vrai ! Toutes se traitent mais 2 ne guérissent pas. En effet, même si le VIH et l’herpès génital se gardent à vie, il est possible de les traiter et donc de limiter les symptômes et la transmission du virus.",
+                        "justificationFalse":"Et non, toutes se traitent mais 2 ne guérissent pas. En effet, même si le VIH et l’herpès génital se gardent à vie, il est possible de les traiter et donc de limiter les symptômes et la transmission du virus."
+                    },
+                    {
+                        "type" : "QCM",
+                        "question": "Après une opération de réassignation sexuelle (création d'un vagin ou d'un pénis), une personne trans peut-elle attraper et transmettre des IST?",
+                        "answers": ["Seulement en attraper","Seulement en transmettre","Les deux","Rien de prouvé, il n'y a pas assez d'étude à ce sujet"],
+                        "correctAnswer": 2,
+                        "justificationTrue":"Oui car la testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)",
+                        "justificationFalse":"Mauvaise réponse !  La testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)"
+                    },
+                    {
+                        "type" : "VF",
+                        "question": "Un homme transgenre qui prend de la testostérone peut tomber enceinte",
+                        "answers": ["Vrai, tant qu’il n’a pas subi d’hystérectomie (ablation de l’utérus)","Faux, la testostérone rend infertile"],
+                        "correctAnswer": 0,
+                        "justificationTrue":"Oui car la testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)",
+                        "justificationFalse":"Mauvaise réponse !  La testostérone n’est pas un contraceptif (ni une barrière contre les IST d’ailleurs), il y a donc bel et bien un risque de grossesse pour un homme trans sous testostérone tant qu’il n’a pas subi d’hystérectomie. De plus, s’il y a un risque de grossesse, la prise de sang pour le confirmer est obligatoire car les autres moyens peuvent être faussés par la prise de testostérone. (Oui on sait, cette dernière question n’était pas sur les IST mais c’est quand même important à savoir !)"
+                    }
+            ],
+                        
+            "creator" : "Chen",
+            "title" : "Quizz_LGBT",
+            "date" : "25/03/2021",
+            "route" : "quizz_LGBT",
+            "facts" : [
+                "2 millions de personnes on contracté une MST aux USA en 2018", 
+                "L’espérance de vie d’une personne atteinte du sida est de plus de 20 ans", 
+                "Le nombre de personnes infectées par une MST augmente",
+                "L'IST la plus fréquente en Belgique la chlamydia"
+            ],
+            "image" : "images/STD.png"
+                }
+    ]
 }
