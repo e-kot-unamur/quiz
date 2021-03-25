@@ -5,7 +5,7 @@
                 {
                     "type" : "VF",
                     "question": "Pour fabriquer une digue dentaire (= un carré de latex pour les rapports bucco-génitaux comme le cunnilingus par exemple ou les rapports vulve contre vulve, les anulingus etc), on peut découper soi-même un préservatif en forme de carré ?",
-                    "answers": ["Vrai, DIY plutôt utile car c’est cher les digues dentaires","Faux, à ce train-là, prend un sac lidl quoi"],
+                    "answers": ["Vrai, DIY plutôt utile car c’est cher les digues dentaires","Faux, à ce train-là, prends un sac lidl quoi"],
                     "correctAnswer": 0,
                     "justificationTrue":"Oui c’est possible, il suffit simplement d’ouvrir l’emballage du préservatif (pas avec les dents), de sortir délicatement le préservatif, puis de le couper avec des ciseaux (couper le réservoir puis ouvrir sur la longueur) par exemple. Attention, il faut faire en sorte que le contact peau à peau ne soit pas direct en maintenant le carré de latex entre les deux muqueuses.",
                     "justificationFalse":"Mauvaise réponse, il suffit simplement d’ouvrir l’emballage du préservatif (pas avec les dents), de sortir délicatement le préservatif, puis de le couper avec des ciseaux (couper le réservoir puis ouvrir sur la longueur) par exemple. Attention, il faut faire en sorte que le contact peau à peau ne soit pas direct en maintenant le carré de latex entre les deux muqueuses."
@@ -15,8 +15,8 @@
                         "question": "Entre deux personnes ayant une vulve il est impossible d'être contaminé à: ",
                         "answers": ["La Blennorragie gonococcique (gonorrhée) ou « chaude-pisse »","Les Chlamydiæ ou chlamydiose","L’Hépatite A (VHA)","L’Hépatite C (VHC)"],
                         "correctAnswer": 3, 
-                        "justificationTrue":"Bonne réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare).",
-                        "justificationFalse":"Mauvaise réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare)."
+                        "justificationTrue":"Bonne réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist (herpes, mycoplasmes, trichomonase, papillomavirus, VIH, Hépatite B) sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare).",
+                        "justificationFalse":"Mauvaise réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist (herpes, mycoplasmes, trichomonase, papillomavirus, VIH, Hépatite B) sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare)."
                     },
                     {
                         "type" : "VF",
@@ -52,7 +52,7 @@
                     },
                     {
                         "type" : "QCM",
-                        "question": "La Prep permet de se protéger contre toutes les ist et mst.",
+                        "question": "La Prep permet de se protéger contre toutes les ist.",
                         "answers": ["Non, Juste le VIH", "Oui toutes !", "Non ça ne sert à rien !", "Oui, sauf le VIH"],
                         "correctAnswer": 0,
                         "justificationTrue":"Bien joué ! La PrEP est centrée sur la prophylaxie au VIH et ne protège donc que du VIH et d’aucune autre IST.",
