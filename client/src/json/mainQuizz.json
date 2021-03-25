@@ -12,7 +12,7 @@
                     },
                     {
                         "type" : "QCM",
-                        "question": "Entre deux personnes ayant une vulve il est impossible d'être contaminé à: ",
+                        "question": "Lors d'un rapport sexuel entre deux personnes ayant une vulve, il est impossible de transmettre:",
                         "answers": ["La Blennorragie gonococcique (gonorrhée) ou « chaude-pisse »","Les Chlamydiæ ou chlamydiose","L’Hépatite A (VHA)","L’Hépatite C (VHC)"],
                         "correctAnswer": 3, 
                         "justificationTrue":"Bonne réponse ! Pour le VHA, c’est plus rare mais pas impossible. C’est un virus qui se transmet de manière oro-fecale, donc par anulingus par exemple. Le VHC, quant à lui, se transmet de contact sang à sang (ce qui reste assez rare lors de rapports sexuels). Les autres ist (herpes, mycoplasmes, trichomonase, papillomavirus, VIH, Hépatite B) sont donc transmissiblse entre deux vulves, surtout en période de règles car il y a du sang et des petites plaies dans le vagin (même si ça reste très rare).",
@@ -132,7 +132,7 @@
                     },
                     {
                         "type" : "VF",
-                        "question": "Une personne séropositive (atteinte du VIH) la transmet à toute personne avec qui elle a un rapport sexuel non protégé.",
+                        "question": "Une personne séropositive (atteinte du VIH) transmet le virus à toute personne avec qui elle a un rapport sexuel non protégé.",
                         "answers": ["Vrai","Faux"],
                         "correctAnswer": 1,
                         "justificationTrue":"Bien joué ! Si une personne séropositive prend un traitement depuis assez longtemps et de manière régulière, sa charge virale est tellement basse qu’elle ne peut plus transmettre le virus.  Le fameux I=I (ou U=U en anglais) signifie que indétectable=intransmissible. Si la charge virale de la personne séropositive est indétectable en laboratoire, alors elle est intransmissible. Il n’y a donc aucun risque de transmettre le VIH, que ce soit via un rapport sexuel ou encore de la mère à l’enfant.",
